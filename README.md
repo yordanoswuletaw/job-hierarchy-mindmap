@@ -2,7 +2,7 @@
 
 A complete web application that visualizes job hierarchies as an interactive mind map using D3.js.
 
-## Features
+## Features 
 
 - **Interactive Mind Map**: Radial tree layout with the virtual root "Job Roles" at the center
 - **Collapsible Nodes**: Click any node to expand/collapse its child branches
