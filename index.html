@@ -183,7 +183,7 @@
 
         .link {
             fill: none;
-            stroke: #ccc;
+            stroke: #c9c9c9;
             stroke-width: 1.5;
             opacity: 0.7;
             transition: all 0.2s ease;
@@ -236,6 +236,20 @@
             stroke: #f5f5f5;
             stroke-width: 1;
             opacity: 0.3;
+        }
+
+        /* Level-based text sizes for visual hierarchy */
+        .label-level-0 { font-size: 14px; font-weight: 700; }
+        .label-level-1 { font-size: 13px; font-weight: 700; }
+        .label-level-2 { font-size: 12px; font-weight: 600; }
+        .label-level-3 { font-size: 11px; font-weight: 500; }
+        .label-level-4, .label-level-5 { font-size: 10px; font-weight: 500; }
+
+        /* Group nodes get a dashed outline */
+        .group-node rect {
+            stroke: #888;
+            stroke-dasharray: 4 3;
+            stroke-width: 1.5;
         }
 
 
@@ -299,17 +313,23 @@
 
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script>
-        // Global variables
+        // Global variables and layout constants
         let data = null;
         let currentRoot = null;
         let svg = null;
         let g = null;
         let zoom = null;
-        let nodes = [];
-        let links = [];
-        let nodeMap = new Map();
         let expandedNodes = new Set();
         let sourceNodes = [];
+
+        // Controls and layout constants
+        const ALL_OPTION = '__ALL__';
+        const GROUP_THRESHOLD = 40;        // If siblings exceed this, group alphabetically
+        const GROUP_BUCKET_MAX = 25;       // Target max items per group bucket
+        const NODE_H_SPACING = 220;        // Horizontal spacing per semantic level
+        const NODE_V_SPACING = 46;         // Vertical spacing between nodes
+        const MARGIN = { top: 80, right: 100, bottom: 80, left: 160 };
+        const LEVEL_NAMES = ['Job Taxonomy', 'Job Families', 'Job Functions', 'Roles', 'Specializations'];
 
         // Initialize the application
         async function init() {
@@ -328,8 +348,10 @@
                 processData();
                 populateDropdown();
                 
-                // Show no data message initially
-                document.getElementById('noData').style.display = 'block';
+                // Default to full taxonomy view
+                const select = document.getElementById('rootSelect');
+                select.value = ALL_OPTION;
+                changeRoot();
                 
             } catch (error) {
                 console.error('Error loading data:', error);
@@ -349,7 +371,13 @@
         // Populate the dropdown with source nodes
         function populateDropdown() {
             const select = document.getElementById('rootSelect');
-            select.innerHTML = '<option value="">Select a job category...</option>';
+            select.innerHTML = '';
+            
+            // Complete taxonomy option
+            const allOpt = document.createElement('option');
+            allOpt.value = ALL_OPTION;
+            allOpt.textContent = 'All Job Families (Complete Taxonomy)';
+            select.appendChild(allOpt);
             
             sourceNodes.forEach(node => {
                 const option = document.createElement('option');
@@ -366,32 +394,38 @@
             
             console.log('Changing root to:', selectedValue);
             
-            if (!selectedValue) {
-                // Hide visualization, show no data message
-                if (svg) svg.remove();
-                svg = null;
-                document.getElementById('noData').style.display = 'block';
-                return;
+            // Create root and build tree
+            if (selectedValue === ALL_OPTION) {
+                // Full taxonomy view with virtual root
+                currentRoot = {
+                    id: 'Job Taxonomy',
+                    path: 'Job Taxonomy',
+                    name: 'Job Taxonomy',
+                    semanticLevel: 0,
+                    children: []
+                };
+                // Allow initial expansion for first two levels
+                expandedNodes = new Set(['Job Taxonomy']);
+                sourceNodes.forEach(family => {
+                    const child = makeNode(currentRoot, family, 1);
+                    currentRoot.children.push(child);
+                    buildTree(child, family, 2);
+                    // Expand families by default
+                    expandedNodes.add(child.id);
+                });
+            } else {
+                // Focus on a single family
+                currentRoot = {
+                    id: selectedValue,
+                    path: selectedValue,
+                    name: selectedValue,
+                    semanticLevel: 1,
+                    children: []
+                };
+                expandedNodes = new Set([selectedValue]);
+                buildTree(currentRoot, selectedValue, 2);
             }
 
-            // Hide no data message
-            document.getElementById('noData').style.display = 'none';
-            
-            // Create new root node for the selected category
-            currentRoot = {
-                id: selectedValue,
-                name: selectedValue,
-                level: 0,
-                children: []
-            };
-            
-            console.log('Created root node:', currentRoot);
-            
-            // Build the tree for this root
-            buildTree(currentRoot, selectedValue, 1);
-            
-            console.log('Final tree structure:', currentRoot);
-            
             // Create or update visualization
             if (svg) {
                 svg.remove();
@@ -400,45 +434,110 @@
         }
 
         // Recursively build the tree structure
-        function buildTree(parentNode, nodeName, level) {
+        function buildTree(parentNode, nodeName, semanticLevel) {
             if (!data.adjacency_list || !data.adjacency_list[nodeName]) {
-                console.log(`No children found for: ${nodeName}`);
                 return;
             }
 
-            const children = data.adjacency_list[nodeName];
-            console.log(`Building tree for ${nodeName} with ${children.length} children:`, children);
-            
-            if (Array.isArray(children)) {
-                children.forEach(childName => {
-                    // Handle null values as terminal nodes
-                    const displayName = childName === null ? "[N/A]" : childName;
-                    const childNode = {
-                        id: displayName,
-                        name: displayName,
-                        level: level,
+            const rawChildren = data.adjacency_list[nodeName];
+            if (!Array.isArray(rawChildren) || rawChildren.length === 0) return;
+
+            // Deduplicate while preserving order
+            const seen = new Set();
+            const children = [];
+            for (const childName of rawChildren) {
+                const displayName = childName === null ? '[N/A]' : String(childName);
+                if (!seen.has(displayName)) {
+                    seen.add(displayName);
+                    children.push(displayName);
+                }
+            }
+
+            // If there are many children, group them alphabetically
+            if (children.length > GROUP_THRESHOLD) {
+                const groups = makeAlphabeticalGroups(children);
+                for (const group of groups) {
+                    const groupNode = {
+                        id: parentNode.id + '::grp::' + group.label,
+                        path: parentNode.path + '/grp-' + group.label,
+                        name: group.label,
+                        semanticLevel: semanticLevel - 0.5, // placed between parent and children for spacing
+                        isGroup: true,
                         children: []
                     };
-                    
-                    parentNode.children.push(childNode);
-                    
-                    // Recursively build children if they exist in adjacency list
-                    if (childName !== null && data.adjacency_list[childName]) {
-                        buildTree(childNode, childName, level + 1);
+                    parentNode.children.push(groupNode);
+                    for (const name of group.items) {
+                        const childNode = makeNode(groupNode, name, semanticLevel);
+                        groupNode.children.push(childNode);
+                        if (data.adjacency_list[name]) {
+                            buildTree(childNode, name, semanticLevel + 1);
+                        }
                     }
-                });
+                }
+            } else {
+                for (const name of children) {
+                    const childNode = makeNode(parentNode, name, semanticLevel);
+                    parentNode.children.push(childNode);
+                    if (data.adjacency_list[name]) {
+                        buildTree(childNode, name, semanticLevel + 1);
+                    }
+                }
             }
-            
-            console.log(`Finished building tree for ${nodeName}, total children: ${parentNode.children.length}`);
+        }
+
+        // Create a child node with a unique path-based id
+        function makeNode(parentNode, name, semanticLevel) {
+            const safeName = String(name).replace(/\s+/g, ' ').trim();
+            const path = (parentNode.path ? parentNode.path + '/' : '') + safeName;
+            return {
+                id: path,
+                path,
+                name: safeName,
+                semanticLevel,
+                children: []
+            };
+        }
+
+        // Create groups of names by letter ranges, targeting ~GROUP_BUCKET_MAX items per group
+        function makeAlphabeticalGroups(items) {
+            const map = new Map();
+            for (const name of items.slice().sort((a,b) => a.localeCompare(b))) {
+                const m = name.match(/[A-Za-z]/);
+                const letter = m ? m[0].toUpperCase() : '#';
+                if (!map.has(letter)) map.set(letter, []);
+                map.get(letter).push(name);
+            }
+            const letters = Array.from(map.keys()).sort();
+            const groups = [];
+            let current = [];
+            let currentCount = 0;
+            let startLetter = null;
+            for (const letter of letters) {
+                const list = map.get(letter);
+                if (currentCount > 0 && currentCount + list.length > GROUP_BUCKET_MAX) {
+                    const label = current.length === 1 ? current[0] : (startLetter + '–' + current[current.length - 1]);
+                    groups.push({ label, items: current.flatMap(l => map.get(l)) });
+                    current = [];
+                    currentCount = 0;
+                    startLetter = null;
+                }
+                if (current.length === 0) startLetter = letter;
+                current.push(letter);
+                currentCount += list.length;
+            }
+            if (current.length > 0) {
+                const label = current.length === 1 ? current[0] : (startLetter + '–' + current[current.length - 1]);
+                groups.push({ label, items: current.flatMap(l => map.get(l)) });
+            }
+            return groups;
         }
 
         // Create the D3 visualization
         function createVisualization() {
             if (!currentRoot) return;
 
-            // Set up SVG - use the absolute maximum screen space
             const width = window.innerWidth;
-            const height = window.innerHeight - 45; // Minimal header height for maximum graph space
+            const height = window.innerHeight - 45;
 
             svg = d3.select('body')
                 .append('svg')
@@ -448,20 +547,19 @@
 
             // Create zoom behavior
             zoom = d3.zoom()
-                .scaleExtent([0.1, 5])
+                .scaleExtent([0.2, 3])
                 .on('zoom', (event) => {
                     g.attr('transform', event.transform);
                 });
 
             svg.call(zoom);
 
-            // Create main group for visualization
-            g = svg.append('g');
+            // Create main group for visualization, with margins
+            g = svg.append('g')
+                .attr('transform', `translate(${MARGIN.left},${MARGIN.top})`);
 
-            // Create initial visualization
             updateVisualization();
 
-            // Handle window resize
             window.addEventListener('resize', () => {
                 if (svg) {
                     const newWidth = window.innerWidth;
@@ -479,229 +577,137 @@
             // Clear existing elements
             g.selectAll('*').remove();
 
-            // Debug: Log the current root
-            console.log('Current root:', currentRoot);
-
             // Create hierarchy layout
-            const hierarchy = d3.hierarchy(currentRoot);
-            
-            // Debug: Log the hierarchy
-            console.log('Hierarchy:', hierarchy);
-            
-            // Apply initial collapse state
-            hierarchy.descendants().forEach(d => {
-                if (d.data.level > 1 && !expandedNodes.has(d.data.id)) {
+            const root = d3.hierarchy(currentRoot);
+
+            // Apply collapse state according to expandedNodes
+            root.descendants().forEach(d => {
+                const hasChildren = d.data.children && d.data.children.length > 0;
+                if (hasChildren && !expandedNodes.has(d.data.id)) {
+                    // Collapse by hiding children for layout
                     d.children = null;
                 }
             });
 
-            // Create a force simulation for dynamic positioning
-            const nodes = hierarchy.descendants();
-            const links = hierarchy.links();
+            // Tree layout (left-to-right)
+            const tree = d3.tree().nodeSize([NODE_V_SPACING, NODE_H_SPACING]);
+            tree(root);
 
-            // Set up force simulation for side-view layout with wide level separation
-            const simulation = d3.forceSimulation(nodes)
-                .force('link', d3.forceLink(links).id(d => d.id).distance(80))
-                .force('charge', d3.forceManyBody().strength(-150))
-                .force('center', d3.forceCenter(window.innerWidth / 2, window.innerHeight / 2))
-                .force('collision', d3.forceCollide().radius(d => Math.max(getNodeWidth(d), getNodeHeight(d)) / 2 + 40))
-                .force('x', d3.forceX().strength(0.95).x(d => {
-                    // Much wider horizontal separation between levels
-                    return 80 + d.depth * 450;
-                }))
-                .force('y', d3.forceY().strength(0.2).y(d => {
-                    // Distribute nodes vertically within their level
-                    return window.innerHeight / 2;
-                }))
-                .force('level', d3.forceY().strength(0.6).y(d => {
-                    // Strong force to keep nodes at their level with better distribution
-                    const levelHeight = (window.innerHeight - 120) / Math.max(1, d.depth + 1);
-                    return 60 + (d.depth * levelHeight) + (levelHeight / 2);
-                }));
+            // Position horizontally by semantic level, with group nodes offset by 0.5
+            root.each(n => {
+                const offset = n.data && n.data.isGroup ? 0.5 : 0;
+                const sem = (n.data && typeof n.data.semanticLevel === 'number') ? n.data.semanticLevel : n.depth;
+                n.y = (sem + offset) * NODE_H_SPACING;
+            });
 
-            // Create links
-            const link = g.selectAll('.link')
-                .data(links)
-                .enter()
-                .append('path')
-                .attr('class', 'link')
-                .attr('stroke', '#ccc')
-                .attr('stroke-width', 2)
+            const nodes = root.descendants();
+            const links = root.links();
+
+            // Level guides and labels (based on integer semantic levels present)
+            const maxSemLevel = d3.max(nodes, d => Math.floor(d.data.semanticLevel || 0));
+            const levelGroup = g.append('g').attr('class', 'levels');
+            for (let l = 0; l <= maxSemLevel; l++) {
+                const x = l * NODE_H_SPACING;
+                levelGroup.append('line')
+                    .attr('class', 'level-line')
+                    .attr('x1', x)
+                    .attr('y1', -40)
+                    .attr('x2', x)
+                    .attr('y2', window.innerHeight - MARGIN.top - MARGIN.bottom)
+                    .attr('stroke', '#e0e0e0')
+                    .attr('opacity', 0.35);
+                levelGroup.append('text')
+                    .attr('class', 'level-label')
+                    .attr('x', x)
+                    .attr('y', -48)
+                    .attr('text-anchor', 'middle')
+                    .text(LEVEL_NAMES[l] || ('Level ' + l));
+            }
+
+            // Links
+            const linkGen = d3.linkHorizontal()
+                .x(d => d.y)
+                .y(d => d.x);
+
+            g.append('g')
                 .attr('fill', 'none')
-                .attr('opacity', 0.6);
+                .attr('stroke', '#c9c9c9')
+                .attr('stroke-opacity', 0.6)
+                .attr('stroke-width', 1.5)
+                .selectAll('path')
+                .data(links)
+                .join('path')
+                .attr('class', 'link')
+                .attr('d', linkGen);
 
-            // Create nodes
-            const node = g.selectAll('.node')
+            // Nodes
+            const node = g.append('g')
+                .selectAll('g')
                 .data(nodes)
-                .enter()
-                .append('g')
-                .attr('class', 'node')
-                .call(d3.drag()
-                    .on('start', dragstarted)
-                    .on('drag', dragged)
-                    .on('end', dragended));
+                .join('g')
+                .attr('class', d => 'node' + (d.data.isGroup ? ' group-node' : ''))
+                .attr('transform', d => `translate(${d.y},${d.x})`)
+                .on('click', (event, d) => toggleNode(d));
 
-            // Add rounded rectangle nodes
             node.append('rect')
                 .attr('class', 'node-rect')
                 .attr('width', d => getNodeWidth(d))
                 .attr('height', d => getNodeHeight(d))
                 .attr('x', d => -getNodeWidth(d) / 2)
                 .attr('y', d => -getNodeHeight(d) / 2)
-                .attr('rx', d => getNodeHeight(d) / 2)
-                .attr('ry', d => getNodeHeight(d) / 2)
+                .attr('rx', d => Math.min(14, getNodeHeight(d) / 2))
+                .attr('ry', d => Math.min(14, getNodeHeight(d) / 2))
                 .attr('fill', d => getNodeColor(d))
-                .attr('stroke', 'none')
-                .attr('stroke-width', 0)
-                .on('click', (event, d) => toggleNode(d))
-                .on('mouseover', showTooltip)
-                .on('mouseout', hideTooltip);
+                .attr('stroke', d => d.data.isGroup ? '#888' : 'none');
 
-            // Add node labels
             node.append('text')
-                .attr('class', 'node-label')
+                .attr('class', d => 'node-label label-level-' + (d.data.semanticLevel != null ? Math.floor(d.data.semanticLevel) : d.depth))
                 .attr('dy', '0.35em')
                 .attr('text-anchor', 'middle')
-                .text(d => truncateText(d.data.name, 35))
-                .style('font-size', '12px')
-                .style('font-weight', '500')
-                .style('fill', '#333');
-
-            // Add visual level indicators for better hierarchy understanding
-            const levelGroups = g.selectAll('.level-group')
-                .data(Array.from(new Set(nodes.map(d => d.depth))))
-                .enter()
-                .append('g')
-                .attr('class', 'level-group');
-
-            // Add level labels with wider spacing
-            levelGroups.append('text')
-                .attr('class', 'level-label')
-                .attr('x', d => 80 + d * 450)
-                .attr('y', 40)
-                .attr('text-anchor', 'middle')
-                .attr('fill', '#333')
-                .attr('font-size', '16px')
-                .attr('font-weight', '700')
-                .text(d => {
-                    if (d === 0) return 'ROOT LEVEL';
-                    if (d === 1) return 'FIRST LEVEL';
-                    if (d === 2) return 'SECOND LEVEL';
-                    if (d === 3) return 'THIRD LEVEL';
-                    return `LEVEL ${d}`;
-                });
-
-            // Add prominent level background lines with wider spacing
-            levelGroups.append('line')
-                .attr('class', 'level-line')
-                .attr('x1', d => 80 + d * 450)
-                .attr('y1', 50)
-                .attr('x2', d => 80 + d * 450)
-                .attr('y2', window.innerHeight - 60)
-                .attr('stroke', '#e0e0e0')
-                .attr('stroke-width', 2)
-                .attr('opacity', 0.4);
-
-            // Add level background rectangles for better visual separation
-            levelGroups.append('rect')
-                .attr('class', 'level-background')
-                .attr('x', d => 80 + d * 450 - 200)
-                .attr('y', 55)
-                .attr('width', 400)
-                .attr('height', window.innerHeight - 115)
-                .attr('fill', 'none')
-                .attr('stroke', '#f5f5f5')
-                .attr('stroke-width', 1)
-                .attr('opacity', 0.3);
-
-            // Update positions on each tick
-            simulation.on('tick', () => {
-                link.attr('d', d => {
-                    // Create clear, smooth links that show hierarchy flow
-                    const dx = d.target.x - d.source.x;
-                    const dy = d.target.y - d.source.y;
-                    
-                    // Use cubic bezier curves for smoother connections
-                    const controlPoint1X = d.source.x + dx * 0.3;
-                    const controlPoint1Y = d.source.y;
-                    const controlPoint2X = d.target.x - dx * 0.3;
-                    const controlPoint2Y = d.target.y;
-                    
-                    return `M${d.source.x},${d.source.y} C${controlPoint1X},${controlPoint1Y} ${controlPoint2X},${controlPoint2Y} ${d.target.x},${d.target.y}`;
-                });
-
-                node.attr('transform', d => `translate(${d.x},${d.y})`);
-            });
-
-            // Drag functions
-            function dragstarted(event, d) {
-                if (!event.active) simulation.alphaTarget(0.3).restart();
-                d.fx = d.x;
-                d.fy = d.y;
-            }
-
-            function dragged(event, d) {
-                d.fx = event.x;
-                d.fy = event.y;
-            }
-
-            function dragended(event, d) {
-                if (!event.active) simulation.alphaTarget(0);
-                d.fx = null;
-                d.fy = null;
-            }
-
-            // Debug: Add a background rectangle to see the SVG area
-            svg.insert('rect', ':first-child')
-                .attr('width', window.innerWidth)
-                .attr('height', window.innerHeight - 45)
-                .attr('fill', 'rgba(255, 255, 255, 0.02)')
-                .attr('stroke', '#ccc')
-                .attr('stroke-width', 1);
+                .style('fill', '#333')
+                .text(d => truncateText(formatLabel(d.data.name), 28))
+                .append('title')
+                .text(d => d.data.name);
         }
 
         // Get node width based on level
         function getNodeWidth(d) {
-            if (d.data.level === 0) return 180; // Root node - wider for longer text
-            if (d.data.level === 1) return 160; // First level - wider
-            if (d.data.level === 2) return 140; // Second level - wider
-            if (d.data.level === 3) return 130; // Third level - wider
-            return 120; // Other levels - wider
+            const sem = Math.floor(d.data.semanticLevel || 0);
+            if (sem === 0) return 220;
+            if (sem === 1) return 180;
+            if (sem === 2) return 160;
+            if (sem === 3) return 140;
+            return 130;
         }
 
         // Get node height based on level
         function getNodeHeight(d) {
-            if (d.data.level === 0) return 40; // Root node - taller for better text fit
-            if (d.data.level === 1) return 36; // First level - taller
-            if (d.data.level === 2) return 32; // Second level - taller
-            if (d.data.level === 3) return 30; // Third level - taller
-            return 28; // Other levels - taller
+            const sem = Math.floor(d.data.semanticLevel || 0);
+            if (sem === 0) return 36;
+            if (sem === 1) return 32;
+            if (sem === 2) return 28;
+            if (sem === 3) return 26;
+            return 24;
         }
 
         // Get node color based on level
         function getNodeColor(d) {
-            if (d.data.level === 0) return '#667eea'; // Root - Blue
-            if (d.data.level === 1) return '#764ba2'; // First level - Purple
-            if (d.data.level === 2) return '#f093fb'; // Second level - Pink
-            if (d.data.level === 3) return '#f5576c'; // Third level - Red
-            if (d.data.level === 4) return '#4facfe'; // Fourth level - Light Blue
-            if (d.data.level === 5) return '#43e97b'; // Fifth level - Green
-            if (d.data.level === 6) return '#fa7090'; // Sixth level - Rose
-            if (d.data.level === 7) return '#fee140'; // Seventh level - Yellow
-            if (d.data.level === 8) return '#a8edea'; // Eighth level - Teal
-            if (d.data.level === 9) return '#fed6e3'; // Ninth level - Light Pink
-            return '#d299c2'; // Default - Lavender
+            const sem = Math.floor(d.data.semanticLevel || 0);
+            const palette = ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#43e97b', '#fa7090', '#fee140'];
+            const base = palette[Math.min(sem, palette.length - 1)];
+            // Slightly lighten group nodes
+            if (d.data.isGroup) return d3.color(base).brighter(0.8).formatHex();
+            return base;
         }
 
         // Toggle node expansion/collapse
         function toggleNode(d) {
-            if (d.children) {
-                // Collapse
-                d.children = null;
-                expandedNodes.delete(d.data.id);
-            } else if (d.data.children && d.data.children.length > 0) {
-                // Expand
-                expandedNodes.add(d.data.id);
+            const id = d.data.id;
+            if (!id) return;
+            if (expandedNodes.has(id)) {
+                expandedNodes.delete(id);
+            } else {
+                expandedNodes.add(id);
             }
             updateVisualization();
         }
@@ -758,12 +764,20 @@
             return result + '...';
         }
 
+        // Remove verbose parenthetical phrases for display when helpful
+        function formatLabel(text) {
+            const t = String(text);
+            if (t.length <= 28) return t;
+            const noParen = t.replace(/\s*\([^\)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim();
+            return noParen.length > 0 ? noParen : t;
+        }
+
         // Control functions
         function resetZoom() {
             if (svg && zoom) {
                 svg.transition().duration(750).call(
                     zoom.transform,
-                    d3.zoomIdentity
+                    d3.zoomIdentity.translate(MARGIN.left, MARGIN.top)
                 );
             }
         }
@@ -782,6 +796,8 @@
 
         function collapseAll() {
             expandedNodes.clear();
+            // Keep root expanded
+            if (currentRoot && currentRoot.id) expandedNodes.add(currentRoot.id);
             updateVisualization();
         }
 

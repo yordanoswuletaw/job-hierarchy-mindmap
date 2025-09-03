@@ -1,15 +1,16 @@
-# Job Hierarchy Mind Map Visualization
+# Job Taxonomy Mind Map (Left-to-Right Tree)
 
-A complete web application that visualizes job hierarchies as an interactive mind map using D3.js.
+An interactive, left-to-right mind map that visualizes a complete job taxonomy using D3.js. The layout uses a hierarchical tree where the root starts on the left and branches expand to the right.
 
 ## Features 
 
-- **Interactive Mind Map**: Radial tree layout with the virtual root "Job Roles" at the center
-- **Collapsible Nodes**: Click any node to expand/collapse its child branches
-- **Zoom & Pan**: Scroll to zoom, drag to pan across the visualization
-- **Tooltips**: Hover over nodes to see full job titles
-- **Responsive Design**: Automatically adjusts to window size
-- **Modern UI**: Beautiful gradient background with smooth animations
+- **Left-to-Right Tree**: Root on the left (“Job Taxonomy”), branches grow to the right
+- **Clear Levels**: Job Families → Job Functions → Roles → Specializations
+- **Collapsible Branches**: Click any node to expand/collapse
+- **Optional Grouping**: Large sibling sets are clustered alphabetically (A–C, D–F, …)
+- **Zoom & Pan**: Scroll to zoom, drag to pan; reset anytime
+- **Tooltips**: Hover to see full titles (labels stay concise)
+- **Responsive**: Adapts to window resizing
 
 ## Data Structure
 
@@ -28,22 +29,27 @@ The application expects a `job_title_graph.json` file with the following structu
 
 ## How to Use
 
-1. **Open the Application**: Open `index.html` in a modern web browser
-2. **Navigate**: 
-   - Scroll to zoom in/out
-   - Drag to pan around the visualization
-   - Click nodes to expand/collapse branches
-3. **Controls**:
-   - **Reset View**: Return to the original zoom level and position
-   - **Expand All**: Show all job hierarchy levels
-   - **Collapse All**: Hide all expanded branches
+1. **Open the Application**: Open `index.html` in a modern browser. If your browser blocks `fetch()` for local files, serve the folder with a static server (e.g., `python3 -m http.server`).
+2. **Choose View**:
+   - Select “All Job Families (Complete Taxonomy)” to see the full taxonomy with a virtual root “Job Taxonomy”.
+   - Or choose a specific Job Family to focus that branch.
+3. **Navigate**:
+   - Scroll to zoom; drag to pan
+   - Click nodes to expand/collapse
+4. **Controls**:
+   - **Reset View**: Restore baseline zoom and position
+   - **Expand All**: Expand all branches
+   - **Collapse All**: Collapse to the current root
 
 ## Technical Details
 
 - **Framework**: Vanilla JavaScript with D3.js v7
-- **Layout**: Radial tree layout using `d3.tree()` and `d3.linkRadial()`
-- **Data Processing**: Automatically creates a virtual root node and builds the hierarchy
-- **Null Handling**: Treats null values in adjacency lists as terminal nodes with "[N/A]" labels
+- **Layout**: Left-to-right hierarchical tree using `d3.tree()` and `d3.linkHorizontal()`
+- **Root**: Virtual root “Job Taxonomy” in full view; or a selected Job Family as the root
+- **Levels**: Semantic levels control color/size (Families, Functions, Roles, Specializations)
+- **Grouping**: Large sibling sets cluster into alphabetical buckets for scannability
+- **Deduplication**: Duplicate edges within a sibling set are removed
+- **Null Handling**: `null` children shown as terminal nodes labeled “[N/A]”
 - **Responsive**: Automatically adjusts to window resizing
 
 ## Browser Compatibility
@@ -57,26 +63,27 @@ The application expects a `job_title_graph.json` file with the following structu
 
 ```
 jlot_vizualization/
-├── index.html          # Main application file
-├── job_title_graph.json # Job hierarchy data
-└── README.md           # This file
+├── index.html           # Main application (HTML+CSS+JS)
+├── job_title_graph.json # Job hierarchy data (adjacency list + source_nodes)
+└── README.md            # This file
 ```
 
 ## Data Loading
 
-The application automatically loads data from `job_title_graph.json` when the page loads. If there's an error loading the data, an error message will be displayed with a retry option.
+The application loads `job_title_graph.json` on page load. If loading fails, an error message is shown with a retry button.
 
 ## Customization
 
-You can easily customize the visualization by modifying the CSS variables and JavaScript functions:
+You can customize colors, sizes, and layout from code:
 
-- **Colors**: Modify the `getNodeColor()` function
-- **Node Sizes**: Adjust the `getNodeRadius()` function  
-- **Styling**: Update CSS classes for different visual themes
-- **Layout**: Modify the tree layout parameters in `createVisualization()`
+- **Colors**: Edit `getNodeColor()` (level-based palette)
+- **Font Sizes**: Adjust `.label-level-*` classes in CSS
+- **Node Sizes**: Edit `getNodeWidth()` and `getNodeHeight()`
+- **Layout**: Change `NODE_H_SPACING`, `NODE_V_SPACING`, and `MARGIN`
+- **Grouping**: Tweak `GROUP_THRESHOLD` and `GROUP_BUCKET_MAX`
 
 ## Performance Notes
 
-- The application efficiently handles large hierarchies by only rendering visible nodes
-- Collapsible functionality helps manage complex job structures
-- Smooth animations and transitions provide a polished user experience
+- Renders only expanded branches for large hierarchies
+- Deduplication reduces duplicate siblings from noisy inputs
+- Alphabetical grouping keeps large levels scannable
