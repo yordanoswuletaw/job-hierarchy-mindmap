@@ -1,1768 +1,622 @@
 {
     "adjacency_list": {
-        "Business, Administration & Management": [
-            "Consulting & Advisory",
-            "Sales & Business Development",
-            "Sales & Business Development",
-            "Marketing & Communications",
-            "Marketing Operations & Technology",
-            "Sales & Business Development",
-            "Administrative & Office Support",
-            "Corporate Administration & Office Management",
-            "Sales & Business Development",
-            "Customer Service & Support",
-            "Sales & Business Development",
-            "Sales & Business Development",
-            "Sales & Business Development",
-            "Marketing Operations & Technology",
-            "Sales & Business Development",
-            "Marketing Operations & Technology",
-            "Marketing Operations & Technology",
-            "Sales & Business Development",
-            "Marketing Operations & Technology",
-            "Sales & Business Development",
-            "Customer Service & Member Relations",
-            "Business Operations",
-            "Customer Support & Service",
-            "Sales & Business Development",
-            "Sales & Business Development",
-            "Marketing Operations & Technology",
-            "Sales & Business Development",
-            "Marketing & Communications",
-            "Marketing & Communications",
-            "Strategy & Management Consulting",
-            "Retail Operations",
-            "Retail & Customer Experience",
-            "Sales & Business Development",
-            "Sales & Business Development",
-            "Sales & Business Development",
-            "Retail Operations",
-            "Business Operations",
-            "Business Management & Operations",
-            "Supply Chain & Logistics",
-            "Sales & Business Development",
-            "Program & Project Management",
-            "Procurement & Supply Chain Management",
-            "Sales & Business Development",
-            "Governance & Board Leadership",
-            "Customer Service & Support",
-            "Sales & Business Development",
-            "Program & Project Management",
-            "Program & Project Management",
-            "Business Operations",
-            "Retail Operations",
-            "Sales & Business Development",
-            "Business Management & Operations",
-            "Marketing Operations & Technology",
-            "Supply Chain & Logistics",
-            "Retail Operations",
-            "Manufacturing & Production",
-            "Program & Portfolio Management",
-            "Business Management & Operations",
-            "Business Management & Operations",
-            "Sales & Business Development",
-            "Business Management & Operations",
-            "Business Operations",
-            "Sales & Business Development",
-            "Sales & Business Development",
-            "Business Management & Operations",
-            "Sales & Business Development",
-            "Sales & Business Development",
-            "Sales & Business Development",
-            "Business Operations",
-            "Sales & Business Development",
-            "Sales & Business Development",
-            "Transportation & Logistics",
-            "Business Operations",
-            "Sales & Business Development",
-            "Business Management & Operations",
-            "Business Management & Operations",
-            "Business Management & Operations",
-            "Business Operations",
-            "Business Management & Operations",
-            "Business Management & Operations",
-            "Business Operations",
-            "Logistics & Supply Chain",
-            "Business Management & Operations",
-            "Procurement & Supply Chain Management",
-            "Business Management & Operations",
-            "Business Management & Operations",
-            "Sales & Business Development",
-            "Business Management & Operations",
-            "Business Management & Operations",
-            "Customer Service & Support",
-            "Retail Operations"
-        ],
-        "Consulting & Advisory": [
-            "Advisory"
-        ],
-        "Advisory": [
-            "Intern"
-        ],
-        "Computer & Information Technology": [
-            "Systems Analysis & Design",
-            "Systems Analysis & Design",
-            "IT Support & Operations",
-            "Systems Analysis & Design",
-            "Systems Analysis & Design",
-            "Systems Analysis & Design",
-            "DevOps & Site Reliability",
-            "IT Infrastructure & Operations",
-            "Systems Analysis & Design",
-            "Data Engineering",
-            "Software Development",
-            "Software Development",
-            "DevOps & Site Reliability",
-            "Data Science & AI",
-            "Systems Analysis & Design",
-            "IT Infrastructure & Operations",
-            "IT Infrastructure & Operations",
-            "IT Infrastructure & Operations",
-            "Software Development",
-            "IT Infrastructure & Operations",
-            "Business Intelligence & Analytics",
-            "Software Development",
-            "Data Science & AI",
-            "Data Science & AI",
-            "DevOps & Site Reliability",
-            "IT Infrastructure & Operations"
-        ],
-        "Systems Analysis & Design": [
-            "Systems Analyst/Technical",
-            "Integration Engineer",
-            "Program Integrator",
-            "System Architect",
-            "Communications Engineer",
-            "Solutions Development Associate",
-            "Contact Center Engineer"
-        ],
-        "Systems Analyst/Technical": [
-            "Lead"
-        ],
-        "Sales & Business Development": [
-            "Inside Sales and Operations Associate",
-            "Retail Team",
-            "Customer Outreach Representative",
-            "Customer Awareness Representative",
-            "Technology Sales Manager",
-            "Retail Sales Representative",
-            "Relationship Manager\u2011Retail Sales",
-            "Wholesale Sales",
-            "Outbound Sales",
-            "Sales and Customer Service",
-            "Sales and Service",
-            "Insurance Sales Agent/Agency Owner",
-            "Technical Product Sales Support Coordinator",
-            "Branch Sales",
-            "Enterprise Oracle Marketing Cloud Applications Sales Manager",
-            "Store Operations",
-            "Engagement Manager",
-            "Wholesaler",
-            "Inside Broker",
-            "Front End Clerk",
-            "Specialty Territory Business Manager",
-            "Medical Device Sales Webinar Appointment Setter",
-            "Medical Sales Account Executive",
-            "Business Banking Manager",
-            "Loan Officer",
-            "GRS Sales Account Executive",
-            "Account Executive",
-            "Striker Account Representative",
-            "Sales and Business Development",
-            "Partner Cloud Evangelist"
-        ],
-        "Inside Sales and Operations Associate": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Retail Team": [
-            "Assistant Manager"
-        ],
-        "Arts, Design & Creative Media": [
-            "Design & User Experience",
-            "Design & User Experience",
-            "Design & User Experience",
-            "Design & User Experience",
-            "Design & User Experience",
-            "Design & User Experience",
-            "Design & User Experience",
-            "Design & User Experience",
-            "Design & User Experience",
-            "Design & User Experience",
-            "Design & User Experience",
-            "Music Business & Publishing"
-        ],
-        "Design & User Experience": [
-            "Presentation",
-            "Interaction Designer",
-            "UI/UX Developer",
-            "Designer/Creative Director",
-            "Production Artist",
-            "Game Designer",
-            "Patent Illustrator",
-            "Producer/Composer/Engineer",
-            "Artistic",
-            "Packaging Graphic Designer",
-            "Interactive Media Consultant"
-        ],
-        "Presentation": [
-            "Team Leader"
-        ],
-        "Quality, Safety & Compliance": [
-            "Quality Assurance & Testing",
-            "Quality Assurance & Testing",
-            "Quality Assurance & Control",
-            "Quality Assurance & Control",
-            "Quality Assurance & Control",
-            "Quality Management & Process Improvement",
-            "Quality Assurance & Control",
-            "Quality Assurance & Control",
-            "Maintenance & Reliability Engineering",
-            "Maintenance & Reliability Engineering",
-            "Maintenance & Reliability Engineering",
-            "Maintenance & Reliability Engineering"
-        ],
-        "Quality Assurance & Testing": [
-            "Quality Assurance Test",
-            "Software Test"
-        ],
-        "Quality Assurance Test": [
-            "Lead"
-        ],
-        "Marketing & Communications": [
-            "Brand Supervisor",
-            "Industry Marketing",
-            "B2B Marketing"
-        ],
-        "Brand Supervisor": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Marketing Operations & Technology": [
-            "Database Marketing Administrator",
-            "Growth Marketing Analyst",
-            "Product Marketing Manager",
-            "Marketing Outreach",
-            "Marketing Services",
-            "Marketing and Event Planning",
-            "Demand Generation Specialist"
-        ],
-        "Database Marketing Administrator": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Education & Training": [
-            "Education Administration & School Operations",
-            "Student Support & Pupil Services",
-            "Education & Teaching",
-            "Education & Teaching",
-            "Education & Teaching",
-            "Student Support & Pupil Services",
-            "Student Support & Pupil Services",
-            "Early Childhood Education & Care",
-            "Education & Teaching",
-            "Education & Teaching",
-            "Education & Teaching",
-            "Education & Teaching",
-            "Student Support & Pupil Services",
-            "Higher Education & Student Affairs",
-            "Child Development & Early Intervention"
-        ],
-        "Education Administration & School Operations": [
-            "Substitute Program"
-        ],
-        "Substitute Program": [
-            "Leader"
-        ],
-        "Customer Outreach Representative": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Sports, Recreation & Leisure": [
-            "Sports & Recreation Management",
-            "Sports & Fitness",
-            "Sports & Fitness"
-        ],
-        "Sports & Recreation Management": [
-            "Athletics Administration"
-        ],
-        "Athletics Administration": [
-            "Intern"
-        ],
-        "Hospitality, Facilities & Property Services": [
-            "Hospitality & Facilities Services",
-            "Facilities & Building Services",
-            "Hospitality & Facilities Services",
-            "Hospitality & Facilities Services",
-            "Hospitality & Facilities Services",
-            "Travel & Tourism",
-            "Hospitality & Facilities Services",
-            "Field Services & Onsite Operations",
-            "Hospitality & Facilities Services",
-            "Field Service & Maintenance",
-            "Field Service & Maintenance",
-            "Hospitality & Facilities Services",
-            "Hospitality & Facilities Services",
-            "Hospitality & Facilities Services",
-            "Hospitality & Facilities Services",
-            "Hospitality & Facilities Services",
-            "Hospitality & Facilities Services",
-            "Hospitality & Facilities Services"
-        ],
-        "Hospitality & Facilities Services": [
-            "Housekeeper",
-            "Waitress",
-            "Attendant",
-            "Floor Supervisor",
-            "Private Duty Manager",
-            "Courtesy Officer",
-            "Catering Operations",
-            "Parks Foreman",
-            "Sprinkler Foreman",
-            "Concierge Representative",
-            "Hotel Management",
-            "Banquet Manager",
-            "Restaurant Shift"
-        ],
-        "Housekeeper": [
-            "Lead"
-        ],
-        "Administrative & Office Support": [
-            "Assistant"
-        ],
-        "Assistant": [
-            "Lead"
-        ],
-        "Risk Management & Security": [
-            "Security & Risk Management",
-            "Risk Management & Compliance",
-            "Security & Risk Management",
-            "Security & Risk Management",
-            "Security & Risk Management",
-            "Security & Risk Management",
-            "Cybersecurity",
-            "Security & Risk Management",
-            "Regulatory Affairs & Compliance"
-        ],
-        "Security & Risk Management": [
-            "Security",
-            "IT Security",
-            "Program Security Officer",
-            "Transportation Security Officer",
-            "Identity and Access Management Analyst",
-            "Financial Compliance Analyst"
-        ],
-        "Security": [
-            "Lead"
-        ],
-        "Corporate Administration & Office Management": [
-            "Corporate Administration"
-        ],
-        "Corporate Administration": [
-            "Director"
-        ],
-        "Interaction Designer": [
-            "Lead"
-        ],
-        "UI/UX Developer": [
-            "Lead"
-        ],
-        "Customer Awareness Representative": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Customer Service & Support": [
-            "Customer Care",
-            "Business Support",
-            "Operator Assistant Service Operator"
-        ],
-        "Customer Care": [
-            "Intern"
-        ],
-        "Technology Sales Manager": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Retail Sales Representative": [
-            "Lead"
-        ],
-        "Facilities & Building Services": [
-            "HVAC"
-        ],
-        "HVAC": [
-            "Lead"
-        ],
-        "Relationship Manager\u2011Retail Sales": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Software Test": [
-            "Lead"
-        ],
-        "Healthcare & Life Sciences": [
-            "Medical & Clinical Specialists",
-            "Medical & Clinical Specialists",
-            "Nutrition & Dietetics",
-            "Health, Wellness & Fitness",
-            "Nursing & Patient Care",
-            "Optometry & Vision Care",
-            "Genetic Counseling & Clinical Genetics",
-            "Nursing & Patient Care",
-            "Medical & Clinical Services",
-            "Nursing & Patient Care",
-            "Clinical Research & Operations",
-            "Health Economics, Outcomes Research & Real\u2011World Evidence",
-            "Nursing & Patient Care",
-            "Nursing & Patient Care",
-            "Nursing & Patient Care",
-            "Sterile Processing & Central Sterile Services",
-            "Medical & Clinical Specialists",
-            "Nursing & Patient Care",
-            "Medical & Clinical Specialists",
-            "Pharmacy & Pharmaceutical Services",
-            "Medical & Clinical Services",
-            "Nursing & Patient Care",
-            "Nursing & Patient Care",
-            "Clinical Laboratory & Specimen Services",
-            "Allied Health & Rehabilitation",
-            "Research & Development",
-            "Computational Biology & Bioinformatics"
-        ],
-        "Medical & Clinical Specialists": [
-            "Sonographer",
-            "Resident",
-            "Professor of Psychiatry",
-            "Radiation Therapist"
-        ],
-        "Sonographer": [
-            "Lead"
-        ],
-        "Integration Engineer": [
-            "Lead"
-        ],
-        "Growth Marketing Analyst": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Healthcare Administration & Operations": [
-            "Healthcare Revenue Cycle & Billing",
-            "Healthcare Revenue Cycle & Billing",
-            "Healthcare Operations & Provider Services",
-            "Health Information & Clinical Documentation",
-            "Patient Access & Healthcare Administrative Services",
-            "Insurance Claims & Claims Management"
-        ],
-        "Healthcare Revenue Cycle & Billing": [
-            "Billing Adjudicator",
-            "Provider Reimbursement Administrator"
-        ],
-        "Billing Adjudicator": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Designer/Creative Director": [
-            "Lead"
-        ],
-        "Wholesale Sales": [
-            "Intern"
-        ],
-        "IT Support & Operations": [
-            "PC Technician"
-        ],
-        "PC Technician": [
-            "Lead"
-        ],
-        "Production Artist": [
-            "Lead"
-        ],
-        "Product Marketing Manager": [
-            "Lead"
-        ],
-        "Program Integrator": [
-            "Lead"
-        ],
-        "Marketing Outreach": [
-            "Intern"
-        ],
-        "Risk Management & Compliance": [
-            "Lob Risk"
-        ],
-        "Lob Risk": [
-            "Lead"
-        ],
-        "Outbound Sales": [
-            "Supervisor"
-        ],
-        "Marketing Services": [
-            "Intern"
-        ],
-        "Quality Assurance & Control": [
-            "Quality Control Inspector",
-            "Quality Specialist",
-            "Quality Process Analyst",
-            "Supplier Quality",
-            "Quality and Training Manager"
-        ],
-        "Quality Control Inspector": [
-            "Lead"
-        ],
-        "Government & Public Service": [
-            "Law Enforcement & Public Safety",
-            "Military & Defense Operations",
-            "Investigations & Intelligence",
-            "Government & Public Affairs",
-            "Judiciary & Legal Services",
-            "Public Policy & International Affairs",
-            "Public Policy & International Affairs",
-            "Public Policy & International Affairs",
-            "Human Rights & Advocacy"
-        ],
-        "Law Enforcement & Public Safety": [
-            "Police Officer"
-        ],
-        "Police Officer": [
-            "Lead"
-        ],
-        "Quality Specialist": [
-            "Lead"
-        ],
-        "Sales and Customer Service": [
-            "Intern"
-        ],
-        "Customer Service & Member Relations": [
-            "Member Service"
-        ],
-        "Member Service": [
-            "Lead"
-        ],
-        "Resident": [
-            "Graduate Director"
-        ],
-        "Business Operations": [
-            "Operations Specialist",
-            "Customer Logistics Specialist",
-            "Post Office Assistant",
-            "Healthcare Operations Manager",
-            "Electronic Banking Specialist",
-            "Operations and Training Specialist",
-            "Warehouse Logistics",
-            "Compliance Operations Manager"
-        ],
-        "Operations Specialist": [
-            "Lead"
-        ],
-        "Community & Social Services": [
-            "Social Work & Human Services",
-            "Social Work & Human Services",
-            "Social Work & Human Services",
-            "Social Work & Human Services",
-            "Social Work & Human Services"
-        ],
-        "Social Work & Human Services": [
-            "Residential Counselor",
-            "Social Work Supervisor",
-            "Group Home Supervisor",
-            "Recreation Counselor",
-            "Residence Counselor"
-        ],
-        "Residential Counselor": [
-            "Lead"
-        ],
-        "Customer Support & Service": [
-            "Resolution"
-        ],
-        "Resolution": [
-            "Team Lead"
-        ],
-        "Sales and Service": [
-            "Intern"
-        ],
-        "Insurance Sales Agent/Agency Owner": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Waitress": [
-            "Lead"
-        ],
-        "System Architect": [
-            "Lead"
-        ],
-        "Game Designer": [
-            "Lead"
-        ],
-        "Communications Engineer": [
-            "Lead"
-        ],
-        "Marketing and Event Planning": [
-            "Intern"
-        ],
-        "Provider Reimbursement Administrator": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Technical Product Sales Support Coordinator": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Industry Marketing": [
-            "Director"
-        ],
-        "DevOps & Site Reliability": [
-            "Site Reliability Engineer",
-            "DevOps Systems Engineer",
-            "Software Configuration Engineer"
-        ],
-        "Site Reliability Engineer": [
-            "Lead"
-        ],
-        "B2B Marketing": [
-            "Intern"
-        ],
-        "Strategy & Management Consulting": [
-            "Strategic Business Advisor"
-        ],
-        "Strategic Business Advisor": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Attendant": [
-            "Lead"
-        ],
-        "Retail Operations": [
-            "Grocery Stocking",
-            "Retail",
-            "Merchandising",
-            "Retail Business Owner",
-            "Folder \u2013 Garment/Linen/Bulk Operator"
-        ],
-        "Grocery Stocking": [
-            "Team Leader"
-        ],
-        "Retail & Customer Experience": [
-            "Style Advisor"
-        ],
-        "Style Advisor": [
-            "Lead"
-        ],
-        "IT Infrastructure & Operations": [
+        "Information Technology": [
+            "Enterprise Applications",
+            "Quality Assurance",
+            "Data Analytics",
+            "Software Testing",
             "IT Infrastructure",
-            "Systems Operations",
-            "Data Center",
-            "Systems",
-            "IT Technical Support Specialist",
-            "Operations Technician"
-        ],
-        "IT Infrastructure": [
-            "Lead"
-        ],
-        "Branch Sales": [
-            "Director"
-        ],
-        "Enterprise Oracle Marketing Cloud Applications Sales Manager": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Media, Communications & Journalism": [
-            "Journalism & Media",
-            "Creative & Media",
-            "Content & Communications",
-            "Creative & Media"
-        ],
-        "Journalism & Media": [
-            "Reporter"
-        ],
-        "Reporter": [
-            "Lead"
-        ],
-        "Store Operations": [
-            "Lead"
-        ],
-        "Retail": [
-            "Shift Supervisor"
-        ],
-        "Customer Logistics Specialist": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Business Management & Operations": [
-            "Business Management",
-            "Company Management",
-            "General Manager",
-            "Work Center Supervisor",
-            "Business Systems",
-            "Environmental Health and Safety Assistant",
-            "Production Management",
-            "Production Operations",
-            "Ticket Operations",
-            "Lift Operations",
-            "Logistics and Supply Chain",
-            "Supply Chain Development Manager",
-            "Transportation Department Manager",
-            "Collections Department Manager",
-            "Department Supervisor/Key Carrier",
-            "Executive Services Manager"
-        ],
-        "Business Management": [
-            "Intern"
-        ],
-        "Construction, Building & Skilled Trades": [
-            "Construction & Skilled Trades",
-            "Construction & Civil Engineering",
-            "Construction & Civil Engineering",
-            "Construction & Civil Engineering",
-            "Surveying & Geomatics",
-            "Construction & Extraction"
-        ],
-        "Construction & Skilled Trades": [
-            "Elevator Constructor"
-        ],
-        "Elevator Constructor": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Social Work Supervisor": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Supply Chain & Logistics": [
-            "Ruby Distributor",
-            "EWM Consultant"
-        ],
-        "Ruby Distributor": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Floor Supervisor": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Engagement Manager": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Program & Project Management": [
-            "Contract Implementation Manager",
-            "Dynamics AX Project Manager",
-            "Events and Special Projects Manager"
-        ],
-        "Contract Implementation Manager": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Travel & Tourism": [
-            "Referring Travel Agent"
-        ],
-        "Referring Travel Agent": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Private Duty Manager": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Procurement & Supply Chain Management": [
-            "Buyer/Procurement Analyst",
-            "Buyer/Department Manager"
-        ],
-        "Buyer/Procurement Analyst": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Wholesaler": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Student Support & Pupil Services": [
-            "Pupil Personnel Services",
-            "School Counseling",
-            "School Registrar",
-            "District Technician"
-        ],
-        "Pupil Personnel Services": [
-            "Director"
-        ],
-        "Governance & Board Leadership": [
-            "Member of the Board of Regents"
-        ],
-        "Member of the Board of Regents": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Business Support": [
-            "Intern"
-        ],
-        "Field Services & Onsite Operations": [
-            "Field Services"
-        ],
-        "Field Services": [
-            "Director"
-        ],
-        "Military & Defense Operations": [
-            "Multiple Launch Rocket Fire Direction Specialist"
-        ],
-        "Multiple Launch Rocket Fire Direction Specialist": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Environment, Sustainability & Natural Resources": [
-            "Environmental & Water Management",
-            "Environmental & Water Management"
-        ],
-        "Environmental & Water Management": [
-            "Water Treatment Specialist",
-            "Civil Water Engineer"
-        ],
-        "Water Treatment Specialist": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Hospitality & Tourism": [
-            "Casino & Gaming Operations"
-        ],
-        "Casino & Gaming Operations": [
-            "Table Games Floor Supervisor"
-        ],
-        "Table Games Floor Supervisor": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Aerospace & Aviation": [
-            "Aircraft Maintenance & Avionics"
-        ],
-        "Aircraft Maintenance & Avionics": [
-            "Avionics Installer"
-        ],
-        "Avionics Installer": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Inside Broker": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Dynamics AX Project Manager": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Events and Special Projects Manager": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Finance & Financial Services": [
-            "Finance & Investment",
-            "Finance & Investment",
-            "Treasury & Risk Management",
-            "Treasury & Risk Management",
-            "Finance & Accounting",
-            "Financial Services Operations",
-            "Finance & Accounting",
-            "Credit & Lending",
-            "Financial Services Operations",
-            "Financial Services Operations",
-            "Treasury & Risk Management",
-            "Finance & Accounting",
-            "Finance & Accounting",
-            "Sustainable Finance & ESG",
-            "Financial Services Operations",
-            "Finance & Accounting"
-        ],
-        "Finance & Investment": [
-            "Asset Management",
-            "Equity Analyst"
-        ],
-        "Asset Management": [
-            "Intern"
-        ],
-        "Group Home Supervisor": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Nonprofit, Philanthropy & Social Impact": [
-            "Fundraising, Philanthropy & Corporate Relations",
-            "Philanthropy & Social Impact"
-        ],
-        "Fundraising, Philanthropy & Corporate Relations": [
-            "Corporate and Foundation Relations"
-        ],
-        "Corporate and Foundation Relations": [
-            "Assistant Director"
-        ],
-        "Post Office Assistant": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Healthcare Operations & Provider Services": [
-            "Provider Enrollment Supervisor"
-        ],
-        "Provider Enrollment Supervisor": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Solutions Development Associate": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Merchandising": [
-            "Vice President"
-        ],
-        "Front End Clerk": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Investigations & Intelligence": [
-            "Investigative"
-        ],
-        "Investigative": [
-            "Intern"
-        ],
-        "Company Management": [
-            "Intern"
-        ],
-        "Demand Generation Specialist": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Courtesy Officer": [
-            "<NO CAREER LEVEL>"
-        ],
-        "EWM Consultant": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Retail Business Owner": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Manufacturing & Production": [
-            "Tooling Supervisor"
-        ],
-        "Tooling Supervisor": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Patent Illustrator": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Human Resources & People Operations": [
-            "Compensation & Benefits",
-            "Human Resources",
-            "Human Resources & Talent Acquisition",
-            "Diversity, Equity & Inclusion (DEI)",
-            "Payroll & Compensation",
-            "Human Resources",
-            "Learning & Development",
-            "Learning & Development",
-            "Human Resources",
-            "Payroll & Compensation",
-            "Human Resources & Talent Management"
-        ],
-        "Compensation & Benefits": [
-            "Total Rewards Manager"
-        ],
-        "Total Rewards Manager": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Program & Portfolio Management": [
-            "National Program"
-        ],
-        "National Program": [
-            "Director"
-        ],
-        "General Manager": [
-            "Vice President"
-        ],
-        "Work Center Supervisor": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Data Engineering": [
-            "Data Processing"
-        ],
-        "Data Processing": [
-            "Supervisor"
-        ],
-        "Software Development": [
-            "Synon Developer",
-            "Front End UI Developer",
-            "Web Developer/Webmaster",
-            "Drupal Engineer"
-        ],
-        "Synon Developer": [
-            "<NO CAREER LEVEL>"
-        ],
-        "IT Security": [
-            "Intern"
-        ],
-        "Quality Process Analyst": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Specialty Territory Business Manager": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Civil Water Engineer": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Engineering & Architecture": [
-            "Product Design & Engineering",
-            "Product Design & Engineering",
-            "Product Design & Engineering",
-            "Manufacturing & Fabrication",
-            "Manufacturing & Fabrication",
-            "Manufacturing & Fabrication",
-            "Manufacturing & Fabrication"
-        ],
-        "Product Design & Engineering": [
-            "Product Design Engineering",
-            "Student Engineering Assistant",
-            "Soc Engineer"
-        ],
-        "Product Design Engineering": [
-            "Intern"
-        ],
-        "Quality Management & Process Improvement": [
-            "Quality Improvement"
-        ],
-        "Quality Improvement": [
-            "Supervisor"
-        ],
-        "Supplier Quality": [
-            "Intern"
-        ],
-        "Front End UI Developer": [
-            "<NO CAREER LEVEL>"
-        ],
-        "DevOps Systems Engineer": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Data Science & AI": [
-            "Data Science Course Mentor",
-            "Data Miner",
-            "Data Engineer"
-        ],
-        "Data Science Course Mentor": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Contact Center Engineer": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Systems Operations": [
-            "Supervisor"
-        ],
-        "Construction & Civil Engineering": [
-            "Construction Manager/Resident Engineer",
-            "Field Engineering Services Manager",
-            "Civil Engineering Specialist"
-        ],
-        "Construction Manager/Resident Engineer": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Data Center": [
-            "Intern"
+            "Software Development",
+            "Data Science & Artificial Intelligence",
+            "Conversational AI",
+            "IT Asset Management",
+            "Hardware Development"
+        ],
+        "Enterprise Applications": [
+            "SAP",
+            "Pega"
+        ],
+        "SAP": [
+            "SAP Engineer",
+            "System Administrator",
+            "Senior SuccessFactors Engineer",
+            "Senior Engineer Full Stack",
+            "Mobile Engineering Manager"
+        ],
+        "Aerospace": [
+            "Satellite Communications"
+        ],
+        "Satellite Communications": [
+            "Ground Segment"
+        ],
+        "Ground Segment": [
+            "Radio Frequency Engineering"
+        ],
+        "Radio Frequency Engineering": [
+            "RF Team Lead - Ground Segment"
+        ],
+        "Finance": [
+            "Risk Management",
+            "Accounts Receivable",
+            "Accounting",
+            "Securities Operations"
+        ],
+        "Risk Management": [
+            "Financial Risk",
+            "Financial Crime"
+        ],
+        "Financial Risk": [
+            "Risk Modeling"
+        ],
+        "Risk Modeling": [
+            "Risk Analyst"
+        ],
+        "Marketing": [
+            "Creative Services",
+            "Content Marketing",
+            "Media & Advertising",
+            "Promotions",
+            "Social Media Marketing",
+            "Creator Marketing",
+            "Search Engine Optimization"
+        ],
+        "Creative Services": [
+            "Creative Operations",
+            "Image Editing"
+        ],
+        "Creative Operations": [
+            "Creative Coordinator"
         ],
         "Human Resources": [
-            "Benefits Technician",
-            "Training Clerk",
-            "Labor Relations"
+            "Talent Acquisition",
+            "Human Resources Business Partnering",
+            "Learning & Development"
         ],
-        "Benefits Technician": [
-            "<NO CAREER LEVEL>"
+        "Talent Acquisition": [
+            "Recruitment Operations"
         ],
-        "Nutrition & Dietetics": [
-            "Child Nutrition"
+        "Recruitment Operations": [
+            "Recruitment Assistant",
+            "Recruitment Analytics"
         ],
-        "Child Nutrition": [
-            "Supervisor"
+        "Energy & Utilities": [
+            "Utilities Engineering"
         ],
-        "Systems": [
-            "Intern"
+        "Utilities Engineering": [
+            "Power Systems",
+            "Heating"
         ],
-        "Telecommunications & Networking": [
-            "Network & Telecommunications Engineering"
+        "Power Systems": [
+            "Utility Engineer",
+            "Power Generation Planning",
+            "Rotating Equipment"
         ],
-        "Network & Telecommunications Engineering": [
-            "High Speed Data Specialist"
+        "Quality Assurance": [
+            "Test Automation",
+            "Quality Services"
         ],
-        "High Speed Data Specialist": [
-            "<NO CAREER LEVEL>"
+        "Test Automation": [
+            "Salesforce"
         ],
-        "Government & Public Affairs": [
-            "Constituent Services"
+        "Salesforce": [
+            "QA Automation (Salesforce)"
         ],
-        "Constituent Services": [
-            "Intern"
+        "Power Generation Planning": [
+            "Senior Production Planning Engineer",
+            "Permitting & Regulatory Approvals"
         ],
-        "Field Engineering Services Manager": [
-            "<NO CAREER LEVEL>"
+        "Supply Chain Management": [
+            "Inventory Management"
         ],
-        "Web Developer/Webmaster": [
-            "<NO CAREER LEVEL>"
+        "Inventory Management": [
+            "Inventory Planning"
         ],
-        "Equity Analyst": [
-            "Vice President"
+        "Inventory Planning": [
+            "Sales",
+            "Supply Planning",
+            "Inventory Management Agent"
         ],
-        "IT Technical Support Specialist": [
-            "<NO CAREER LEVEL>"
+        "Sales": [
+            " Inventory & Operations Planning",
+            "Retail Sales",
+            "Inside Sales",
+            "Field Sales",
+            "Deal Desk",
+            "Sales Operations"
         ],
-        "Human Resources & Talent Acquisition": [
-            "Recruiter/Staffing Manager"
+        " Inventory & Operations Planning": [
+            "Senior Manager"
         ],
-        "Recruiter/Staffing Manager": [
-            "<NO CAREER LEVEL>"
+        "Senior Manager": [
+            " Inventory & SIOP"
         ],
-        "Healthcare Technology & Medical Devices": [
-            "Biomedical Engineering & Instrumentation"
+        "Supply Chain": [
+            "Demand Planning"
         ],
-        "Biomedical Engineering & Instrumentation": [
-            "Biomolecular Instrumentation Engineer"
+        "Demand Planning": [
+            "Demand Forecasting"
         ],
-        "Biomolecular Instrumentation Engineer": [
-            "<NO CAREER LEVEL>"
+        "Demand Forecasting": [
+            "Demand Planning Associate Manager"
         ],
-        "Producer/Composer/Engineer": [
-            "<NO CAREER LEVEL>"
+        "Data Analytics": [
+            "Business Intelligence",
+            "Data Science"
         ],
-        "Student Engineering Assistant": [
-            "<NO CAREER LEVEL>"
+        "Business Intelligence": [
+            "Data Visualization"
         ],
-        "Business Intelligence & Analytics": [
-            "Business Objects Developer"
+        "Data Visualization": [
+            "Data Analyst",
+            "Data Manager",
+            "Event Data Visualization"
         ],
-        "Business Objects Developer": [
-            "<NO CAREER LEVEL>"
+        "Content Marketing": [
+            "Content Marketing Manager",
+            "Content Strategy"
         ],
-        "Treasury & Risk Management": [
-            "Asset Liability Manager",
-            "Program Underwriter",
-            "Credit Risk Officer"
+        "Financial Services": [
+            "Back Office Operations"
         ],
-        "Asset Liability Manager": [
-            "<NO CAREER LEVEL>"
+        "Back Office Operations": [
+            "Third-Party Agent Operations"
         ],
-        "Communications & Technical Documentation": [
-            "Technical Communications & Documentation"
+        "Third-Party Agent Operations": [
+            "Loan Processing"
         ],
-        "Technical Communications & Documentation": [
-            "Technical Writer"
+        "Loan Processing": [
+            "DSA Back Office"
         ],
-        "Technical Writer": [
-            "Intern"
+        "Staffing & Recruiting": [
+            "IT Staffing"
         ],
-        "Health, Wellness & Fitness": [
-            "Fitness"
+        "IT Staffing": [
+            "Business Development"
         ],
-        "Fitness": [
-            "Supervisor"
+        "Business Development": [
+            "US IT Staffing - BDM",
+            "Associate Business Development Manager"
         ],
-        "Drupal Engineer": [
-            "<NO CAREER LEVEL>"
+        "Media & Advertising": [
+            "Advertising Account Management"
         ],
-        "Program Underwriter": [
-            "<NO CAREER LEVEL>"
+        "Advertising Account Management": [
+            "Accountmanager Media & Digital Advertising"
         ],
-        "Data Miner": [
-            "<NO CAREER LEVEL>"
+        "Heating": [
+            " Ventilation & Air Conditioning"
         ],
-        "Program Security Officer": [
-            "<NO CAREER LEVEL>"
+        " Ventilation & Air Conditioning": [
+            "Service & Maintenance"
         ],
-        "Transportation Security Officer": [
-            "Supervisory"
+        "Service & Maintenance": [
+            "HVAC Technician"
         ],
-        "Business Systems": [
-            "Director"
+        "Supply Planning": [
+            "Senior Supply Planning Lead",
+            "Production Planning"
         ],
-        "Soc Engineer": [
-            "<NO CAREER LEVEL>"
+        "Software Testing": [
+            "Test Management"
         ],
-        "Creative & Media": [
-            "Digital Media",
-            "Media"
+        "Test Management": [
+            "Managed Services Testing"
         ],
-        "Digital Media": [
-            "Intern"
+        "Managed Services Testing": [
+            "Test Manager (AMS)",
+            "Central Testing Assistant Manager"
         ],
-        "Identity and Access Management Analyst": [
-            "<NO CAREER LEVEL>"
+        "Retail Sales": [
+            "Point of Sale",
+            "Retail Operations"
         ],
-        "Diversity, Equity & Inclusion (DEI)": [
-            "Diversity"
+        "Point of Sale": [
+            "Point of Sales Representative"
         ],
-        "Diversity": [
-            "Intern"
+        "Promotions": [
+            "Promoter"
         ],
-        "Civil Engineering Specialist": [
-            "<NO CAREER LEVEL>"
+        "Accounts Receivable": [
+            "Accounts Receivable Associate"
         ],
-        "Cybersecurity": [
-            "Security Consulting Engineer"
+        "Retail Operations": [
+            "Branch Manager",
+            "Territory Manager"
         ],
-        "Security Consulting Engineer": [
-            "<NO CAREER LEVEL>"
+        "Social Media Marketing": [
+            "Community Management"
         ],
-        "Data Engineer": [
-            "Manager"
+        "Community Management": [
+            "Social Media Handler",
+            "Virtual Assistant with Social Media & CSR Background"
         ],
-        "Content & Communications": [
-            "Writer/Contributor"
+        "Creator Marketing": [
+            "Creator Growth"
         ],
-        "Writer/Contributor": [
-            "<NO CAREER LEVEL>"
+        "Creator Growth": [
+            "Creator Growth Associate",
+            "Client Associate"
         ],
-        "Software Configuration Engineer": [
-            "<NO CAREER LEVEL>"
+        "Customer Service": [
+            "Contact Center"
         ],
-        "Healthcare Operations Manager": [
-            "<NO CAREER LEVEL>"
+        "Contact Center": [
+            "Customer Service Representative"
         ],
-        "Nursing & Patient Care": [
-            "Surgical ICU Travel Registered Nurse",
-            "Nurse Practitioner",
+        "Hospitality": [
+            "Housekeeping"
+        ],
+        "Housekeeping": [
+            "Guest Room Cleaning"
+        ],
+        "Guest Room Cleaning": [
+            "Housekeeping Room Attendant"
+        ],
+        "Rotating Equipment": [
+            "Lubrication & Tribology"
+        ],
+        "Lubrication & Tribology": [
+            "Principal Engineer - Lubrication & Tribology"
+        ],
+        "Inside Sales": [
+            "Telesales"
+        ],
+        "Telesales": [
+            "Telesales Specialist",
+            "Business Development Manager",
+            "Business Development Executive",
+            "Business Development"
+        ],
+        "IT Infrastructure": [
+            "Senior Analyst",
+            "IT Operations",
+            "Information Security & Compliance",
+            "Networking"
+        ],
+        "Senior Analyst": [
+            " IT Infrastructure"
+        ],
+        "Software Development": [
+            "Application Development",
+            "Software Architecture",
+            "Solution Architecture",
+            "Product Manager",
+            "Product Management"
+        ],
+        "Application Development": [
+            "Web Development"
+        ],
+        "Web Development": [
+            "Developer"
+        ],
+        "IT Operations": [
+            "Manager",
+            "Systems Administration"
+        ],
+        "Manager": [
+            " IT Operations"
+        ],
+        "Production Planning": [
+            "Production Planner",
+            "Strategy and Operational Planning Supervisor"
+        ],
+        "Information Security & Compliance": [
+            "Governance",
+            "Security Operations"
+        ],
+        "Governance": [
+            " Risk & Compliance"
+        ],
+        " Risk & Compliance": [
+            "IT Security and Compliance Manager"
+        ],
+        "Field Sales": [
+            "Field Sales Representative",
+            "Key Account Management",
+            "Team Lead - Field Sales"
+        ],
+        "Deal Desk": [
+            "Pricing & Quoting"
+        ],
+        "Pricing & Quoting": [
+            "Analyst - Deals Desk"
+        ],
+        "Healthcare": [
             "Nursing",
-            "Continence Nurse",
-            "Locum Tenens Psychiatric Nurse Practitioner",
-            "Registered Nurse",
-            "Surgical Oncology Clinical Nurse",
-            "Vascular Access Registered Nurse",
-            "Charge Nurse"
-        ],
-        "Surgical ICU Travel Registered Nurse": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Optometry & Vision Care": [
-            "Optometrist"
-        ],
-        "Optometrist": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Genetic Counseling & Clinical Genetics": [
-            "Prenatal Genetic Counseling"
-        ],
-        "Prenatal Genetic Counseling": [
-            "Intern"
-        ],
-        "Nurse Practitioner": [
-            "Lead"
-        ],
-        "Health Information & Clinical Documentation": [
-            "Pathology Transcriptionist"
-        ],
-        "Pathology Transcriptionist": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Medical & Clinical Services": [
-            "Clinic",
-            "Clinical Operations"
-        ],
-        "Clinic": [
-            "Intern"
+            "Optometry",
+            "Clinical Research"
         ],
         "Nursing": [
-            "Intern"
+            "Clinical Research Nursing",
+            "Obstetrics & Gynecology Nursing",
+            "Licensed Practical Nursing"
         ],
-        "Clinical Research & Operations": [
-            "Clinical Monitoring Project"
+        "Clinical Research Nursing": [
+            "Project Nurse II"
         ],
-        "Clinical Monitoring Project": [
-            "Lead"
+        "Accounting": [
+            "General Accountant",
+            "Finance Operations"
         ],
-        "Health Economics, Outcomes Research & Real\u2011World Evidence": [
-            "Health Economics and Outcomes Research"
+        "Security Operations": [
+            "Security Operations Centre Analyst"
         ],
-        "Health Economics and Outcomes Research": [
-            "Director"
+        "Key Account Management": [
+            "Major Account Manager"
         ],
-        "Continence Nurse": [
-            "<NO CAREER LEVEL>"
+        "Pega": [
+            "Pega Senior Developer"
         ],
-        "Locum Tenens Psychiatric Nurse Practitioner": [
-            "<NO CAREER LEVEL>"
+        "Data Science & Artificial Intelligence": [
+            "Data Engineering"
         ],
-        "Medical Device Sales Webinar Appointment Setter": [
-            "<NO CAREER LEVEL>"
+        "Data Engineering": [
+            "Cosmos DB"
         ],
-        "Registered Nurse": [
-            "Clinical Supervisor"
+        "Cosmos DB": [
+            "AI & DATA-Cosmos DB Senior",
+            "Senior Data Engineer"
         ],
-        "Sterile Processing & Central Sterile Services": [
-            "Sterile Supply Technician"
+        "Human Resources Business Partnering": [
+            "HR Business Partner"
         ],
-        "Sterile Supply Technician": [
-            "<NO CAREER LEVEL>"
+        "Image Editing": [
+            "Photo Editing"
         ],
-        "Professor of Psychiatry": [
-            "Associate"
+        "Photo Editing": [
+            "Photo Editor"
         ],
-        "Surgical Oncology Clinical Nurse": [
-            "<NO CAREER LEVEL>"
+        "Search Engine Optimization": [
+            "Off-Page SEO"
         ],
-        "Patient Access & Healthcare Administrative Services": [
-            "Medical Receptionist"
+        "Off-Page SEO": [
+            "Link Building"
         ],
-        "Medical Receptionist": [
-            "Lead"
+        "Link Building": [
+            "Link Builder"
         ],
-        "Radiation Therapist": [
-            "Lead"
+        "Sales Operations": [
+            "CRM Administration"
         ],
-        "Pharmacy & Pharmaceutical Services": [
-            "Pharmacy Services"
+        "CRM Administration": [
+            "Sales Key User"
         ],
-        "Pharmacy Services": [
-            "Lead"
+        "Finance Operations": [
+            "Finance Operations Lead"
         ],
-        "Clinical Operations": [
-            "Lead"
+        "Administrative Support": [
+            "Remote Administration"
         ],
-        "Vascular Access Registered Nurse": [
-            "<NO CAREER LEVEL>"
+        "Remote Administration": [
+            "Social Media Support"
         ],
-        "Medical Sales Account Executive": [
-            "<NO CAREER LEVEL>"
+        "Social Media Support": [
+            "Community Management"
         ],
-        "Charge Nurse": [
-            "Supervisor"
+        "Obstetrics & Gynecology Nursing": [
+            "Lecturer \u2013 OBG (MSc Nursing)"
         ],
-        "Environmental Health and Safety Assistant": [
-            "<NO CAREER LEVEL>"
+        "Strategy": [
+            "Strategic Frameworks"
         ],
-        "Business Banking Manager": [
-            "<NO CAREER LEVEL>"
+        "Strategic Frameworks": [
+            "Conceptual Framework Design"
         ],
-        "Finance & Accounting": [
-            "Treasury",
-            "Accounts Payable Processor",
-            "Finance/Controller",
-            "Bank",
-            "Assurance and Tax"
+        "Conceptual Framework Design": [
+            "Thought Frameworks"
         ],
-        "Treasury": [
-            "Intern"
+        "Insurance": [
+            "Health Insurance"
         ],
-        "Financial Services Operations": [
-            "Loan Servicing",
-            "Consumer Loan Officer",
-            "Loan Administration",
-            "Automotive Finance Manager"
+        "Securities Operations": [
+            "Corporate Actions"
         ],
-        "Loan Servicing": [
-            "Supervisor"
+        "Corporate Actions": [
+            "Corporate Actions Execution"
         ],
-        "Accounts Payable Processor": [
-            "Lead"
+        "Corporate Actions Execution": [
+            "Corporate Actions Execution Manager - Assistant Vice President"
         ],
-        "Payroll & Compensation": [
-            "Payroll",
-            "Compensation"
+        "Licensed Practical Nursing": [
+            "LPN Charge Nurse"
         ],
-        "Payroll": [
-            "Intern"
+        "Systems Administration": [
+            "IT System Administrator",
+            "Service Desk",
+            "Linux Administrator",
+            "IT Service"
         ],
-        "Loan Officer": [
-            "Team Lead"
+        "Entrepreneurship": [
+            "Startup Mentoring"
         ],
-        "GRS Sales Account Executive": [
-            "<NO CAREER LEVEL>"
+        "Startup Mentoring": [
+            "Venture Coaching"
         ],
-        "Credit & Lending": [
-            "Credit"
+        "Venture Coaching": [
+            "Venture Coach"
         ],
-        "Credit": [
-            "Intern"
+        "Data Science": [
+            "Machine Learning"
         ],
-        "Consumer Loan Officer": [
-            "<NO CAREER LEVEL>"
+        "Machine Learning": [
+            "MLOps"
         ],
-        "Electronic Banking Specialist": [
-            "<NO CAREER LEVEL>"
+        "MLOps": [
+            "Senior Developer (Data Science / Full Stack)"
         ],
-        "Loan Administration": [
-            "Supervisor"
+        "Event Data Visualization": [
+            "Senior & Principal Specialist"
         ],
-        "Credit Risk Officer": [
-            "<NO CAREER LEVEL>"
+        "Senior & Principal Specialist": [
+            " Job & Event System & Data Intel"
         ],
-        "Finance/Controller": [
-            "Vice President"
+        "Software Architecture": [
+            "Application Architecture"
         ],
-        "Bank": [
-            "Supervisor"
+        "Application Architecture": [
+            "Staff Software Engineer",
+            "Software Development Engineer",
+            "Web Application Architecture",
+            "Backend Architecture"
         ],
-        "Account Executive": [
-            "Lead"
+        "Content Strategy": [
+            "Senior Director Marketing"
         ],
-        "Sustainable Finance & ESG": [
-            "Green Finance Expert"
+        "Conversational AI": [
+            "Conversational Operations"
         ],
-        "Green Finance Expert": [
-            "<NO CAREER LEVEL>"
+        "Conversational Operations": [
+            "Conversational Process Design"
         ],
-        "Automotive Finance Manager": [
-            "<NO CAREER LEVEL>"
+        "Conversational Process Design": [
+            "CHAT Process Professional"
         ],
-        "Striker Account Representative": [
-            "<NO CAREER LEVEL>"
+        "Banking": [
+            "SME Banking"
         ],
-        "Assurance and Tax": [
-            "Intern"
+        "SME Banking": [
+            "SME Relationship Management"
         ],
-        "Financial Compliance Analyst": [
-            "<NO CAREER LEVEL>"
+        "SME Relationship Management": [
+            "Director & Team Leader - Relationship Manager - SME ME"
         ],
-        "Education & Teaching": [
-            "Mathematics Teacher and Department Chair",
-            "Teacher",
-            "Professional Instructor",
-            "Teaching Assistant/Instructor",
-            "Instructor/Lecturer",
-            "Public School Teacher",
-            "Animation Instructor"
+        "Financial Crime": [
+            "Forensic Investigation"
         ],
-        "Mathematics Teacher and Department Chair": [
-            "<NO CAREER LEVEL>"
+        "Forensic Investigation": [
+            "Financial Crime Forensic Analyst"
         ],
-        "Teacher": [
-            "Team Lead"
+        "Optometry": [
+            "Casual Optometrist"
         ],
-        "Transportation & Logistics": [
-            "CDL Instructor"
+        "Architecture & Construction": [
+            "Construction Documentation"
         ],
-        "CDL Instructor": [
-            "<NO CAREER LEVEL>"
+        "Construction Documentation": [
+            "Technical Communication"
         ],
-        "Professional Instructor": [
-            "<NO CAREER LEVEL>"
+        "Technical Communication": [
+            "Technical Writer - Construction and Architecture"
         ],
-        "Quality and Training Manager": [
-            "<NO CAREER LEVEL>"
+        "Networking": [
+            "Routing & Switching"
         ],
-        "Training Clerk": [
-            "<NO CAREER LEVEL>"
+        "Routing & Switching": [
+            "Network Engineer",
+            "Network Engineer Ahmedabad"
         ],
-        "School Counseling": [
-            "Intern"
+        "Web Application Architecture": [
+            "Full-Stack"
         ],
-        "School Registrar": [
-            "<NO CAREER LEVEL>"
+        "Full-Stack": [
+            "Full Stack Developer"
         ],
-        "Early Childhood Education & Care": [
-            "Early Years Teacher"
+        "IT Asset Management": [
+            "Technology Refresh"
         ],
-        "Early Years Teacher": [
-            "<NO CAREER LEVEL>"
+        "Technology Refresh": [
+            "End-User Devices"
         ],
-        "Information & Knowledge Management": [
-            "Library & Information Services"
+        "End-User Devices": [
+            "Tech Refresh Equipment Specialist"
         ],
-        "Library & Information Services": [
-            "Instruction Librarian"
+        "Solution Architecture": [
+            "Java"
         ],
-        "Instruction Librarian": [
-            "<NO CAREER LEVEL>"
+        "Java": [
+            "AVP Solution Architect Java"
         ],
-        "Teaching Assistant/Instructor": [
-            "<NO CAREER LEVEL>"
+        "Recruitment Analytics": [
+            "Senior Analyst & Talent Acquisition"
         ],
-        "Instructor/Lecturer": [
-            "<NO CAREER LEVEL>"
+        "Backend Architecture": [
+            "Distributed Systems"
         ],
-        "Operations and Training Specialist": [
-            "Staff"
+        "Distributed Systems": [
+            "Backend Engineering Manager",
+            "Microservices Architecture"
+        ],
+        "Clinical Research": [
+            "Clinical Trials Operations"
+        ],
+        "Clinical Trials Operations": [
+            "Clinical Study Management"
+        ],
+        "Clinical Study Management": [
+            "Clinical Research Manager"
+        ],
+        "Design": [
+            "Interior Design"
+        ],
+        "Interior Design": [
+            "Residential Interior Design"
+        ],
+        "Residential Interior Design": [
+            "Interior Designer"
         ],
         "Learning & Development": [
-            "Training and Development",
-            "Education Programs"
+            "Learning Delivery"
         ],
-        "Training and Development": [
-            "Supervisor"
+        "Learning Delivery": [
+            "Instructor-Led Training"
         ],
-        "Education Programs": [
-            "Intern"
+        "Instructor-Led Training": [
+            "Learning and Development Associate"
         ],
-        "Public School Teacher": [
-            "<NO CAREER LEVEL>"
+        "Service Desk": [
+            "IT Service Desk Analyst"
         ],
-        "Sports & Fitness": [
-            "Children\u2019s Fitness Instructor",
-            "Tai Chi Instructor"
+        "Quality Services": [
+            "Associate"
         ],
-        "Children\u2019s Fitness Instructor": [
-            "<NO CAREER LEVEL>"
+        "Associate": [
+            " Quality Services"
         ],
-        "Animation Instructor": [
-            "<NO CAREER LEVEL>"
+        "Hardware Development": [
+            "System on Chip Design"
         ],
-        "Tai Chi Instructor": [
-            "<NO CAREER LEVEL>"
+        "System on Chip Design": [
+            "SoC Design Engineer"
         ],
-        "Sales and Business Development": [
-            "Intern"
+        "Permitting & Regulatory Approvals": [
+            "Permitting Engineer"
         ],
-        "Maintenance & Reliability Engineering": [
-            "Electrical Maintenance Manager",
-            "Industrial Electrical Technician",
-            "Power Plant Electrician",
-            "Maintenance Mechanic Technician"
+        "Microservices Architecture": [
+            "Senior Software Engineer",
+            "Associate Director"
         ],
-        "Electrical Maintenance Manager": [
-            "<NO CAREER LEVEL>"
+        "Network Engineer Ahmedabad": [
+            " Gujarat"
         ],
-        "District Technician": [
-            "<NO CAREER LEVEL>"
+        "Product Management": [
+            "Associate Product Manager"
         ],
-        "Industrial Electrical Technician": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Manufacturing & Fabrication": [
-            "Machinist/Fabricator",
-            "Manufacturing Operations",
-            "Workshop Technician",
-            "Print Production"
-        ],
-        "Machinist/Fabricator": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Operations Technician": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Surveying & Geomatics": [
-            "Land Surveyor"
-        ],
-        "Land Surveyor": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Manufacturing Operations": [
-            "Vice President"
-        ],
-        "Workshop Technician": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Field Service & Maintenance": [
-            "Marine Service Technician",
-            "Special Services Technician"
-        ],
-        "Marine Service Technician": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Clinical Laboratory & Specimen Services": [
-            "Laboratory Specimen Processor"
-        ],
-        "Laboratory Specimen Processor": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Power Plant Electrician": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Special Services Technician": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Maintenance Mechanic Technician": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Print Production": [
-            "Intern"
-        ],
-        "Production Management": [
-            "Intern"
-        ],
-        "Production Operations": [
-            "Supervisor"
-        ],
-        "Ticket Operations": [
-            "Assistant Director"
-        ],
-        "Catering Operations": [
-            "Supervisor"
-        ],
-        "Warehouse Logistics": [
-            "Supervisor"
-        ],
-        "Lift Operations": [
-            "Supervisor"
-        ],
-        "Logistics and Supply Chain": [
-            "Intern"
-        ],
-        "Compliance Operations Manager": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Logistics & Supply Chain": [
-            "Warehouse Order Picker"
-        ],
-        "Warehouse Order Picker": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Supply Chain Development Manager": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Allied Health & Rehabilitation": [
-            "Music Therapy"
-        ],
-        "Music Therapy": [
-            "Intern"
-        ],
-        "Artistic": [
-            "Director"
-        ],
-        "Buyer/Department Manager": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Transportation Department Manager": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Media": [
-            "Intern"
-        ],
-        "Packaging Graphic Designer": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Interactive Media Consultant": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Collections Department Manager": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Partner Cloud Evangelist": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Music Business & Publishing": [
-            "Artists and Repertoire/Music Publishing"
-        ],
-        "Artists and Repertoire/Music Publishing": [
-            "Intern"
-        ],
-        "Department Supervisor/Key Carrier": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Higher Education & Student Affairs": [
-            "Panhellenic"
-        ],
-        "Panhellenic": [
-            "Vice President"
-        ],
-        "Regulatory Affairs & Compliance": [
-            "Regulatory Affairs"
-        ],
-        "Regulatory Affairs": [
-            "Supervisor"
-        ],
-        "Judiciary & Legal Services": [
-            "Federal Judicial"
-        ],
-        "Federal Judicial": [
-            "Intern"
-        ],
-        "Public Policy & International Affairs": [
-            "Foreign Policy",
-            "Government Relations",
-            "Public Affairs Communications"
-        ],
-        "Foreign Policy": [
-            "Intern"
-        ],
-        "Government Relations": [
-            "Intern"
-        ],
-        "Public Affairs Communications": [
-            "Intern"
-        ],
-        "Executive Services Manager": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Child Development & Early Intervention": [
-            "Developmental"
-        ],
-        "Developmental": [
-            "Intern"
-        ],
-        "Research & Development": [
-            "Research Project",
-            "Scientific"
-        ],
-        "Research Project": [
-            "Intern"
-        ],
-        "Computational Biology & Bioinformatics": [
-            "Bioinformatics"
-        ],
-        "Bioinformatics": [
-            "Intern"
-        ],
-        "Earth, Environmental & Geosciences": [
-            "Geoscience & Earth Sciences"
-        ],
-        "Geoscience & Earth Sciences": [
-            "Economic Geologist"
-        ],
-        "Economic Geologist": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Labor Relations": [
-            "Director"
-        ],
-        "Science & Research": [
-            "Research & Development"
-        ],
-        "Scientific": [
-            "Fellow"
-        ],
-        "Parks Foreman": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Sprinkler Foreman": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Human Rights & Advocacy": [
-            "Human Rights"
-        ],
-        "Human Rights": [
-            "Intern"
-        ],
-        "Operator Assistant Service Operator": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Folder \u2013 Garment/Linen/Bulk Operator": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Construction & Extraction": [
-            "Drill Rig Operator"
-        ],
-        "Drill Rig Operator": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Compensation": [
-            "Intern"
-        ],
-        "Human Resources & Talent Management": [
-            "Talent"
-        ],
-        "Talent": [
-            "Intern"
-        ],
-        "Insurance Claims & Claims Management": [
-            "Workers\u2019 Compensation Claims"
-        ],
-        "Workers\u2019 Compensation Claims": [
-            "Supervisor"
-        ],
-        "Philanthropy & Social Impact": [
-            "Philanthropy"
-        ],
-        "Philanthropy": [
-            "Intern"
-        ],
-        "Concierge Representative": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Hotel Management": [
-            "Intern"
-        ],
-        "Banquet Manager": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Restaurant Shift": [
-            "Supervisor"
-        ],
-        "Recreation Counselor": [
-            "<NO CAREER LEVEL>"
-        ],
-        "Legal, Compliance & Regulatory Affairs": [
-            "Legal & Compliance"
-        ],
-        "Legal & Compliance": [
-            "Legal"
-        ],
-        "Legal": [
-            "Supervisor"
-        ],
-        "Residence Counselor": [
-            "<NO CAREER LEVEL>"
+        "Associate Director": [
+            " Software Engineering Specialist"
         ]
     },
     "source_nodes": [
-        "Hospitality, Facilities & Property Services",
-        "Legal, Compliance & Regulatory Affairs",
-        "Sports, Recreation & Leisure",
-        "Business, Administration & Management",
-        "Arts, Design & Creative Media",
-        "Quality, Safety & Compliance",
-        "Telecommunications & Networking",
-        "Education & Training",
-        "Earth, Environmental & Geosciences",
-        "Community & Social Services",
-        "Computer & Information Technology",
-        "Nonprofit, Philanthropy & Social Impact",
-        "Human Resources & People Operations",
-        "Environment, Sustainability & Natural Resources",
-        "Engineering & Architecture",
-        "Information & Knowledge Management",
-        "Aerospace & Aviation",
-        "Healthcare Technology & Medical Devices",
-        "Government & Public Service",
-        "Construction, Building & Skilled Trades",
-        "Healthcare & Life Sciences",
-        "Communications & Technical Documentation",
-        "Healthcare Administration & Operations",
-        "Finance & Financial Services",
-        "Hospitality & Tourism",
-        "Science & Research",
-        "Media, Communications & Journalism",
-        "Risk Management & Security"
+        "Banking",
+        "Architecture & Construction",
+        "Staffing & Recruiting",
+        "Supply Chain",
+        "Insurance",
+        "Information Technology",
+        "Marketing",
+        "Aerospace",
+        "Financial Services",
+        "Supply Chain Management",
+        "Healthcare",
+        "Hospitality",
+        "Quality Assurance",
+        "Entrepreneurship",
+        "Strategy",
+        "Finance",
+        "Sales",
+        "Customer Service",
+        "Design",
+        "Administrative Support",
+        "Human Resources",
+        "Energy & Utilities"
     ]
 }
