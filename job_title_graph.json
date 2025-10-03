@@ -1,622 +1,1411 @@
 {
     "adjacency_list": {
         "Information Technology": [
-            "Enterprise Applications",
-            "Quality Assurance",
-            "Data Analytics",
-            "Software Testing",
-            "IT Infrastructure",
-            "Software Development",
-            "Data Science & Artificial Intelligence",
-            "Conversational AI",
-            "IT Asset Management",
-            "Hardware Development"
-        ],
-        "Enterprise Applications": [
-            "SAP",
-            "Pega"
-        ],
-        "SAP": [
-            "SAP Engineer",
-            "System Administrator",
-            "Senior SuccessFactors Engineer",
-            "Senior Engineer Full Stack",
-            "Mobile Engineering Manager"
-        ],
-        "Aerospace": [
-            "Satellite Communications"
-        ],
-        "Satellite Communications": [
-            "Ground Segment"
-        ],
-        "Ground Segment": [
-            "Radio Frequency Engineering"
-        ],
-        "Radio Frequency Engineering": [
-            "RF Team Lead - Ground Segment"
-        ],
-        "Finance": [
-            "Risk Management",
-            "Accounts Receivable",
-            "Accounting",
-            "Securities Operations"
-        ],
-        "Risk Management": [
-            "Financial Risk",
-            "Financial Crime"
-        ],
-        "Financial Risk": [
-            "Risk Modeling"
-        ],
-        "Risk Modeling": [
-            "Risk Analyst"
-        ],
-        "Marketing": [
-            "Creative Services",
-            "Content Marketing",
-            "Media & Advertising",
-            "Promotions",
-            "Social Media Marketing",
-            "Creator Marketing",
-            "Search Engine Optimization"
-        ],
-        "Creative Services": [
-            "Creative Operations",
-            "Image Editing"
-        ],
-        "Creative Operations": [
-            "Creative Coordinator"
-        ],
-        "Human Resources": [
-            "Talent Acquisition",
-            "Human Resources Business Partnering",
-            "Learning & Development"
-        ],
-        "Talent Acquisition": [
-            "Recruitment Operations"
-        ],
-        "Recruitment Operations": [
-            "Recruitment Assistant",
-            "Recruitment Analytics"
-        ],
-        "Energy & Utilities": [
-            "Utilities Engineering"
-        ],
-        "Utilities Engineering": [
-            "Power Systems",
-            "Heating"
-        ],
-        "Power Systems": [
-            "Utility Engineer",
-            "Power Generation Planning",
-            "Rotating Equipment"
-        ],
-        "Quality Assurance": [
-            "Test Automation",
-            "Quality Services"
-        ],
-        "Test Automation": [
-            "Salesforce"
-        ],
-        "Salesforce": [
-            "QA Automation (Salesforce)"
-        ],
-        "Power Generation Planning": [
-            "Senior Production Planning Engineer",
-            "Permitting & Regulatory Approvals"
-        ],
-        "Supply Chain Management": [
-            "Inventory Management"
-        ],
-        "Inventory Management": [
-            "Inventory Planning"
-        ],
-        "Inventory Planning": [
-            "Sales",
-            "Supply Planning",
-            "Inventory Management Agent"
-        ],
-        "Sales": [
-            " Inventory & Operations Planning",
-            "Retail Sales",
-            "Inside Sales",
-            "Field Sales",
-            "Deal Desk",
-            "Sales Operations"
-        ],
-        " Inventory & Operations Planning": [
-            "Senior Manager"
-        ],
-        "Senior Manager": [
-            " Inventory & SIOP"
-        ],
-        "Supply Chain": [
-            "Demand Planning"
-        ],
-        "Demand Planning": [
-            "Demand Forecasting"
-        ],
-        "Demand Forecasting": [
-            "Demand Planning Associate Manager"
-        ],
-        "Data Analytics": [
-            "Business Intelligence",
-            "Data Science"
-        ],
-        "Business Intelligence": [
-            "Data Visualization"
-        ],
-        "Data Visualization": [
-            "Data Analyst",
-            "Data Manager",
-            "Event Data Visualization"
-        ],
-        "Content Marketing": [
-            "Content Marketing Manager",
-            "Content Strategy"
-        ],
-        "Financial Services": [
-            "Back Office Operations"
-        ],
-        "Back Office Operations": [
-            "Third-Party Agent Operations"
-        ],
-        "Third-Party Agent Operations": [
-            "Loan Processing"
-        ],
-        "Loan Processing": [
-            "DSA Back Office"
-        ],
-        "Staffing & Recruiting": [
-            "IT Staffing"
-        ],
-        "IT Staffing": [
-            "Business Development"
-        ],
-        "Business Development": [
-            "US IT Staffing - BDM",
-            "Associate Business Development Manager"
-        ],
-        "Media & Advertising": [
-            "Advertising Account Management"
-        ],
-        "Advertising Account Management": [
-            "Accountmanager Media & Digital Advertising"
-        ],
-        "Heating": [
-            " Ventilation & Air Conditioning"
-        ],
-        " Ventilation & Air Conditioning": [
-            "Service & Maintenance"
-        ],
-        "Service & Maintenance": [
-            "HVAC Technician"
-        ],
-        "Supply Planning": [
-            "Senior Supply Planning Lead",
-            "Production Planning"
-        ],
-        "Software Testing": [
-            "Test Management"
-        ],
-        "Test Management": [
-            "Managed Services Testing"
-        ],
-        "Managed Services Testing": [
-            "Test Manager (AMS)",
-            "Central Testing Assistant Manager"
-        ],
-        "Retail Sales": [
-            "Point of Sale",
-            "Retail Operations"
-        ],
-        "Point of Sale": [
-            "Point of Sales Representative"
-        ],
-        "Promotions": [
-            "Promoter"
-        ],
-        "Accounts Receivable": [
-            "Accounts Receivable Associate"
-        ],
-        "Retail Operations": [
-            "Branch Manager",
-            "Territory Manager"
-        ],
-        "Social Media Marketing": [
-            "Community Management"
-        ],
-        "Community Management": [
-            "Social Media Handler",
-            "Virtual Assistant with Social Media & CSR Background"
-        ],
-        "Creator Marketing": [
-            "Creator Growth"
-        ],
-        "Creator Growth": [
-            "Creator Growth Associate",
-            "Client Associate"
-        ],
-        "Customer Service": [
-            "Contact Center"
-        ],
-        "Contact Center": [
-            "Customer Service Representative"
-        ],
-        "Hospitality": [
-            "Housekeeping"
-        ],
-        "Housekeeping": [
-            "Guest Room Cleaning"
-        ],
-        "Guest Room Cleaning": [
-            "Housekeeping Room Attendant"
-        ],
-        "Rotating Equipment": [
-            "Lubrication & Tribology"
-        ],
-        "Lubrication & Tribology": [
-            "Principal Engineer - Lubrication & Tribology"
-        ],
-        "Inside Sales": [
-            "Telesales"
-        ],
-        "Telesales": [
-            "Telesales Specialist",
-            "Business Development Manager",
-            "Business Development Executive",
-            "Business Development"
-        ],
-        "IT Infrastructure": [
-            "Senior Analyst",
+            "DevOps",
             "IT Operations",
-            "Information Security & Compliance",
-            "Networking"
+            "Software Development",
+            "Software Asset Management",
+            "Data Engineering",
+            "Data Analytics",
+            "IT Governance",
+            "Information Technology Management",
+            "Business Technology Solutions",
+            "Data Management",
+            "Technical Support",
+            "IT Infrastructure",
+            "IT Governance & Compliance",
+            "Data Science & Artificial Intelligence",
+            "Partner & Alliance Management",
+            "Cybersecurity",
+            "Business Process Management",
+            "Technical Training",
+            "IT Service Management",
+            "Product Management",
+            "Quality Assurance & Testing"
         ],
-        "Senior Analyst": [
-            " IT Infrastructure"
+        "DevOps": [
+            "Site Reliability Engineering",
+            "Backend Developer"
         ],
-        "Software Development": [
-            "Application Development",
-            "Software Architecture",
-            "Solution Architecture",
-            "Product Manager",
-            "Product Management"
-        ],
-        "Application Development": [
-            "Web Development"
-        ],
-        "Web Development": [
-            "Developer"
+        "Site Reliability Engineering": [
+            "DevOps Engineer",
+            "Network Reliability Engineering",
+            "Kubernetes",
+            "DevOps Engineer II",
+            "System Admin Server",
+            "AWS Cloud Engineer"
         ],
         "IT Operations": [
-            "Manager",
-            "Systems Administration"
+            "IT Service Management"
         ],
-        "Manager": [
-            " IT Operations"
+        "IT Service Management": [
+            "IT Operations Management at Kolkata",
+            "IT Process Governance Lead",
+            "Service Delivery"
         ],
-        "Production Planning": [
-            "Production Planner",
-            "Strategy and Operational Planning Supervisor"
+        "IT Operations Management at Kolkata": [
+            " West Bengal"
         ],
-        "Information Security & Compliance": [
-            "Governance",
-            "Security Operations"
+        "Finance": [
+            "Treasury Operations",
+            "Financial Management",
+            "Financial Analytics",
+            "Tax Accounting",
+            "Markets & Trading",
+            "Collections & Recovery",
+            "Accounting",
+            "Accounts Payable"
         ],
-        "Governance": [
-            " Risk & Compliance"
+        "Treasury Operations": [
+            "Payments & Settlements"
         ],
-        " Risk & Compliance": [
-            "IT Security and Compliance Manager"
+        "Payments & Settlements": [
+            "Cash and Trade Processing"
         ],
-        "Field Sales": [
-            "Field Sales Representative",
-            "Key Account Management",
-            "Team Lead - Field Sales"
+        "Cash and Trade Processing": [
+            "Cash and Trade Proc Analyst 1"
         ],
-        "Deal Desk": [
-            "Pricing & Quoting"
+        "Cybersecurity": [
+            "Vulnerability Management",
+            "Infrastructure Security"
         ],
-        "Pricing & Quoting": [
-            "Analyst - Deals Desk"
+        "Vulnerability Management": [
+            "Vulnerability Scanning"
+        ],
+        "Vulnerability Scanning": [
+            "Qualys"
+        ],
+        "Qualys": [
+            "Consultant & Qualys Administrator"
         ],
         "Healthcare": [
+            "Medical Affairs",
+            "Dentistry",
+            "Clinical Operations",
             "Nursing",
-            "Optometry",
-            "Clinical Research"
+            "Pharmacy",
+            "Healthcare Management",
+            "Occupational Therapy",
+            "Medicine",
+            "Behavioral Health",
+            "Medical Billing"
         ],
-        "Nursing": [
-            "Clinical Research Nursing",
-            "Obstetrics & Gynecology Nursing",
-            "Licensed Practical Nursing"
+        "Medical Affairs": [
+            "Physician Relations"
         ],
-        "Clinical Research Nursing": [
-            "Project Nurse II"
+        "Physician Relations": [
+            "Medical Director Affairs & Relations",
+            "Junior Assistant Medical Manager"
         ],
-        "Accounting": [
-            "General Accountant",
-            "Finance Operations"
+        "Management": [
+            "Project Management",
+            "Junior Executive",
+            "Services Management",
+            "Operations Management",
+            "Product Management",
+            "Strategy",
+            "Organizational Agility"
         ],
-        "Security Operations": [
-            "Security Operations Centre Analyst"
+        "Project Management": [
+            "Deputy Project Manager",
+            "Project Administration"
         ],
-        "Key Account Management": [
+        "Education": [
+            "English Language Teaching"
+        ],
+        "English Language Teaching": [
+            "English as a Second Language"
+        ],
+        "English as a Second Language": [
+            "K-12 Education"
+        ],
+        "K-12 Education": [
+            "English Teacher"
+        ],
+        "Software Development": [
+            "Artificial Intelligence",
+            "Mobile Development",
+            "Lead Software Engineer",
+            "Software Products",
+            "Technical Program Management",
+            "Web Development",
+            "Software Testing",
+            "Business Analysis",
+            "Platform Engineering",
+            "IT Service Management Software",
+            "Human Resources Information Systems",
+            "Software Architecture",
+            "Backend Development",
+            "Enterprise Content Management"
+        ],
+        "Artificial Intelligence": [
+            "Generative AI",
+            "Artificial Intelligence Research"
+        ],
+        "Generative AI": [
+            "Dot Net"
+        ],
+        "Dot Net": [
+            "Senior Generative AI Application Developer Dot NET"
+        ],
+        "Financial Management": [
+            "Financial Planning & Analysis",
+            "Investment Management"
+        ],
+        "Financial Planning & Analysis": [
+            "Director Finance",
+            "Commercial Finance",
+            "Financial Consultant"
+        ],
+        "Sales": [
+            "Channel Sales",
+            "Field Sales",
+            "Sales Strategy",
+            "Channel Management",
+            "Inside Sales"
+        ],
+        "Channel Sales": [
+            "Automotive Channel Sales",
+            "Regional Sales Business Manager",
+            "Channel Operations",
+            "Channel Business Development"
+        ],
+        "Automotive Channel Sales": [
+            "Two\u2011Wheeler Channel Sales"
+        ],
+        "Two\u2011Wheeler Channel Sales": [
+            "Channel Sales Manager - Two Wheeler/Automotive",
+            "Two-Wheeler Finance"
+        ],
+        "Mobile Development": [
+            "Android",
+            ".NET MAUI",
+            "Flutter"
+        ],
+        "Android": [
+            "Staff Software Engineer - Android",
+            "Software Engineer Android",
+            "Senior Software Development Engineer",
+            "Software Engineering Manager",
+            "Senior Software Engineer",
+            "Software Engineer",
+            "Software Development Lead"
+        ],
+        "Administrative & Office Support": [
+            "Executive Support"
+        ],
+        "Executive Support": [
+            "C-Suite Support",
+            "Personal Assistance"
+        ],
+        "C-Suite Support": [
+            "Global C\u2011Suite Support"
+        ],
+        "Global C\u2011Suite Support": [
+            "Senior Executive Assistant (Global C-Level Support)"
+        ],
+        "Human Resources": [
+            "HR Business Partnering",
+            "Recruitment",
+            "Learning & Development"
+        ],
+        "HR Business Partnering": [
+            "Head of HR Business Partners",
+            "HR Manager",
+            "HR Support",
+            "Head of Home",
+            "HR Monika",
+            "Manager HRBP",
+            "People Strategy"
+        ],
+        "Media & Entertainment": [
+            "Visual Effects"
+        ],
+        "Visual Effects": [
+            "VFX Production"
+        ],
+        "VFX Production": [
+            "VFX Production Coordination"
+        ],
+        "VFX Production Coordination": [
+            "VFX Coordinator"
+        ],
+        "Field Sales": [
+            "Territory Sales",
+            "Field Service Representative",
             "Major Account Manager"
         ],
-        "Pega": [
-            "Pega Senior Developer"
+        "Territory Sales": [
+            "Field Sales Manager",
+            "Regional Sales",
+            "Area Sales Manager",
+            "Head of Sales",
+            "Account Manager"
         ],
-        "Data Science & Artificial Intelligence": [
-            "Data Engineering"
+        "Banking & Financial Services": [
+            "Core Banking Systems",
+            "Retail Banking"
+        ],
+        "Core Banking Systems": [
+            "Payments Processing"
+        ],
+        "Payments Processing": [
+            "Avaloq"
+        ],
+        "Avaloq": [
+            "Avaloq Senior Developer (Accounting/Credit/Payments)",
+            "Avaloq Technical Consultant (Accounting/Credit/Payments)"
+        ],
+        "Software Asset Management": [
+            "Software Licensing"
+        ],
+        "Software Licensing": [
+            "License Compliance"
+        ],
+        "License Compliance": [
+            "Software Asset Management Specialist",
+            "Senior IT Procurement Analyst"
+        ],
+        "Manufacturing": [
+            "Quality Assurance",
+            "Maintenance Engineering",
+            "Plant Operations"
+        ],
+        "Quality Assurance": [
+            "In-Process Quality Assurance"
+        ],
+        "In-Process Quality Assurance": [
+            "In-Process Inspection"
+        ],
+        "In-Process Inspection": [
+            "IPQA Assistant Engineer",
+            "Commissioning & Qualification"
+        ],
+        "Financial Analytics": [
+            "Analytics Platform Administration",
+            "Cloud Cost Management",
+            "Forensic Accounting"
+        ],
+        "Analytics Platform Administration": [
+            "Finance Analytics Platform Administrator"
+        ],
+        "Cloud Cost Management": [
+            "FinOps"
+        ],
+        "FinOps": [
+            "Senior FinOps Analyst",
+            "Finance Analyst"
         ],
         "Data Engineering": [
-            "Cosmos DB"
+            "Data Platform Engineering",
+            "Data Visualization & Reporting"
         ],
-        "Cosmos DB": [
-            "AI & DATA-Cosmos DB Senior",
-            "Senior Data Engineer"
+        "Data Platform Engineering": [
+            "Data Pipeline Engineering"
         ],
-        "Human Resources Business Partnering": [
-            "HR Business Partner"
+        "Data Pipeline Engineering": [
+            "PDE Data Engineer II",
+            "ETL & Data Integration"
         ],
-        "Image Editing": [
-            "Photo Editing"
+        "Supply Chain": [
+            "Logistics"
         ],
-        "Photo Editing": [
-            "Photo Editor"
+        "Logistics": [
+            "Transportation Management"
         ],
-        "Search Engine Optimization": [
-            "Off-Page SEO"
+        "Transportation Management": [
+            "Logistics Manager",
+            "Shipping Operations"
         ],
-        "Off-Page SEO": [
-            "Link Building"
+        "Risk Management": [
+            "Technology Risk"
         ],
-        "Link Building": [
-            "Link Builder"
+        "Technology Risk": [
+            "IT Risk Assessment"
         ],
-        "Sales Operations": [
-            "CRM Administration"
+        "IT Risk Assessment": [
+            "Cybersecurity Risk"
         ],
-        "CRM Administration": [
-            "Sales Key User"
+        "Cybersecurity Risk": [
+            "Senior Consultant Technology Risk",
+            "Consultant Technology Risk",
+            "Senior Manager"
         ],
-        "Finance Operations": [
-            "Finance Operations Lead"
+        "Regional Sales": [
+            "Regional Sales Specialist",
+            "Solar Energy Sales",
+            "Merchandiser",
+            "Sales Specialist",
+            "Point of Sales Representative",
+            "BDE IT Sales",
+            "Relationship Management",
+            "Information Technology Sales"
+        ],
+        "Dentistry": [
+            "Oral and Maxillofacial Surgery"
+        ],
+        "Oral and Maxillofacial Surgery": [
+            "Dental Surgeon"
+        ],
+        "Commercial Finance": [
+            "Commercial Finance Manager",
+            "Senior Manager Finance"
+        ],
+        "Sustainability": [
+            "Corporate Sustainability",
+            "Climate Change"
+        ],
+        "Corporate Sustainability": [
+            "ESG Reporting & Disclosure"
+        ],
+        "ESG Reporting & Disclosure": [
+            "Carbon Accounting"
+        ],
+        "Carbon Accounting": [
+            "Sustainability Specialist",
+            "Sustainability Reporting Process Management"
+        ],
+        "Network Reliability Engineering": [
+            "Network Engineer",
+            "System Administrator",
+            "Senior Analyst",
+            "System Engineer",
+            "Site Reliability Engineer"
+        ],
+        "Business": [
+            "Business Analysis"
+        ],
+        "Business Analysis": [
+            "Requirements Analysis",
+            "Business Systems Analysis"
+        ],
+        "Requirements Analysis": [
+            "Business Analyst",
+            "Analyst"
+        ],
+        "Construction": [
+            "Heavy Equipment Operation",
+            "Elevator & Escalator Maintenance",
+            "Construction Safety"
+        ],
+        "Heavy Equipment Operation": [
+            "Crane Operation"
+        ],
+        "Crane Operation": [
+            "Crane Operator"
+        ],
+        "Tax Accounting": [
+            "Corporate Tax"
+        ],
+        "Corporate Tax": [
+            "Tax Group Manager",
+            "Accountant"
+        ],
+        "Procurement": [
+            "Education Procurement",
+            "AMEA Procurement Manager"
+        ],
+        "Education Procurement": [
+            "Procurement Expert Education Practice"
+        ],
+        "Recruitment": [
+            "Non-Technical Recruitment",
+            "Technical Recruitment"
+        ],
+        "Non-Technical Recruitment": [
+            "Non-IT Recruiter"
+        ],
+        "Data Analytics": [
+            "Business Analytics"
+        ],
+        "Business Analytics": [
+            "Business Intelligence"
+        ],
+        "Business Intelligence": [
+            "IT Business and Data Analyst"
+        ],
+        "Markets & Trading": [
+            "Options Trading"
+        ],
+        "Options Trading": [
+            "Product Management"
+        ],
+        "Product Management": [
+            "Senior Product Manager",
+            "Product Strategy",
+            "Artificial Intelligence Product Management"
+        ],
+        "Senior Product Manager": [
+            " Options Trading",
+            " AI CoPilot for Customer Support"
+        ],
+        "Marketing": [
+            "Marketing Operations",
+            "Digital Marketing",
+            "Performance Marketing"
+        ],
+        "Marketing Operations": [
+            "Marketing Automation"
+        ],
+        "Marketing Automation": [
+            "Campaign Management"
+        ],
+        "Campaign Management": [
+            "Marketing Operations Analyst",
+            "Marketing Specialist",
+            "Marketing",
+            "Marketing Operations Manager"
         ],
         "Administrative Support": [
-            "Remote Administration"
+            "Data Entry",
+            "Executive Support"
         ],
-        "Remote Administration": [
-            "Social Media Support"
+        "Data Entry": [
+            "Data Entry Operators",
+            "Data Entry Operator"
         ],
-        "Social Media Support": [
-            "Community Management"
+        "Software Products": [
+            "Software Solutions"
         ],
-        "Obstetrics & Gynecology Nursing": [
-            "Lecturer \u2013 OBG (MSc Nursing)"
+        "Clinical Operations": [
+            "Ambulatory Care Operations"
         ],
-        "Strategy": [
-            "Strategic Frameworks"
+        "Ambulatory Care Operations": [
+            "Clinic Administration"
         ],
-        "Strategic Frameworks": [
-            "Conceptual Framework Design"
+        "Clinic Administration": [
+            "Clinic Manager",
+            "Patient Service Representative"
         ],
-        "Conceptual Framework Design": [
-            "Thought Frameworks"
+        "Personal Assistance": [
+            "Personal Assistant"
+        ],
+        "Forensic Accounting": [
+            "Financial Crime Investigation"
+        ],
+        "Financial Crime Investigation": [
+            "Financial Crime Forensic Analyst"
+        ],
+        "Maintenance Engineering": [
+            "Maintenance Process Engineering"
+        ],
+        "Maintenance Process Engineering": [
+            "Maintenance Process Engineer"
+        ],
+        "Technical Recruitment": [
+            "Information Technology Recruitment"
+        ],
+        "Information Technology Recruitment": [
+            "IT Recruiter",
+            "US IT Recruiter",
+            "Candidate Matching",
+            "Talent Acquisition Manager",
+            "HR IT Recruiter"
+        ],
+        "IT Governance": [
+            "IT Process Governance",
+            "Data Governance"
+        ],
+        "IT Process Governance": [
+            "IT Service Management"
+        ],
+        "Technical Program Management": [
+            "Senior Technical Program Manager",
+            "IT Project Manager",
+            "Project Delivery"
+        ],
+        "Commissioning & Qualification": [
+            "Process Engineering"
+        ],
+        "Process Engineering": [
+            "Equipment Qualification"
+        ],
+        "Equipment Qualification": [
+            "Senior C&Q Process Engineer"
+        ],
+        "Project Administration": [
+            "Senior Project Assistant",
+            "Project Management Office"
+        ],
+        "Hospitality": [
+            "Housekeeping",
+            "Food & Beverage"
+        ],
+        "Housekeeping": [
+            "Guest Room Housekeeping"
+        ],
+        "Guest Room Housekeeping": [
+            "House Attendant"
+        ],
+        "Retail": [
+            "Grocery Retail"
+        ],
+        "Grocery Retail": [
+            "Retail Food Preparation"
+        ],
+        "Retail Food Preparation": [
+            "Commissary Operations"
+        ],
+        "Commissary Operations": [
+            "Commissary Associate"
+        ],
+        "Information Technology Management": [
+            "IT Head",
+            "IT Operations Management",
+            "Artificial Intelligence & Automation"
+        ],
+        "Web Development": [
+            "Full-Stack"
+        ],
+        "Full-Stack": [
+            "Web Engineering",
+            "Java",
+            "Python"
+        ],
+        "Business Technology Solutions": [
+            "Regulatory Compliance Technology"
+        ],
+        "Regulatory Compliance Technology": [
+            "Medical",
+            "Healthcare Regulatory Compliance Technology"
+        ],
+        "Medical": [
+            " Legal & Regulatory"
+        ],
+        " Legal & Regulatory": [
+            "Business Technology Solutions Associate Consultant MLR Coordinator"
+        ],
+        "Senior Analyst": [
+            " IT Service Operations"
+        ],
+        "Sales Strategy": [
+            "Sales Strategist Apprenticeship",
+            "Account Management"
+        ],
+        "Nursing": [
+            "Emergency Nursing",
+            "Project Nurse II"
+        ],
+        "Emergency Nursing": [
+            "Travel Nursing"
+        ],
+        "Travel Nursing": [
+            "Travel Registered Nurse ED"
+        ],
+        "Design": [
+            "Graphic Design",
+            "Product Design"
+        ],
+        "Graphic Design": [
+            "Visual Communication"
+        ],
+        "Visual Communication": [
+            "Brand Identity"
+        ],
+        "Brand Identity": [
+            "Creative Designer Intern",
+            "Multimedia Designer"
+        ],
+        "Food & Beverage": [
+            "Kitchen Operations",
+            "Food & Beverage Audit",
+            "Restaurant Operations"
+        ],
+        "Kitchen Operations": [
+            "Food Preparation"
+        ],
+        "Food Preparation": [
+            "Kitchen Crew (Bar & Bistro)",
+            "Grilling"
+        ],
+        "Data Management": [
+            "Data Governance"
+        ],
+        "Data Governance": [
+            "Data Stewardship",
+            "Data Governance Frameworks"
+        ],
+        "Data Stewardship": [
+            "Data Manager"
+        ],
+        "Solar Energy Sales": [
+            "Residential Solar Sales"
+        ],
+        "Residential Solar Sales": [
+            "Senior Solar Sales Specialist"
+        ],
+        "Technical Support": [
+            "Help Desk",
+            "Associate Network Engineer",
+            "Telecommunications Support"
+        ],
+        "Help Desk": [
+            "Desktop Support"
+        ],
+        "Desktop Support": [
+            "Technical Support Engineer",
+            "Senior IT Support Engineer",
+            "Desktop Support Engineer",
+            "Technical Operations Supervisor",
+            "Customer Solutions Engineering Team Leader",
+            "Technical Support",
+            "IT Service Desk Engineer II",
+            "IT service desk",
+            "Technical Support Engineer - Chennai"
+        ],
+        "Senior Manager": [
+            " Operational Resilience"
+        ],
+        "IT Infrastructure": [
+            "Data Center Design",
+            "Systems Administration"
+        ],
+        "Data Center Design": [
+            "Data Center Architecture"
+        ],
+        "Data Center Architecture": [
+            "Senior Data Center Design Manager",
+            "Systems Administrator Senior"
+        ],
+        "Legal Services": [
+            "Private Practice Law"
+        ],
+        "Private Practice Law": [
+            "Legal Associates",
+            "Legal Support Services"
+        ],
+        "ETL & Data Integration": [
+            "Data Engineer",
+            "Cosmos DB",
+            "Senior Data Engineer Remote",
+            "Lead Data Engineer",
+            "Senior Data Engineer"
+        ],
+        "HR Support": [
+            "HR Administration"
+        ],
+        "HR Administration": [
+            "HR/Admin Assistant"
+        ],
+        "Shipping Operations": [
+            "Shipping Specialist"
+        ],
+        "Sustainability Reporting Process Management": [
+            "Process Delivery Manager - Sustainability Reporting"
         ],
         "Insurance": [
-            "Health Insurance"
+            "Underwriting"
         ],
-        "Securities Operations": [
-            "Corporate Actions"
+        "Underwriting": [
+            "Underwriting Support"
         ],
-        "Corporate Actions": [
-            "Corporate Actions Execution"
+        "Underwriting Support": [
+            "Sales & Underwriting Support Associate",
+            "Insurance Admin Assistant"
         ],
-        "Corporate Actions Execution": [
-            "Corporate Actions Execution Manager - Assistant Vice President"
+        "IT Governance & Compliance": [
+            "IT Audit"
         ],
-        "Licensed Practical Nursing": [
-            "LPN Charge Nurse"
+        "Pharmacy": [
+            "Medication Dispensing",
+            "Pharmacy Education"
         ],
-        "Systems Administration": [
-            "IT System Administrator",
-            "Service Desk",
-            "Linux Administrator",
-            "IT Service"
+        "Medication Dispensing": [
+            "Community Pharmacy"
         ],
-        "Entrepreneurship": [
-            "Startup Mentoring"
+        "Community Pharmacy": [
+            "Pharmacy Technician I"
         ],
-        "Startup Mentoring": [
-            "Venture Coaching"
+        "Engineering": [
+            "Building Science",
+            "Senior Engineer II",
+            "Lead Engineer",
+            "Building Services Engineering",
+            "Electrical & Instrumentation",
+            "Engineering Management",
+            "Mechanical Engineering",
+            "Research & Development"
         ],
-        "Venture Coaching": [
-            "Venture Coach"
+        "Building Science": [
+            "Building Performance Simulation"
+        ],
+        "Building Performance Simulation": [
+            "Building Energy Simulation"
+        ],
+        "Building Energy Simulation": [
+            "Senior Associate - Building Energy Simulation"
+        ],
+        "Data Science & Artificial Intelligence": [
+            "Artificial Intelligence",
+            "Data Science"
+        ],
+        "Artificial Intelligence Research": [
+            "AI Scientist"
+        ],
+        ".NET MAUI": [
+            ".NET MAUI Developer"
+        ],
+        "Collections & Recovery": [
+            "Team Leader | Collections & Recovery"
+        ],
+        "Software Testing": [
+            "Test Automation"
+        ],
+        "Test Automation": [
+            "Senior Engineer Software Testing",
+            "Salesforce"
+        ],
+        "Partner & Alliance Management": [
+            "Partner Programs"
+        ],
+        "Partner Programs": [
+            "Microsoft"
+        ],
+        "Microsoft": [
+            "Microsoft Alliance Operations Specialist Partner Programs Associate Director"
+        ],
+        "Healthcare Management": [
+            "Healthcare Management Consulting"
+        ],
+        "Healthcare Management Consulting": [
+            "Consulting Operations"
+        ],
+        "Consulting Operations": [
+            "Operations for Healthcare Management Consultancy"
+        ],
+        "Legal Support Services": [
+            "Litigation Support"
+        ],
+        "Litigation Support": [
+            "Legal Executive"
+        ],
+        "Project Management Office": [
+            "Associate Executive",
+            "Project Manager"
+        ],
+        "Associate Executive": [
+            " Project Management Office"
+        ],
+        "Arts": [
+            " Design & Media",
+            "Visual Arts"
+        ],
+        " Design & Media": [
+            "Photography"
+        ],
+        "Photography": [
+            "Hospitality Photography"
+        ],
+        "Hospitality Photography": [
+            "Hotel Interiors Photography"
+        ],
+        "Hotel Interiors Photography": [
+            "Hotel photographer"
+        ],
+        "Customer Service": [
+            "Contact Center Quality Assurance",
+            "Customer Care Specialist",
+            "Contact Center",
+            "Call Center Agent",
+            "Service Center Operations"
+        ],
+        "Contact Center Quality Assurance": [
+            "Omnichannel Quality Assurance"
+        ],
+        "Omnichannel Quality Assurance": [
+            "Quality Analyst Call Centre & Chat"
+        ],
+        "Research": [
+            "Academic Research"
+        ],
+        "Academic Research": [
+            "Junior Research Fellow"
+        ],
+        "Accounting": [
+            "Accounts Payable"
+        ],
+        "Accounts Payable": [
+            "Accountant AP",
+            "Accounts Payable Staff 1",
+            "Financial Controller"
+        ],
+        "Services Management": [
+            "Service Delivery"
+        ],
+        "Service Delivery": [
+            "National Service Delivery",
+            "Service Level Management"
+        ],
+        "National Service Delivery": [
+            "India Service Head"
+        ],
+        "Occupational Therapy": [
+            "Home Health"
+        ],
+        "Home Health": [
+            "Home Health Occupational Therapist"
+        ],
+        "Operations Management": [
+            "People Operations",
+            "Assistant Manager - Operations",
+            "Decision Management"
+        ],
+        "People Operations": [
+            "Operations & People Manager",
+            "Business Officer"
+        ],
+        "Kubernetes": [
+            "Senior Kubernetes with Java Full Stack Developer"
+        ],
+        "Project Delivery": [
+            "Junior Technical Project Manager"
+        ],
+        "Product Strategy": [
+            "Senior Product Manager",
+            "Enterprise Product Strategy"
+        ],
+        "Cosmos DB": [
+            "AI & DATA-Cosmos DB Senior"
+        ],
+        "Food & Beverage Audit": [
+            "Service Quality Audit"
+        ],
+        "Service Quality Audit": [
+            "F&B Service Audit Executive"
+        ],
+        "Digital Marketing": [
+            "Search Engine Optimization"
+        ],
+        "Search Engine Optimization": [
+            "Technical SEO",
+            "Content Specialist",
+            "Content Optimization"
+        ],
+        "Technical SEO": [
+            "SEO Specialist"
+        ],
+        "Business Systems Analysis": [
+            "IT Business Analyst",
+            "Senior System Analyst",
+            "Administrative Systems Analysis"
+        ],
+        "Plant Operations": [
+            "Head Operations (Plant Head)"
+        ],
+        "IT Operations Management": [
+            "Head of IT Department",
+            "Junior IT Executive"
+        ],
+        "Life Sciences": [
+            "Laboratory Equipment Maintenance",
+            "Bioinformatics"
+        ],
+        "Laboratory Equipment Maintenance": [
+            "Equipment Calibration & Repair"
+        ],
+        "Equipment Calibration & Repair": [
+            "Analytical Instrumentation Calibration & Service"
+        ],
+        "Analytical Instrumentation Calibration & Service": [
+            "Multi Skill Technicians (Domain Lab Equipment)",
+            "Application Lab Specialist"
+        ],
+        "Enterprise Product Strategy": [
+            "Enterprise Product Head",
+            "Senior Product Manager",
+            "Senior Consultant",
+            "Product Manager"
+        ],
+        "Channel Operations": [
+            "Sales Coordination"
+        ],
+        "Sales Coordination": [
+            "Junior Sales Coordinator"
+        ],
+        "Flutter": [
+            "Flutter Developer"
+        ],
+        "Candidate Matching": [
+            "HR matchmaker",
+            "The Hiring Master"
+        ],
+        "Elevator & Escalator Maintenance": [
+            "Lift Maintenance"
+        ],
+        "Lift Maintenance": [
+            "Repair & Maintenance"
+        ],
+        "Repair & Maintenance": [
+            "Lift Technician (Repair & Maintenance)"
+        ],
+        "Visual Arts": [
+            "Painting"
+        ],
+        "Painting": [
+            "Painter"
+        ],
+        "Strategy": [
+            "Strategic Planning"
+        ],
+        "Strategic Planning": [
+            "Director",
+            "Strategic Advisory"
+        ],
+        "Director": [
+            " Strategy Office"
+        ],
+        "Channel Business Development": [
+            "Senior Executive Business Development",
+            "Business Development Executive"
+        ],
+        "Building Services Engineering": [
+            "Mechanical"
+        ],
+        "Mechanical": [
+            " Electrical & Plumbing"
+        ],
+        " Electrical & Plumbing": [
+            "Building Information Modeling"
+        ],
+        "Building Information Modeling": [
+            "MEP BIM Coordination"
+        ],
+        "MEP BIM Coordination": [
+            "MEP BIM Leader"
+        ],
+        "Restaurant Operations": [
+            "Restaurant Manager"
+        ],
+        "Electrical & Instrumentation": [
+            "Instrumentation & Control"
+        ],
+        "Instrumentation & Control": [
+            "Distributed Control Systems"
+        ],
+        "Distributed Control Systems": [
+            "Programmable Logic Controllers"
+        ],
+        "Programmable Logic Controllers": [
+            "Electrical and Instrumentation Project Engineer (E&I I EPC I DCS I PLC)",
+            "Lead Engineer Electrical"
+        ],
+        "Platform Engineering": [
+            "API Engineering"
+        ],
+        "API Engineering": [
+            "Product Lead & Platform & API Experience"
+        ],
+        "Medicine": [
+            "Surgery"
+        ],
+        "Surgery": [
+            "General Surgery"
+        ],
+        "General Surgery": [
+            "Professor General Surgery"
+        ],
+        "Engineering Management": [
+            "Engineering Team Lead"
+        ],
+        "Retail Banking": [
+            "Account Management"
+        ],
+        "Account Management": [
+            "Personal Banking",
+            "Account Strategy"
+        ],
+        "Personal Banking": [
+            "Account Officer"
+        ],
+        "Construction Safety": [
+            "Project Safety Management"
+        ],
+        "Project Safety Management": [
+            "Project Safety Manager"
+        ],
+        "Java": [
+            "Senior Engineer II Full Stack Java",
+            "Full-Stack developer (Back-End) and Multi-Tenant Systems"
         ],
         "Data Science": [
             "Machine Learning"
         ],
         "Machine Learning": [
-            "MLOps"
+            "Deep Learning"
         ],
-        "MLOps": [
-            "Senior Developer (Data Science / Full Stack)"
+        "Deep Learning": [
+            "Data Scientist",
+            "PhD Fellowship in Applied Deep Learning for Image Analysis"
         ],
-        "Event Data Visualization": [
-            "Senior & Principal Specialist"
+        "Systems Administration": [
+            "Server Administration",
+            "Senior Manager Database Administrator"
         ],
-        "Senior & Principal Specialist": [
-            " Job & Event System & Data Intel"
+        "Server Administration": [
+            "Senior Professional System Administrator",
+            "Senior Manager - Systems Administrator",
+            "IT Technology Services Senior Specialist"
         ],
-        "Software Architecture": [
-            "Application Architecture"
+        "Healthcare Regulatory Compliance Technology": [
+            "Business Technology Solutions Associate Consultant",
+            "Application Consulting"
         ],
-        "Application Architecture": [
-            "Staff Software Engineer",
-            "Software Development Engineer",
-            "Web Application Architecture",
-            "Backend Architecture"
+        "Bioinformatics": [
+            "Computational Metabolomics",
+            "Biomedical Image Analysis"
         ],
-        "Content Strategy": [
-            "Senior Director Marketing"
+        "Computational Metabolomics": [
+            "Machine Learning for Metabolomics"
         ],
-        "Conversational AI": [
-            "Conversational Operations"
+        "Machine Learning for Metabolomics": [
+            "PhD in Machine Learning & Metabolomics"
         ],
-        "Conversational Operations": [
-            "Conversational Process Design"
+        "Mechanical Engineering": [
+            "Process Piping",
+            "Turbomachinery",
+            "Non-Destructive Testing"
         ],
-        "Conversational Process Design": [
-            "CHAT Process Professional"
+        "Process Piping": [
+            "Hookup Engineering"
         ],
-        "Banking": [
-            "SME Banking"
+        "Hookup Engineering": [
+            "Mechanical & Process Hook Up Engineer",
+            "Process Piping Quality Assurance"
         ],
-        "SME Banking": [
-            "SME Relationship Management"
+        "IT Service Management Software": [
+            "Service Desk Management Software"
         ],
-        "SME Relationship Management": [
-            "Director & Team Leader - Relationship Manager - SME ME"
+        "Service Desk Management Software": [
+            "Service Desk Management Software Development Engineer"
         ],
-        "Financial Crime": [
-            "Forensic Investigation"
+        "Grilling": [
+            "Kebab Master"
         ],
-        "Forensic Investigation": [
-            "Financial Crime Forensic Analyst"
+        "Process Piping Quality Assurance": [
+            "Assistant Quality Engineer",
+            "Failure Analysis"
         ],
-        "Optometry": [
-            "Casual Optometrist"
+        "Telecommunications Support": [
+            "Fiber Optics"
         ],
-        "Architecture & Construction": [
+        "Fiber Optics": [
+            "Fibre Technician"
+        ],
+        "Government & Public Administration": [
+            "Public Sector Information Technology"
+        ],
+        "Public Sector Information Technology": [
+            "Information Security"
+        ],
+        "Information Security": [
+            "Information Security Management"
+        ],
+        "Information Security Management": [
+            "CISO Govt Jobs"
+        ],
+        "Contact Center": [
+            "Outbound Calling"
+        ],
+        "Outbound Calling": [
+            "Lead Generation"
+        ],
+        "Lead Generation": [
+            "Sr Web Callers"
+        ],
+        "Application Consulting": [
+            "Implementation and Deployment"
+        ],
+        "Implementation and Deployment": [
+            "Project Implementation"
+        ],
+        "Project Implementation": [
+            "Associate Application Consultant (Project)"
+        ],
+        "Artificial Intelligence & Automation": [
+            "Intelligent Automation"
+        ],
+        "Intelligent Automation": [
+            "Senior Manager - AI and Automation"
+        ],
+        "Channel Management": [
+            "Partner Management"
+        ],
+        "Partner Management": [
+            "Reseller Management"
+        ],
+        "Reseller Management": [
+            "Channel Manager (UAE)"
+        ],
+        "People Strategy": [
+            "Executive HR"
+        ],
+        "Infrastructure Security": [
+            "IT Infrastructure Security Engineer"
+        ],
+        "Business Process Management": [
+            "Decision Management"
+        ],
+        "Decision Management": [
+            "Pega Customer Decision Hub",
+            "Decision Services"
+        ],
+        "Pega Customer Decision Hub": [
+            "Pega CDH Architect"
+        ],
+        "Inside Sales": [
+            "Telesales"
+        ],
+        "Telesales": [
+            "Customer Service & TeleSales",
+            "Sales Assistant",
+            "IT Telesales"
+        ],
+        "Investment Management": [
+            "Portfolio Management"
+        ],
+        "Portfolio Management": [
+            "Portfolio Manager"
+        ],
+        "Architecture & Design": [
+            "Technical Documentation"
+        ],
+        "Technical Documentation": [
             "Construction Documentation"
         ],
         "Construction Documentation": [
-            "Technical Communication"
-        ],
-        "Technical Communication": [
             "Technical Writer - Construction and Architecture"
         ],
-        "Networking": [
-            "Routing & Switching"
+        "Environmental Science": [
+            "Sustainability"
         ],
-        "Routing & Switching": [
-            "Network Engineer",
-            "Network Engineer Ahmedabad"
+        "Climate Change": [
+            "Climate Change Mitigation"
         ],
-        "Web Application Architecture": [
-            "Full-Stack"
+        "Climate Change Mitigation": [
+            "Climate Change and Sustainability"
         ],
-        "Full-Stack": [
-            "Full Stack Developer"
+        "Organizational Agility": [
+            "Agile Coaching"
         ],
-        "IT Asset Management": [
-            "Technology Refresh"
+        "Agile Coaching": [
+            "Agility Lead"
         ],
-        "Technology Refresh": [
-            "End-User Devices"
+        "Technical Training": [
+            "End-User Training"
         ],
-        "End-User Devices": [
-            "Tech Refresh Equipment Specialist"
+        "End-User Training": [
+            "Software Application Training"
         ],
-        "Solution Architecture": [
-            "Java"
+        "Software Application Training": [
+            "IT Trainer"
         ],
-        "Java": [
-            "AVP Solution Architect Java"
+        "Research & Development": [
+            "Research Engineering"
         ],
-        "Recruitment Analytics": [
-            "Senior Analyst & Talent Acquisition"
+        "Research Engineering": [
+            "Research Engineer"
         ],
-        "Backend Architecture": [
-            "Distributed Systems"
+        "Performance Marketing": [
+            "Paid Media"
         ],
-        "Distributed Systems": [
-            "Backend Engineering Manager",
-            "Microservices Architecture"
+        "Paid Media": [
+            "Paid Search"
         ],
-        "Clinical Research": [
-            "Clinical Trials Operations"
+        "Paid Search": [
+            "Senior Performance Marketing Manager"
         ],
-        "Clinical Trials Operations": [
-            "Clinical Study Management"
+        "Behavioral Health": [
+            "Applied Behavior Analysis"
         ],
-        "Clinical Study Management": [
-            "Clinical Research Manager"
+        "Applied Behavior Analysis": [
+            "Autism Spectrum Disorder"
         ],
-        "Design": [
-            "Interior Design"
+        "Autism Spectrum Disorder": [
+            "Behavior Technician"
         ],
-        "Interior Design": [
-            "Residential Interior Design"
-        ],
-        "Residential Interior Design": [
-            "Interior Designer"
+        "Content Optimization": [
+            "Content Assistant"
         ],
         "Learning & Development": [
-            "Learning Delivery"
+            "Training Operations"
         ],
-        "Learning Delivery": [
-            "Instructor-Led Training"
+        "Training Operations": [
+            "Training Coordinator"
         ],
-        "Instructor-Led Training": [
-            "Learning and Development Associate"
+        "Service Level Management": [
+            "IT Service Manager",
+            "Registration & Compliance"
         ],
-        "Service Desk": [
-            "IT Service Desk Analyst"
+        "Medical Billing": [
+            "Pathology Billing"
         ],
-        "Quality Services": [
-            "Associate"
+        "Pathology Billing": [
+            "Patient Billing"
         ],
-        "Associate": [
-            " Quality Services"
+        "Patient Billing": [
+            "Pathology Patient Biller"
         ],
-        "Hardware Development": [
-            "System on Chip Design"
+        "Turbomachinery": [
+            "Steam Turbine Development"
         ],
-        "System on Chip Design": [
-            "SoC Design Engineer"
+        "Steam Turbine Development": [
+            "Product Manager Steam Turbine Development"
         ],
-        "Permitting & Regulatory Approvals": [
-            "Permitting Engineer"
+        "Human Resources Information Systems": [
+            "Workday"
         ],
-        "Microservices Architecture": [
-            "Senior Software Engineer",
-            "Associate Director"
+        "Workday": [
+            "Staff SW Engineer in Workday core HCM applications"
         ],
-        "Network Engineer Ahmedabad": [
-            " Gujarat"
+        "Staff SW Engineer in Workday core HCM applications": [
+            " PECI and PICOF"
         ],
-        "Product Management": [
-            "Associate Product Manager"
+        "Strategic Advisory": [
+            "Head of Advisory"
         ],
-        "Associate Director": [
-            " Software Engineering Specialist"
+        "Account Strategy": [
+            "Account Strategist"
+        ],
+        "Python": [
+            "Senior Python Fullstack Developer"
+        ],
+        "Software Architecture": [
+            "Solution Architecture"
+        ],
+        "Solution Architecture": [
+            "Senior Solution Architect"
+        ],
+        "Two-Wheeler Finance": [
+            "Customer Sales Executive - Two Wheeler Loans"
+        ],
+        "Biomedical Image Analysis": [
+            "Deep Learning"
+        ],
+        "Relationship Management": [
+            "Relationship Manager - Retail Sales"
+        ],
+        "Registration & Compliance": [
+            "ACES Manager & Program Manager"
+        ],
+        "ACES Manager & Program Manager": [
+            " Registration and Compliance"
+        ],
+        "Failure Analysis": [
+            "Materials Failure Analysis"
+        ],
+        "Materials Failure Analysis": [
+            "Failure Analysis Engineer"
+        ],
+        "Backend Development": [
+            "Backend Engineering Management",
+            "Senior Backend Engineer"
+        ],
+        "Backend Engineering Management": [
+            "Backend Engineering Manager"
+        ],
+        "Artificial Intelligence Product Management": [
+            "Conversational AI"
+        ],
+        "Conversational AI": [
+            "Customer Support Automation"
+        ],
+        "Customer Support Automation": [
+            "Large Language Models"
+        ],
+        "Large Language Models": [
+            "AI Assistants"
+        ],
+        "AI Assistants": [
+            "Senior Product Manager"
+        ],
+        "Product Design": [
+            "Web3 Product Design"
+        ],
+        "Web3 Product Design": [
+            "Senior Product Designer"
+        ],
+        "Senior Product Designer": [
+            " Web3"
+        ],
+        "Data Visualization & Reporting": [
+            "Engineer II"
+        ],
+        "Engineer II": [
+            " Visualization & Reporting"
+        ],
+        "Pharmacy Education": [
+            "Principal"
+        ],
+        "Principal": [
+            " Professor / Lecturer (D Pharm.)"
+        ],
+        "Information Technology Sales": [
+            "IT Sales Executive"
+        ],
+        "Data Governance Frameworks": [
+            "Data Governance Foundation Lead Analyst"
+        ],
+        "Service Center Operations": [
+            "Service Center Manager"
+        ],
+        "Administrative Systems Analysis": [
+            "Admin Analyst"
+        ],
+        "Enterprise Content Management": [
+            "Content Management Systems"
+        ],
+        "Content Management Systems": [
+            "ECM Developer"
+        ],
+        "IT Telesales": [
+            "IT Sales Executive"
+        ],
+        "Quality Assurance & Testing": [
+            "Test Automation"
+        ],
+        "Salesforce": [
+            "QA Automation (Salesforce)"
+        ],
+        "Non-Destructive Testing": [
+            "Technician - NDT"
+        ],
+        "Technical Support Engineer - Chennai": [
+            " Tamil Nadu"
         ]
     },
     "source_nodes": [
-        "Banking",
-        "Architecture & Construction",
-        "Staffing & Recruiting",
+        "Cybersecurity",
+        "Manufacturing",
+        "Management",
         "Supply Chain",
         "Insurance",
+        "Legal Services",
+        "Business",
+        "Sustainability",
         "Information Technology",
         "Marketing",
-        "Aerospace",
-        "Financial Services",
-        "Supply Chain Management",
+        "Media & Entertainment",
+        "Arts",
+        "Administrative & Office Support",
+        "Engineering",
         "Healthcare",
         "Hospitality",
-        "Quality Assurance",
-        "Entrepreneurship",
-        "Strategy",
+        "Research",
+        "Education",
+        "Retail",
+        "Procurement",
+        "Construction",
         "Finance",
         "Sales",
         "Customer Service",
         "Design",
         "Administrative Support",
+        "Environmental Science",
+        "Banking & Financial Services",
         "Human Resources",
-        "Energy & Utilities"
+        "Life Sciences",
+        "Architecture & Design",
+        "Government & Public Administration",
+        "Risk Management"
     ]
 }
