@@ -20,12 +20,14 @@
             right: 0;
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
-            padding: 10px 20px;
+            padding: 8px 15px;
             box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
             z-index: 1000;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            height: 50px;
+            box-sizing: border-box;
         }
 
         .header h1 {
@@ -246,12 +248,16 @@
             opacity: 0.3;
         }
 
-        /* Level-based text sizes for visual hierarchy */
+        /* Level-based text sizes for visual hierarchy - supports 20+ levels */
         .label-level-0 { font-size: 14px; font-weight: 700; }
         .label-level-1 { font-size: 13px; font-weight: 700; }
         .label-level-2 { font-size: 12px; font-weight: 600; }
         .label-level-3 { font-size: 11px; font-weight: 500; }
-        .label-level-4, .label-level-5 { font-size: 10px; font-weight: 500; }
+        .label-level-4, .label-level-5, .label-level-6 { font-size: 10px; font-weight: 500; }
+        .label-level-7, .label-level-8, .label-level-9 { font-size: 9px; font-weight: 500; }
+        .label-level-10, .label-level-11, .label-level-12 { font-size: 9px; font-weight: 400; }
+        .label-level-13, .label-level-14, .label-level-15 { font-size: 8px; font-weight: 400; }
+        .label-level-16, .label-level-17, .label-level-18, .label-level-19, .label-level-20 { font-size: 8px; font-weight: 400; }
 
         /* Group nodes get a dashed outline */
         .group-node rect {
@@ -297,6 +303,7 @@
             </div>
             <div class="info">Click nodes to expand/collapse • Drag to pan • Scroll to zoom</div>
             <button class="control-btn" onclick="resetZoom()">Reset View</button>
+            <button class="control-btn" onclick="fitToView()">Fit to View</button>
             <button class="control-btn" onclick="expandAll()">Expand All</button>
             <button class="control-btn" onclick="collapseAll()">Collapse All</button>
         </div>
@@ -337,8 +344,14 @@
         const GROUP_BUCKET_MAX = 25;       // Target max items per group bucket
         const NODE_H_SPACING = 380;        // Horizontal spacing per semantic level (wider)
         const NODE_V_SPACING = 50;         // Vertical spacing between nodes (slightly taller)
-        const MARGIN = { top: 80, right: 140, bottom: 80, left: 220 };
-        const LEVEL_NAMES = ['Job Taxonomy', 'Job Families', 'Job Functions', 'Roles', 'Specializations'];
+        const MARGIN = { top: 60, right: 80, bottom: 40, left: 100 };
+        const LEVEL_NAMES = [
+            'Job Taxonomy', 'Job Families', 'Job Functions', 'Roles', 'Specializations',
+            'Level 5', 'Level 6', 'Level 7', 'Level 8', 'Level 9',
+            'Level 10', 'Level 11', 'Level 12', 'Level 13', 'Level 14',
+            'Level 15', 'Level 16', 'Level 17', 'Level 18', 'Level 19',
+            'Level 20'
+        ];
         const ANIM_DURATION = 700;
         const ANIM_EASE = d3.easeCubicOut;
         let nodePositions = new Map();     // Persist node positions for smooth re-layout
@@ -551,17 +564,21 @@
             if (!currentRoot) return;
 
             const width = window.innerWidth;
-            const height = window.innerHeight - 45;
+            const height = window.innerHeight - 50;  // Subtract header height (50px)
 
             svg = d3.select('body')
                 .append('svg')
                 .attr('width', width)
                 .attr('height', height)
-                .style('background', 'transparent');
+                .style('background', 'transparent')
+                .style('position', 'fixed')
+                .style('top', '50px')
+                .style('left', '0')
+                .style('display', 'block');
 
-            // Create zoom behavior
+            // Create zoom behavior with extreme zoom range for very large graphs
             zoom = d3.zoom()
-                .scaleExtent([0.2, 3])
+                .scaleExtent([0.001, 10])  // Allow zooming out to 0.1% and in to 1000%
                 .on('zoom', (event) => {
                     g.attr('transform', event.transform);
                 });
@@ -583,7 +600,7 @@
             window.addEventListener('resize', () => {
                 if (svg) {
                     const newWidth = window.innerWidth;
-                    const newHeight = window.innerHeight - 45;
+                    const newHeight = window.innerHeight - 50;  // Subtract header height (50px)
                     svg.attr('width', newWidth).attr('height', newHeight);
                     updateVisualization();
                 }
@@ -788,7 +805,14 @@
         // Get node color based on level
         function getNodeColor(d) {
             const sem = Math.floor(d.data.semanticLevel || 0);
-            const palette = ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#43e97b', '#fa7090', '#fee140'];
+            // Extended palette to support 20+ levels with distinct, visually appealing colors
+            const palette = [
+                '#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', 
+                '#43e97b', '#fa7090', '#fee140', '#30cfd0', '#c471ed',
+                '#f64f59', '#12c2e9', '#f857a6', '#ff6a00', '#ee0979',
+                '#56ab2f', '#a8edea', '#fed6e3', '#667db6', '#0082c8',
+                '#cc2b5e'  // Fallback for 20+
+            ];
             const base = palette[Math.min(sem, palette.length - 1)];
             // Slightly lighten group nodes
             if (d.data.isGroup) return d3.color(base).brighter(0.8).formatHex();
@@ -875,6 +899,49 @@
                     zoom.transform,
                     d3.zoomIdentity.translate(MARGIN.left, MARGIN.top)
                 );
+            }
+        }
+
+        function fitToView() {
+            if (!svg || !zoom || !g) return;
+            
+            // Get the bounding box of all nodes
+            try {
+                const bounds = g.node().getBBox();
+                const parent = svg.node().getBoundingClientRect();
+                
+                const fullWidth = bounds.width;
+                const fullHeight = bounds.height;
+                const midX = bounds.x + fullWidth / 2;
+                const midY = bounds.y + fullHeight / 2;
+                
+                // Calculate scale to fit with more padding (0.9 = 90% of viewport)
+                // This ensures the entire graph is visible with comfortable margins
+                const scale = 0.9 / Math.max(fullWidth / parent.width, fullHeight / parent.height);
+                
+                // Ensure we don't exceed zoom limits
+                const constrainedScale = Math.max(0.001, Math.min(10, scale));
+                
+                // Calculate translation to center
+                const translate = [
+                    parent.width / 2 - constrainedScale * midX,
+                    parent.height / 2 - constrainedScale * midY
+                ];
+                
+                console.log('Fit to view:', { 
+                    bounds: { width: fullWidth, height: fullHeight },
+                    viewport: { width: parent.width, height: parent.height },
+                    scale: constrainedScale 
+                });
+                
+                svg.transition().duration(750).call(
+                    zoom.transform,
+                    d3.zoomIdentity.translate(translate[0], translate[1]).scale(constrainedScale)
+                );
+            } catch (e) {
+                console.warn('Could not fit to view:', e);
+                // Fallback to reset zoom
+                resetZoom();
             }
         }
 
