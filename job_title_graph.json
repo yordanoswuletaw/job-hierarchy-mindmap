@@ -1,1976 +1,1245 @@
 {
     "adjacency_list": {
-        "Information Technology": [
-            "Software Development",
-            "Product Management",
-            "Enterprise Architecture",
-            "Hardware Infrastructure",
-            "Enterprise Software",
-            "Data Engineering",
-            "Finance Technology",
-            "Network Engineering",
-            "IT Strategy & Transformation",
-            "Customer Service",
-            "Business Intelligence",
-            "Enterprise Resource Planning",
-            "Cybersecurity",
-            "Network Security",
-            "Technical Training",
-            "Data Science & AI",
-            "System Administration",
-            "ROLE: IT Plant",
-            "ROLE: ICT"
-        ],
-        "Software Development": [
-            "Application Development",
-            "ROLE: IT Developer",
-            "ROLE: Backend Engineering Manager",
-            "Data Engineering",
-            "ROLE: Staff Software Engineer",
-            "ROLE: Software Engineering Manager",
-            "Developer Support",
-            "ROLE: Software Engineer II (Chat Platform)",
-            "Enterprise Software",
-            "ROLE: Software Development Senior Analyst",
-            "Artificial Intelligence",
-            "Customer Success Engineering",
-            "ROLE: Full Stack Engineer (Studio Accounting Administration System)",
-            "ROLE: Software Test Engineer",
-            "ROLE: Front End Developer",
-            "ROLE: Senior Software Engineer - TCMS",
-            "ROLE: Senior Compute System Software Engineer",
-            "ROLE: Staff Software Engineer - C++, Linux, Network Security",
-            "Data Science & AI",
-            "Full Stack Development",
-            "Mobile Development",
-            "ROLE: Software Engineer II Data Integration",
-            "ROLE: IT Senior Core Java Developer",
-            "ROLE: Manager Software Development",
-            "ROLE: Principal Software Engineer",
-            "Quality Assurance",
-            "ROLE: Senior Tech Lead - Java",
-            "API Integration",
-            "ROLE: Senior Developer",
-            "ROLE: Software Engineer III",
-            "ROLE: Staff Software Engineer - C#.Net",
-            "ROLE: Software Developer Backend",
-            "ROLE: Senior Developer (Data Science / Full Stack)",
-            "ROLE: Senior Software Engineer",
-            "ROLE: Software Development Engineer II, Alexa Endpoint Experiences",
-            "ROLE: Software Engineer",
-            "ROLE: Lead Software Engineer",
-            "ROLE: Tech Lead",
-            "Robotic Process Automation",
-            "ROLE: Lead Software Engineer - Windows Applications",
-            "ROLE: Senior Staff Software Engineer",
-            "ROLE: Infrastructure Developer",
-            "ROLE: Software Engineer Senior",
-            "ROLE: Software Engineer II",
-            "Automation Engineering",
-            "ROLE: Software Engineer 3",
-            "ROLE: Senior Software Engineer I",
-            "ROLE: Senior Unity Developer",
-            "ROLE: Web Developer",
-            "ROLE: Full Stack .NET Developer (C# / TypeScript)",
-            "ROLE: Mobile Engineering Manager",
-            "ROLE: Senior Program Developer",
-            "ROLE: Senior Java Software Engineer",
-            "ROLE: Software Development Engineer II",
-            "ROLE: Staff Engineer Software",
-            "ROLE: Software Engineer (Experienced)",
-            "ROLE: IT Trainer and Developer",
-            "ROLE: System Software Engineer - GPU Profiling",
-            "ROLE: Associate Director, Software Engineering Specialist",
-            "ROLE: Senior Backend Engineer",
-            "ROLE: Senior Front-End Software Engineer",
-            "ROLE: Full Stack Developer",
-            "ROLE: Node JS Developer",
-            "ROLE: Staff Software Engineer, Platform",
-            "ROLE: Senior Associate Software Engineering",
-            "ROLE: Manager, Software Development Engineering (Commercial Solutions)"
-        ],
-        "Application Development": [
-            "ROLE: Python Developer",
-            "ROLE: Software Engineer Android",
-            "ROLE: Principal Engineer (Applications)",
-            "ROLE: Junior Full Stack Developer",
-            "ROLE: Staff SW Engineer Java Spring Boot DevOps",
-            "ROLE: Junior Full-Stack Developer",
-            "ROLE: ECM Developer",
-            "ROLE: Front-End Software Engineer",
-            "ROLE: PHP Developer",
-            "ROLE: Full Stack Developer",
-            "ROLE: Full-Stack developer (Back-End) and Multi-Tenant Systems",
-            "API Development",
-            "ROLE: JavaScript Developer",
-            "ROLE: Core PHP Developer",
-            "ROLE: Java Developer",
-            "ROLE: Lead Fullstack Engineer",
-            "ROLE: Senior Mendix Developer",
-            "ROLE: Officer ORMB Developer"
-        ],
-        "Human Resources": [
-            "Talent Acquisition",
-            "HR Operations",
-            "Payroll",
-            "Talent Development",
-            "ROLE: Human Resource Assistant",
-            "ROLE: Assistant Administrative Officer",
-            "Employee Benefits",
-            "ROLE: HR Head (Engineering)",
-            "ROLE: Office Manager",
-            "ROLE: Senior Generalist and Human Resources and Operations",
-            "ROLE: HR Consulting",
-            "Labor Relations",
-            "ROLE: HR Solution",
-            "Document Management",
-            "Compensation & Benefits",
-            "Administrative Support",
-            "ROLE: Online Assistant",
-            "ROLE: HR Business Partner",
-            "Diversity, Equity & Inclusion",
-            "ROLE: HR Monika",
-            "Employment Counseling",
-            "Human Resources Business Partner"
-        ],
-        "Talent Acquisition": [
-            "ROLE: IT Recruiter",
-            "ROLE: US IT Recruiter",
-            "ROLE: TA Advisor - Emerging Market Recruitment Hub",
-            "ROLE: Talent Acquisition Partner",
-            "ROLE: Talent Acquisition Manager",
-            "ROLE: HR Recruiter",
-            "ROLE: Principal Recruiter (US - IT Recruitment)",
-            "Talent Development",
-            "ROLE: Senior Talent Partner",
-            "ROLE: Talent Acquisition Specialist",
-            "ROLE: IT Staffing",
-            "ROLE: Junior US IT Recruiter",
-            "ROLE: Talent Search",
-            "ROLE: Senior IT Recruiter",
-            "ROLE: Recruiter"
-        ],
-        "Engineering": [
-            "Reliability Engineering",
-            "Verification Engineering",
-            "Electrical Engineering",
-            "Process Engineering",
-            "Mechanical Engineering",
-            "Civil Engineering",
-            "ROLE: Engineering Manager",
-            "Utilities Engineering",
-            "ROLE: Director, Engineering",
-            "Product Engineering",
-            "ROLE: Lead Engineer",
-            "ROLE: Lead Engineering Manager",
-            "Project Management",
-            "Aerospace Engineering"
-        ],
-        "Reliability Engineering": [
-            "ROLE: Staff Reliability Engineer",
-            "ROLE: Advanced Field Service Engineer",
-            "ROLE: Engineer Reliability PACO",
-            "ROLE: Site Reliability Engineer",
-            "ROLE: Senior Site Reliability Engineer I"
-        ],
-        "Hospitality": [
-            "Guest Services",
-            "Food Service"
-        ],
-        "Guest Services": [
-            "Concierge Services",
-            "ROLE: House Attendant",
-            "Housekeeping"
-        ],
-        "Concierge Services": [
-            "ROLE: Hotel Concierge",
-            "ROLE: Concierge"
-        ],
-        "Manufacturing": [
-            "Toolroom Management",
-            "Electrical Equipment Maintenance",
-            "Food Production",
-            "Apprenticeship",
-            "ROLE: Junior Associate - Manufacturing",
-            "Maintenance & Repair",
-            "Production",
-            "Food Processing",
-            "Machining",
-            "Warehouse Operations"
-        ],
-        "Toolroom Management": [
-            "ROLE: Toolroom Incharge"
-        ],
-        "Finance": [
-            "Financial Analytics",
-            "Accounting",
-            "Audit",
-            "Wealth Management",
-            "Credit Management",
-            "Financial Analysis",
-            "Insurance",
-            "Risk Management",
-            "Banking Operations",
-            "Financial Data Analysis",
-            "Corporate Finance",
-            "Financial Reporting",
-            "Tax Accounting"
-        ],
-        "Financial Analytics": [
-            "Platform Administration",
-            "ROLE: Environment Analyst, AVP",
-            "ROLE: Client Insights Analyst",
-            "ROLE: Junior Reward Analyst",
-            "ROLE: Entitlement Analyst",
-            "ROLE: Finance & Transformation Manager",
-            "ROLE: Transaction Specialist"
-        ],
-        "Platform Administration": [
-            "ROLE: Finance Analytics Platform Administrator"
-        ],
-        "Marketing": [
-            "Digital Marketing",
-            "Content Marketing",
-            "Regional Marketing",
-            "Social Media Marketing",
-            "Media Buying",
-            "ROLE: Senior Director Marketing"
-        ],
-        "Digital Marketing": [
-            "ROLE: Specialist - Digital Marketing",
-            "ROLE: Digital Marketing Faculty",
-            "Paid Social Advertising",
-            "ROLE: Demand Generation Manager",
-            "ROLE: Growth Marketeer Publisher",
-            "ROLE: SEO Strategist",
-            "ROLE: Next-Gen Marketing",
-            "ROLE: SEO Specialist",
-            "ROLE: Senior Google Ads Specialist II",
-            "ROLE: Growth Specialist",
-            "ROLE: Digital Marketing Officer",
-            "ROLE: Senior Performance Marketing Manager",
-            "ROLE: Growth & Digital Marketing Manager",
-            "ROLE: Senior Consultant - Marketing Analyst"
-        ],
-        "Product Management": [
-            "Web Management",
-            "ROLE: Product Owner",
-            "ROLE: Project Manager",
-            "ROLE: Product Manager",
-            "ROLE: Product Analyst",
-            "ROLE: Markets Operations Product Owner \u2013 Vice President",
-            "ROLE: Technical Product Manager",
-            "ROLE: Senior Product Manager",
-            "ROLE: Product Manager (Critical Care & Wound care)",
-            "ROLE: Associate Product Manager",
-            "ROLE: Assistant Product Manager",
-            "ROLE: Product Lead & Platform & API Experience"
-        ],
-        "Web Management": [
-            "ROLE: Website Product Webmaster"
-        ],
-        "Enterprise Architecture": [
-            "Technical Architecture",
-            "Diversity, Equity & Inclusion",
-            "Project Management",
-            "ROLE: Solution Architect SAP",
-            "ROLE: Business Architect Pega",
-            "ROLE: Solution Architect Lead"
-        ],
-        "Technical Architecture": [
-            "ROLE: Principal Technical Architect",
-            "ROLE: Lead Full Stack Architect",
-            "ROLE: Data Solution Architect",
-            "ROLE: Azure DevOps Engineer",
-            "ROLE: Tech Consultant",
-            "ROLE: Senior Associate, Solution Engineering",
-            "ROLE: Principal Engineer - Systems Architecture",
-            "ROLE: Senior Solution Architect Solutions Engineering (Pre Sales)",
-            "ROLE: Principal Platform Engineer",
-            "ROLE: Senior Global OSS Solution Architect",
-            "ROLE: Backend Architect",
-            "ROLE: IT Architect",
-            "ROLE: Mulesoft Technical Architect",
-            "ROLE: AVP Solution Architect Java",
-            "ROLE: Data Architect & Migration Specialist",
-            "ROLE: Senior Data Center Design Manager"
-        ],
-        "Hardware Infrastructure": [
-            "Equipment Lifecycle Management",
-            "ROLE: Support Engineer",
-            "ROLE: Technical Support Executive",
-            "System Administration",
-            "ROLE: Operations Support Engineer"
-        ],
-        "Equipment Lifecycle Management": [
-            "ROLE: Tech Refresh Equipment Specialist",
-            "ROLE: Desktop Support Engineer"
-        ],
-        "Arts, Design & Media": [
-            "Photography",
-            "Retail Design",
-            "Digital Media",
-            "Content Creation",
-            "Product Design",
-            "Creative Direction",
-            "Interior Design",
-            "Graphic Design"
-        ],
-        "Photography": [
-            "Videography",
-            "ROLE: Hotel photographer"
-        ],
-        "Videography": [
-            "ROLE: Videographer & Photographer"
-        ],
-        "Business": [
-            "Retail Management",
-            "Procurement",
-            "Technical Support",
-            "Product Management",
-            "Event Coordination",
-            "Customer Service",
-            "Human Resources",
-            "Business Relationship Management",
-            "Strategy",
-            "Program Management",
-            "Logistics",
-            "Translation",
-            "Executive Leadership",
-            "ROLE: Assistant Manager",
-            "ROLE: Management Trainee",
-            "Project Management",
-            "Sales & Operations Planning",
-            "Health, Safety & Environment",
-            "Risk Management",
-            "ROLE: Assistant Manager - Operations",
-            "Security Services",
-            "Professional Development",
-            "ROLE: Operations Senior",
-            "Business Development",
-            "Mergers & Acquisitions",
-            "ROLE: Manager",
-            "ROLE: Management Services",
-            "Supply Chain Management",
-            "Business Analysis",
-            "Strategy & Transformation",
-            "Administrative Support",
-            "ROLE: Senior Manager",
-            "Business Operations",
-            "Document Control",
-            "ROLE: Management Consulting Director",
-            "ROLE: People Manager"
-        ],
-        "Retail Management": [
-            "Salon Management",
-            "ROLE: Category Manager",
-            "ROLE: Store Manager",
-            "ROLE: Stock Clerk",
-            "ROLE: Volunteer & Merchandise Manager",
-            "ROLE: Branch Manager",
-            "ROLE: Point of Sale Clerk",
-            "ROLE: Merchandiser - Floral",
-            "ROLE: Category Executive - Private Label",
-            "ROLE: Deputy Branch Manager",
-            "ROLE: Retail Associate",
-            "ROLE: Retail Assistant"
-        ],
-        "Salon Management": [
-            "ROLE: Salon Manager"
-        ],
-        "Accounting": [
-            "Cost Accounting",
-            "Tax Accounting",
-            "ROLE: Transactional Finance Manager",
-            "ROLE: Accountant",
-            "ROLE: Accounting Associate",
-            "ROLE: Bookkeeper",
-            "ROLE: Accounting Analyst",
-            "ROLE: Lead Treasury Accounting",
-            "ROLE: Revenue Accountant",
-            "Process Development",
-            "ROLE: Bookkeeper & Client Accounting Specialist",
-            "ROLE: Supervisor - Fund Accounting",
-            "ROLE: Senior Accountant",
-            "ROLE: Accountant I",
-            "ROLE: GL Accountant",
-            "ROLE: Fund Accounting Specialist",
-            "ROLE: Company Accountant",
-            "ROLE: Accountant Associate"
-        ],
-        "Cost Accounting": [
-            "ROLE: Management Trainee - Plant Accounting / Product Costing"
-        ],
-        "Enterprise Software": [
-            "ServiceNow Implementation",
-            "Mainframe Computing",
-            "ROLE: IAM Senior Analyst",
-            "SAP Technologies",
-            "Supply Chain Planning",
-            "Human Capital Management",
-            "System Administration",
-            "Salesforce Development",
-            "ROLE: Adoption Lead, Central Observability Platform",
-            "Database Development",
-            "Data Management",
-            "ROLE: Assistant IT Manager",
-            "Data Architecture",
-            "Knowledge Management",
-            "ROLE: Information Technology Manager",
-            "Point Of Sale Systems",
-            "ROLE: Application Lead",
-            "IT Asset Management",
-            "Project Management",
-            "ROLE: Senior IT Consultant",
-            "ROLE: Digital Consultant Display",
-            "Application Support",
-            "ROLE: IT Manager",
-            "Human Resources Software",
-            "Product Management",
-            "ROLE: Automation Lead",
-            "Business Systems Analysis",
-            "Security"
-        ],
-        "ServiceNow Implementation": [
-            "ROLE: ServiceNow Delivery Lead",
-            "ROLE: ServiceNow Platform Engineer"
-        ],
-        "Mainframe Computing": [
-            "Application Consulting"
-        ],
-        "Application Consulting": [
-            "ROLE: Global Mainframe Application Consultant"
-        ],
-        "Procurement": [
-            "Purchasing",
-            "Global Procurement Operations",
-            "ROLE: Procurement Manager",
-            "ROLE: IT Procurement Executive",
-            "ROLE: Procurement Expert Education Practice",
-            "ROLE: Tender Executive (Online Bidding)"
-        ],
-        "Purchasing": [
-            "ROLE: Junior Buyer",
-            "ROLE: Purchase Assistant",
-            "ROLE: Assistant Purchase Officer"
-        ],
-        "Verification Engineering": [
-            "ROLE: Senior Verification Engineer, PCIE"
-        ],
-        "Data Engineering": [
-            "ROLE: Data Engineer",
-            "Data Visualization",
-            "ROLE: Senior Machine Learning Engineer",
-            "ROLE: Senior - AI and DATA - Hadoop",
-            "ROLE: Senior Software Engineering Lead - Postgres SQL Server",
-            "ROLE: Data Engineer III",
-            "ROLE: Senior Data Engineer",
-            "ROLE: Data Software Engineer",
-            "ROLE: Data Engineer I (Python / GIS)",
-            "ROLE: Senior Member of Technical Staff (Data Platform)",
-            "ROLE: Staff Software Engineer - Data Platform",
-            "ROLE: Data Platform Engineer",
-            "ROLE: Lead Data Engineer",
-            "Cloud Infrastructure",
-            "ROLE: Head of Data Engineer",
-            "ROLE: Senior Data Engineer Remote"
-        ],
-        "Data Visualization": [
-            "Reporting"
-        ],
-        "Reporting": [
-            "ROLE: Engineer II, Visualization & Reporting"
-        ],
-        "Technical Support": [
-            "ROLE: Junior Technician",
-            "ROLE: Cloud Infrastructure Tech Support Practitioner",
-            "ROLE: Overnight Systems Support Specialist",
-            "ROLE: On Site Tech Solution Specialist"
-        ],
-        "Audit": [
-            "Assurance"
-        ],
-        "Assurance": [
-            "ROLE: Lead Audit & Assurance",
-            "ROLE: Manager - Assurance - Technology Risk",
-            "ROLE: Quality Auditing Analyst"
-        ],
-        "Electrical Engineering": [
-            "Microelectronics",
-            "ROLE: Lead Engineer",
-            "ROLE: Electronics Engineer",
-            "ROLE: Project Manager - Transmission Line",
-            "ROLE: Application Engineer: Battery",
-            "ROLE: Electrical System Design Engineer",
-            "Firmware Engineering",
-            "Solar Design",
-            "Substation Design",
-            "ROLE: Lead Engineer (Electrical)",
-            "ROLE: Electrical and Instrumentation Project Engineer (E&I I EPC I DCS I PLC)",
-            "Marine Engineering",
-            "Renewable Energy Development",
-            "ROLE: Lead Electrical Engineer"
-        ],
-        "Microelectronics": [
-            "System On Chip Architecture",
-            "ROLE: CPU Physical Design Engineer",
-            "ROLE: Electronic Test Engineer"
-        ],
-        "System On Chip Architecture": [
-            "ROLE: Principal Engineer, SoC Micro-Architect",
-            "ROLE: SoC Design Engineer",
-            "ROLE: Systems Electronic Engineer"
-        ],
-        "Finance Technology": [
-            "ROLE: IT Finance",
-            "ROLE: iOS Lead Wealth & Personal Banking IT"
-        ],
-        "Developer Support": [
-            "ROLE: Developer Support Specialist"
-        ],
         "Sales": [
-            "Ecommerce",
-            "Business Development",
-            "Service Sales",
-            "Account Management",
-            "Retail Sales",
-            "Channel Sales",
-            "Renewable Energy Sales",
             "Field Sales",
-            "Direct Sales",
-            "Product Marketing",
-            "ROLE: Sales",
-            "Commercial Vehicle Sales",
-            "Institutional Sales",
-            "Technology Sales",
-            "ROLE: Sales Head",
-            "Administrative Support"
-        ],
-        "Ecommerce": [
-            "ROLE: Ecommerce Executive / Assistant",
-            "ROLE: eCommerce Specialist"
-        ],
-        "SAP Technologies": [
-            "SAP S4 HANA",
-            "ROLE: Package Specialist SAP SCM SD",
-            "SAP APO"
-        ],
-        "SAP S4 HANA": [
-            "BRIM Contract Management",
-            "ROLE: Independent Contractor - S/4 HANA SD"
-        ],
-        "BRIM Contract Management": [
-            "ROLE: SAP S4 HANA BRIM Contract Management IT Business Consultant"
-        ],
-        "Event Coordination": [
-            "ROLE: Activities Coordinator",
-            "ROLE: Project Coordinator - Events",
-            "ROLE: External Communications Coordinator"
-        ],
-        "Supply Chain Planning": [
-            "Oracle Cloud Applications"
-        ],
-        "Oracle Cloud Applications": [
-            "ROLE: Principal Consultant Oracle Supply Chain Planning Cloud Functional"
-        ],
-        "Process Engineering": [
-            "Commissioning And Qualification",
-            "ROLE: Senior Manager Process Improvement Lead",
-            "Production Planning",
-            "ROLE: Industrialisation Engineer",
-            "Production Quality",
-            "Continuous Improvement",
-            "ROLE: Team Lead, Inspections"
-        ],
-        "Commissioning And Qualification": [
-            "ROLE: Senior C&Q Process Engineer",
-            "ROLE: Testing & Commissioning Manager"
-        ],
-        "Business Development": [
-            "ROLE: Go-To-Market Manager",
-            "ROLE: AREA SALES MANAGER",
-            "ROLE: B2B Sales Manager Human Nutrition",
-            "ROLE: Relationship Manager - Retail Sales",
-            "ROLE: Account Manager",
-            "ROLE: Territory Business Manager",
-            "ROLE: Sales Engineer",
-            "ROLE: Sales Executive",
-            "ROLE: Global Client Executive",
-            "ROLE: Brand Specialist",
-            "ROLE: Area Sales Executive",
-            "ROLE: Business Development Specialist",
-            "ROLE: Territory Business Executive",
-            "ROLE: Event Sales Manager",
-            "ROLE: Sales Analyst",
-            "ROLE: Business Developer & Sales Specialist",
-            "ROLE: Key Account Manager - Business Development",
-            "ROLE: Account Executive, Platforms (Greater China)",
-            "ROLE: Regional Sales Specialist",
-            "ROLE: Sales Team Leader",
-            "ROLE: Sales Engineer | Brandveiligheid",
-            "ROLE: Vice President SME Sales",
-            "ROLE: Regional Sales Business Manager",
-            "ROLE: Assistant Manager, Regional Sales Operations",
-            "ROLE: Business Development Manager",
-            "ROLE: Senior Business Development Manager Defence",
-            "ROLE: Director, Corporate Partnerships",
-            "ROLE: Business Development Executive",
-            "ROLE: Sales Development Representative",
-            "ROLE: Business Development Associate",
-            "ROLE: Senior Solar Sales Specialist",
-            "ROLE: ProSolutions Representative",
-            "ROLE: Engineer (Sales & Service)",
-            "ROLE: Inside Sales Lead Customer Acquisition (IT Services)",
-            "ROLE: Business Development Engineer (Sales)",
-            "ROLE: Business Development Manager Port Agency Services",
-            "ROLE: Online Sales Consultant",
-            "ROLE: BDM",
-            "ROLE: Sales Manager Government and Telcos - APAC",
-            "ROLE: Sales Manager (Digital Marketing & Web Development)",
-            "ROLE: PREFIX Solutions"
-        ],
-        "Human Capital Management": [
-            "ROLE: Staff SW Engineer in Workday core HCM applications, PECI and PICOF",
-            "ROLE: Senior & Principal Specialist, Job & Event System & Data Intel"
-        ],
-        "Customer Service": [
-            "Customer Support Coordination",
-            "ROLE: Admin Assistant",
-            "ROLE: Customer Service Representative",
-            "ROLE: Order Management Representative",
-            "ROLE: Technical Support Specialist",
-            "ROLE: Customer Success Specialist",
-            "ROLE: Technical Support Engineer 2",
-            "ROLE: Technical Support Executive",
-            "ROLE: Customer Solutions Engineering Team Leader",
-            "ROLE: Manager Technical Support",
-            "ROLE: Service Associate",
-            "ROLE: IT Support",
-            "ROLE: Application Support (Java, Unix)",
-            "ROLE: Senior Service Desk Team Lead",
-            "ROLE: IT Service Desk Executive",
-            "ROLE: Manager-Tech Support",
-            "Technical Support",
-            "ROLE: IT Help Desk",
-            "ROLE: Senior Technical Support Engineer 1",
-            "ROLE: Graduate Freshers For Bank Inbound Role",
-            "ROLE: Technical Support Representative",
-            "ROLE: Customer Service for Retail",
-            "ROLE: Back Office Position",
-            "ROLE: Front office help desk executive",
-            "ROLE: IT Support Engineer",
-            "ROLE: Desktop Support Engineers",
-            "ROLE: IT Support Manager",
-            "ROLE: Receptionist Front Office",
-            "ROLE: Specialist Customer Care",
-            "ROLE: Technical Support",
-            "ROLE: Customer Support Representative",
-            "ROLE: Receptionist for New Client Team",
-            "ROLE: Technical Support Engineer",
-            "ROLE: IT Helpdesk Lead",
-            "ROLE: Associate, Record Services Support",
-            "ROLE: Desktop Support Engineer L1",
-            "ROLE: Senior Manager - Customer Service",
-            "ROLE: Catalog Associate",
-            "ROLE: Operations Admin Assistant",
-            "ROLE: Member Service Professional",
-            "ROLE: Technical Helpdesk Executive",
-            "ROLE: Customer Support Engineer",
-            "ROLE: IT Specialists",
-            "ROLE: Staff Technical Support Analyst",
-            "ROLE: Customer Support Voice",
-            "ROLE: Tableau Customer Success Manager",
-            "ROLE: Tech Support Engineer",
-            "Facility Services",
-            "ROLE: Senior IT Support Engineer",
-            "Call Center",
-            "ROLE: Helpdesk"
-        ],
-        "Customer Support Coordination": [
-            "ROLE: Customer Support & Ops Coordinator I"
-        ],
-        "Network Engineering": [
-            "ROLE: Network Engineer",
-            "ROLE: Software Engineer \u2013 Enterprise Switching (C/Linux, L2/L3 Protocols)",
-            "ROLE: Senior Cloud Network Engineer",
-            "ROLE: IT Engineer",
-            "ROLE: Senior MS Network Engineer",
-            "Cloud Infrastructure",
-            "ROLE: Networking Managed Services Engineer (L1)",
-            "ROLE: Network Analyst",
-            "ROLE: Senior Network Engineer",
-            "ROLE: Engineer Network Team",
-            "ROLE: MS Engineer, Network",
-            "ROLE: L1 Network Engineer",
-            "ROLE: Network Development Engineer",
-            "ROLE: ICIT Engineer",
-            "ROLE: Linux C Network Engineer",
-            "ROLE: Network Engineer II",
-            "ROLE: Sr. Network Engineer",
-            "ROLE: Network Engineer (NOC)",
-            "Reliability Engineering",
-            "ROLE: Senior Network Engineer - GPON"
-        ],
-        "Science & Research": [
-            "Biological Sciences",
-            "Research",
-            "Chemistry",
-            "Environmental Science",
-            "Food Science",
-            "Statistical Programming",
-            "Safety Science",
-            "Research Support"
-        ],
-        "Biological Sciences": [
-            "Quality Assurance"
-        ],
-        "Quality Assurance": [
-            "ROLE: Biology - Quality Assurance (AI Trainer)",
-            "Complaints Management",
-            "ROLE: Senior Software Development Engineer in Test",
-            "ROLE: Senior QA Engineer",
-            "Pharmaceutical Quality Assurance",
-            "Quality Improvement Coordination",
-            "ROLE: Senior QA Officer",
-            "ROLE: Senior Software Engineer QA: Biometric Authentication (Mobile, Backend Automation)",
-            "ROLE: Senior SDET",
-            "ROLE: QA Engineer",
-            "ROLE: Deputy Manager Quality (NABH, JCI & QAI)",
-            "ROLE: Lead Product Quality Engineer",
-            "Test Automation",
-            "ROLE: Quality Assurance Engineer",
-            "ROLE: Senior Engineer - Validation",
-            "ROLE: Manager Software Quality Assurance (Compliance and Audit)",
-            "ROLE: Functional Safety Manager & Quality Expert",
-            "ROLE: Officer - Document Control and Quality Assurance",
-            "ROLE: Senior Staff Software Development Engineer in Test",
-            "ROLE: Senior Associate, Platform Quality Operations"
-        ],
-        "Service Sales": [
-            "ROLE: Assistant Manager - Service Sales"
-        ],
-        "HR Operations": [
-            "HR Analytics",
-            "ROLE: Head of HR APAC",
-            "ROLE: Head of HR",
-            "ROLE: HR Generalist EMEA",
-            "ROLE: Sr. Executive \u2013 HR Operations",
-            "ROLE: HRBP Director, Product & Engineering",
-            "ROLE: Manager HRBP",
-            "ROLE: Human Resources Officer",
-            "ROLE: HR Manager"
-        ],
-        "HR Analytics": [
-            "ROLE: HR Operations Analyst"
-        ],
-        "Artificial Intelligence": [
-            "Generative AI",
-            "ROLE: QA Engineer (AI/ML)",
-            "ROLE: AI/ML Engineer II",
-            "ROLE: Conversational AI Manager",
-            "ROLE: Applied AI Engineer",
-            "ROLE: Senior AI Engineer",
-            "ROLE: Principal AI Engineer",
-            "ROLE: AI ML Engineer",
-            "ROLE: Machine Learning Engineer",
-            "ROLE: Data Scientist & AI/ML"
-        ],
-        "Generative AI": [
-            "ROLE: Gen AI Developer",
-            "ROLE: Prompt Engineer & Conversation Designer (Backend)",
-            "ROLE: Data Scientist (Generative AI)",
-            "ROLE: Senior Data Scientist (Generative AI)"
-        ],
-        "Business Relationship Management": [
-            "ROLE: Business Relationship Manager",
-            "ROLE: Officer Branch Relationship Manager",
-            "ROLE: Manager, Corporate eServices",
-            "ROLE: Trade Relationship Manager",
-            "ROLE: Service Director EMEA",
-            "ROLE: Customer Relationship Manager",
-            "ROLE: Relationship Manager Diplomatic Clients"
-        ],
-        "Construction": [
-            "Waste Management",
-            "Quantity Surveying",
-            "Architecture",
-            "Equipment Operation",
-            "Project Management",
-            "Site Management"
-        ],
-        "Waste Management": [
-            "Junk Removal",
-            "Customer Engagement"
-        ],
-        "Junk Removal": [
-            "ROLE: Crew Leader & Junk Removal Driver"
-        ],
-        "Strategy": [
-            "ROLE: Consultancy",
-            "Business Technology Consulting",
-            "ROLE: IWAI Consultant",
-            "ROLE: Consultants",
-            "Consulting",
-            "ROLE: Kezan Consulting",
-            "ROLE: Client Consulting Manager, Visa Consulting and Analytics"
-        ],
-        "System Administration": [
-            "ROLE: Lead IT System Administrator",
-            "ROLE: Desktop Support/System Engineer",
-            "ROLE: Systems Administrator (SAP Ariba, Oracle Apps, PL/SQL)",
-            "ROLE: Linux System Administrator",
-            "ROLE: IT Systems Administrator",
-            "ROLE: IT Project Expert \u2013 SAP Basis Admin & Cloud Expert (L4 Support)",
-            "ROLE: System Administrator Senior Analyst (Linux Administrator)",
-            "ROLE: Senior Business System Specialist",
-            "ROLE: System Administrator",
-            "ROLE: Senior Manager, Fin Ops and IT Environment Management",
-            "ROLE: ServiceNow HR System Administrator",
-            "ROLE: Junior System Admin (DevOps)",
-            "ROLE: Manager, Realtime DevOps",
-            "ROLE: Desktop Support cum Linux Administrator",
-            "ROLE: Manager, SOC Team",
-            "ROLE: Engineering Systems Application Administrator",
-            "ROLE: Desktop Support Engineer L2",
-            "ROLE: Junior Network Admin",
-            "Database Administration",
-            "ROLE: Production Service Systems Administrator 2",
-            "ROLE: Staff Systems Engineer",
-            "ROLE: Associate Systems Analyst",
-            "ROLE: Associate System Admin",
-            "ROLE: Senior System Analyst",
-            "ROLE: CRM Administrator",
-            "ROLE: Desktop Support Engineer",
-            "ROLE: Junior Salesforce Admin",
-            "ROLE: Systems Engineer",
-            "ROLE: Senior System Specialist",
-            "ROLE: Systems Specialist",
-            "ROLE: IT Administrator"
-        ],
-        "Mechanical Engineering": [
-            "Structural Analysis",
-            "ROLE: Proposal Engineer",
-            "ROLE: Mechanical Project Manager (HVAC)",
-            "ROLE: Piping Engineer",
-            "Turbine Engineering",
-            "Project Management",
-            "ROLE: Mechanical Development & Test Engineer II",
-            "ROLE: Facilities Specialist",
-            "ROLE: Engineer - Material",
-            "ROLE: Multi Skill Technicians (Domain Lab Equipment)",
-            "ROLE: Senior Project Engineer",
-            "ROLE: Principal Mechanical Engineer",
-            "ROLE: Project Engineer 1",
-            "ROLE: Mechanical Design Engineer",
-            "ROLE: Service Engineer (Polycold)",
-            "Fleet Engineering"
-        ],
-        "Structural Analysis": [
-            "Piping Stress Analysis",
-            "ROLE: Senior Structural Engineer (Real Estate)"
-        ],
-        "Piping Stress Analysis": [
-            "ROLE: Piping Stress Engineer",
-            "ROLE: Mechanical & Process Hook Up Engineer"
-        ],
-        "Healthcare": [
-            "Pharmaceuticals",
-            "Medical Practice",
-            "Quality Assurance",
-            "Patient Care",
-            "Health Education",
-            "Nursing",
-            "Direct Care",
-            "Support Services",
-            "Regulatory Affairs",
-            "Clinical Data Analysis",
-            "Social Work",
-            "Medical Education",
-            "Personal Care Services",
-            "Emergency Medical Services",
-            "Quality Control",
-            "Therapy",
-            "Clinical Operations",
-            "Medical Interpretation",
-            "Mental Health",
-            "Pharmaceutical Sales"
-        ],
-        "Pharmaceuticals": [
-            "ROLE: Senior Manager - Pharma"
-        ],
-        "Program Management": [
-            "Retail Efficiency",
-            "Localization Program Management",
-            "ROLE: Programme Executive",
-            "ROLE: Program Manager",
-            "ROLE: Deployment Strategist",
-            "Resource Management",
-            "ROLE: Program Manager III"
-        ],
-        "Retail Efficiency": [
-            "ROLE: Manager, Program Management, Retail Efficiency Program (RBS)"
-        ],
-        "Account Management": [
-            "ROLE: Client Associate",
-            "ROLE: Senior Account Manager (NA Sales)",
-            "ROLE: Sales Officer",
-            "ROLE: Account Manager, Brand",
-            "ROLE: Sales Manager",
-            "ROLE: Major Account Manager",
-            "ROLE: Junior Digital Account Manager",
-            "ROLE: Sales Specialist",
-            "ROLE: Inside Sales Associate",
-            "ROLE: Relationship Manager - Bancassurance - Life Insurance Sales",
-            "ROLE: Account Manager",
-            "ROLE: Sales & Account Manager"
-        ],
-        "Customer Success Engineering": [
-            "ROLE: Principal Customer Success Services Engineer & EBS Apps Developer"
-        ],
-        "IT Strategy & Transformation": [
-            "ROLE: Architect - IT Strategy & Transformation Associate Manager"
-        ],
-        "Payroll": [
-            "ROLE: People Consulting-Payroll",
-            "ROLE: HR Payroll and Administration Officer",
-            "ROLE: Payroll Specialist"
-        ],
-        "Logistics": [
-            "ROLE: Shipping Logistics Officer",
-            "ROLE: Sales LCL Logistics",
-            "ROLE: Analyst, Fulfillment",
-            "ROLE: Transportation Representative",
-            "ROLE: Warehouse Lead",
-            "ROLE: Transportation Specialist",
-            "ROLE: Logistics Specialist",
-            "ROLE: Logistics Executive",
-            "ROLE: Warehouse Supervisor",
-            "Healthcare Logistics",
-            "ROLE: Delivery Driver",
-            "ROLE: Team Leader | Transportation"
-        ],
-        "Business Technology Consulting": [
-            "ROLE: Varicent Consultant",
-            "ROLE: Consulting"
-        ],
-        "Translation": [
-            "ROLE: Freelance Translator"
-        ],
-        "Executive Leadership": [
-            "Strategic Planning",
-            "ROLE: Senior Manager Operations",
-            "ROLE: QHSE Executive",
-            "ROLE: Centre Supervisor & Principal",
-            "ROLE: Associate Director / Director",
-            "ROLE: Executive Assistant",
-            "ROLE: Personal Assistant & Office Manager",
-            "ROLE: Head of Growth",
-            "ROLE: Chief Financial Officer",
-            "ROLE: General Manager",
-            "ROLE: Senior Executive",
-            "ROLE: Admin Executive",
-            "ROLE: Venture Coach",
-            "ROLE: Executive & Assistant Manager",
-            "ROLE: Head of Operations",
-            "ROLE: Management Consulting Director",
-            "ROLE: Senior Professional Officer",
-            "ROLE: Station Head",
-            "ROLE: Site Head"
-        ],
-        "Strategic Planning": [
-            "ROLE: Senior Executive & Planning & Operations"
-        ],
-        "Legal": [
-            "Contract Law",
-            "ROLE: Legal Executive",
-            "Corporate Law",
-            "ROLE: Legal Administrative Assistant",
-            "Judiciary",
-            "ROLE: Lawyer",
-            "Intake Services"
-        ],
-        "Contract Law": [
-            "ROLE: Junior Officer - Contracts & Legal",
-            "ROLE: Contract Manager (Legal & Licensing)",
-            "ROLE: Compliance Manager",
-            "ROLE: Attorney - Corporate Contracts"
-        ],
-        "Civil Engineering": [
-            "ROLE: Site Office Engineer",
-            "ROLE: Field Engineer",
-            "ROLE: Senior Engineer",
-            "Planning",
-            "ROLE: Senior Bridge Engineering",
-            "ROLE: Manager Design Civil",
-            "ROLE: Research Engineer II (Civil / Structural Engineering)",
-            "ROLE: Section Engineer"
-        ],
-        "Retail Design": [
-            "ROLE: Senior Specialist Retail Design"
-        ],
-        "Talent Development": [
-            "ROLE: Talent Development Consultant (Training)",
-            "ROLE: Talent Manager",
-            "ROLE: Supervising TESD Specialist",
-            "ROLE: Senior Learning Consultant",
-            "ROLE: Senior Technical Education and Skills Development Specialist",
-            "ROLE: Staff Development Coordinator (SDC)",
-            "ROLE: L and D VTH Supervising Associate",
-            "ROLE: Training Department Supervisor",
-            "ROLE: People Consulting"
-        ],
-        "Retail Sales": [
-            "ROLE: Anthropologie Sales Associate",
-            "ROLE: Field Sales Executive",
-            "ROLE: Sales Person",
-            "ROLE: Jewelry Sales Executive",
-            "ROLE: Sales Advisor",
-            "ROLE: Group Trade Marketing Manager"
-        ],
-        "Data Science & AI": [
-            "ROLE: Data Scientist & AI/ML",
-            "ROLE: Data Analyst",
-            "Artificial Intelligence",
-            "ROLE: Data Privacy Analyst",
-            "ROLE: Director / Senior Staff Data Scientist",
-            "ROLE: Search Analyst",
-            "ROLE: Data Scientist Lead",
-            "ROLE: Data Scientist"
-        ],
-        "Localization Program Management": [
-            "ROLE: Senior Program Manager, ASIN Localization"
-        ],
-        "Wealth Management": [
-            "Client Relationship Management"
-        ],
-        "Client Relationship Management": [
-            "ROLE: Wealth Relationship Manager",
-            "ROLE: Associate Relationship Officer",
-            "ROLE: Associate"
-        ],
-        "Salesforce Development": [
-            "ROLE: Associate Salesforce Developer",
-            "ROLE: Salesforce Developer - Functional",
-            "ROLE: Principal Consultant, Quality Analyst Lead SFDC",
-            "ROLE: Senior QA Automation Engineer (Salesforce)"
-        ],
-        "Electrical Equipment Maintenance": [
-            "Electric Motor Repair"
-        ],
-        "Electric Motor Repair": [
-            "ROLE: Electric Motor Repairer"
-        ],
-        "Project Management": [
-            "ROLE: RPA Project Manager",
-            "ROLE: Project Manager \u2013 MEP Systems",
-            "ROLE: Senior Project Manager",
-            "ROLE: Project Manager Design & Brand",
-            "ROLE: Project Manager \u2013 Solar EPC Projects",
-            "ROLE: Construction Manager",
-            "ROLE: Release Train Manager, VP",
-            "ROLE: Construction Site Supervisor",
-            "ROLE: Scrum Master",
-            "ROLE: IT Infra PM",
-            "Information Management",
-            "ROLE: Analyst - PMO",
-            "ROLE: Senior Project Assistant",
-            "ROLE: Project Manager",
-            "ROLE: Project Manager, Disputes",
-            "ROLE: Global Construction Manager",
-            "ROLE: Project Development Trainee",
-            "Project Coordination",
-            "Contract Management",
-            "ROLE: Drug Substance Project Manager"
-        ],
-        "Medical Practice": [
-            "Primary Care",
-            "Cardiology",
-            "Physician Specialties",
-            "Urology",
-            "Medical Leadership",
-            "Physician",
-            "Obstetrics & Gynecology",
-            "Optometry",
-            "ROLE: Urgent Care Medical Provider, MD",
-            "Family Medicine",
-            "ROLE: Medical Officer"
-        ],
-        "Primary Care": [
-            "ROLE: Locum for a General Practitioner Family Medicine Doctor"
-        ],
-        "Tax Accounting": [
-            "ROLE: Tax Accountant III",
-            "ROLE: Tax Analyst",
-            "ROLE: Tax Regulatory Compliance Specialist",
-            "Tax Compliance",
-            "ROLE: Senior Consultant - TAX - AMI - ITTS - Transfer Pricing",
-            "ROLE: Junior Consultant Transfer Pricing"
-        ],
-        "Full Stack Development": [
-            "ROLE: .net + React: Consultant"
-        ],
-        "Channel Sales": [
-            "ROLE: Channel Manager (UAE)"
-        ],
-        "Complaints Management": [
-            "ROLE: Senior Associate Quality Complaints",
-            "ROLE: Quality Assurance Associate"
-        ],
-        "Sales & Operations Planning": [
-            "Digitization",
-            "ROLE: Senior Campaign Operations Executive",
-            "Supply Planning",
-            "Supply Chain Improvement"
-        ],
-        "Digitization": [
-            "ROLE: Senior Manager - S&OP Digitization"
-        ],
-        "Digital Media": [
-            "Digital Media Specialist",
-            "ROLE: Junior Video Editor",
-            "ROLE: Motion Graphics Designer"
-        ],
-        "Digital Media Specialist": [
-            "ROLE: Digital Media Specialist"
-        ],
-        "Business Intelligence": [
-            "ROLE: BI Specialist"
-        ],
-        "Renewable Energy Sales": [
-            "ROLE: Sales Head Solar"
-        ],
-        "Turbine Engineering": [
-            "ROLE: Product Manager Steam Turbine Development"
-        ],
-        "Mobile Development": [
-            "ROLE: iOS Developer",
-            "ROLE: Mobile Application Developer",
-            "ROLE: Flutter Developer",
-            "ROLE: Mobile Developer React Native",
-            "ROLE: Staff Software Engineer - Android",
-            "ROLE: Android Engineering Manager"
-        ],
-        "Health, Safety & Environment": [
-            "ROLE: Senior HSE Manager",
-            "ROLE: Workplace, Safety and Health Officer",
-            "ROLE: Regional Facilities Manager",
-            "ROLE: Lead HSE Coordinator (LTA Project)",
-            "Energy & Sustainability",
-            "Quality Assurance",
-            "Facilities Management",
-            "ROLE: Safety Officer",
-            "ROLE: Senior Advisor - Safety, Health & Environment"
-        ],
-        "Education": [
-            "Teaching",
-            "Early Childhood Education",
-            "Instructional Design",
-            "Teacher Certification",
-            "Higher Education",
-            "Educational Administration"
-        ],
-        "Teaching": [
-            "ROLE: Teacher",
-            "ROLE: SEN Teaching Assistant",
-            "ROLE: High School Math & Science Teacher",
-            "ROLE: Faculty"
-        ],
-        "Transportation": [
-            "ROLE: Driver",
-            "Truck Driving",
-            "Driving"
-        ],
-        "Food Production": [
-            "Meat Processing"
-        ],
-        "Meat Processing": [
-            "Food Technology",
-            "Packaging"
-        ],
-        "Food Technology": [
-            "ROLE: Senior Meat Technologist",
-            "ROLE: Professional Officer (All Levels) (Food Technology)"
-        ],
-        "Database Development": [
-            "ROLE: PL-SQL Developer"
-        ],
-        "Credit Management": [
-            "ROLE: Credit Manager - Used Car Loans"
-        ],
-        "Content Marketing": [
-            "ROLE: Marketing and Content Officer",
-            "ROLE: External Communications Manager",
-            "ROLE: Marketing Executive",
-            "ROLE: Marketing Manager",
-            "ROLE: Public Relations & Content Manager"
-        ],
-        "Paid Social Advertising": [
-            "ROLE: Paid Social Lead",
-            "ROLE: Performance marketer Meta Google Ads"
-        ],
-        "Quantity Surveying": [
-            "ROLE: Senior Quantity Surveyor"
-        ],
-        "Content Creation": [
-            "ROLE: Content Assistant"
-        ],
-        "Cardiology": [
-            "Heart Failure"
-        ],
-        "Heart Failure": [
-            "ROLE: Heart Failure Cardiologist"
-        ],
-        "Patient Care": [
-            "Caregiving"
-        ],
-        "Caregiving": [
-            "ROLE: Caregiver"
-        ],
-        "Financial Analysis": [
-            "ROLE: European Finance Analyst",
-            "ROLE: Senior Financial Planning and Analysis Analyst",
-            "ROLE: FPA Analyst",
-            "ROLE: Senior Analyst, Credit Strategy",
-            "ROLE: QSC Senior Finance Manager",
-            "ROLE: Manager Financial Planning & Analysis",
-            "ROLE: FP&A Analyst",
-            "ROLE: French Analyst Senior",
-            "ROLE: Vice President \u2013 Finance",
-            "ROLE: SAP Senior Analyst - Finance",
-            "ROLE: Associate Economics Analyst",
-            "ROLE: Functional Business Analyst (Banking Compliance Technology - AML)",
-            "ROLE: Chief Financial Officer",
-            "ROLE: Investment Banker",
-            "ROLE: Auto Financial Analysis - Analyst"
+            "Key Account Management",
+            "Brand Management",
+            "Sales Operations",
+            "Event Promotion",
+            "Business Development",
+            "ROLE: Head of Sales",
+            "Client Success",
+            "Retail Sales",
+            "Inside Sales",
+            "Insurance Sales",
+            "Partnerships",
+            "Event Sales",
+            "Sales Quality Assurance",
+            "Customer Success",
+            "Channel Sales",
+            "Travel Sales",
+            "Technical Sales",
+            "Customer Relationship Management",
+            "Publisher Sales",
+            "Relationship Management",
+            "Insurance Broking",
+            "Search Engine Advertising"
         ],
         "Field Sales": [
-            "Regional Sales",
-            "ROLE: Field Sales Manager",
-            "ROLE: Senior Sales Manager",
-            "ROLE: Field Sales Executive",
-            "ROLE: Sales Lead",
-            "ROLE: Sales Representative",
-            "ROLE: Sales Team Lead",
-            "ROLE: Area Sales Manager",
-            "ROLE: Team Leader - Mortgage Sales",
-            "ROLE: IT Sales Executive",
+            "ROLE: Sales Manager",
             "ROLE: Sales Representative | Voeding",
-            "ROLE: Sales & Area Manager"
-        ],
-        "Regional Sales": [
-            "ROLE: EXPORT AREA MANAGER DACH"
-        ],
-        "Apprenticeship": [
-            "ROLE: Apprentice",
-            "ROLE: Senior Crew"
-        ],
-        "Architecture": [
-            "ROLE: Resident Architect",
-            "ROLE: Technical Writer - Construction and Architecture",
-            "ROLE: BIM Coordinator",
-            "ROLE: Construction Inspector I"
-        ],
-        "Risk Management": [
-            "ROLE: Consultant - Business Consulting Risk",
-            "ROLE: Actuarial Consultant",
-            "Third Party Risk Management",
-            "Risk Validation",
-            "Risk Consulting",
-            "Claims Adjustment",
-            "Operational Risk"
-        ],
-        "Product Design": [
-            "ROLE: Lead Product Designer",
-            "ROLE: Product Designer",
-            "User Experience Design",
-            "ROLE: Senior Product Designer",
-            "ROLE: Product Design Manager",
-            "ROLE: Senior Technical Designer"
-        ],
-        "Maintenance & Repair": [
-            "Component Repair",
-            "ROLE: Maintenance Technician",
-            "ROLE: O&M Technician",
-            "ROLE: Maintenance Manager"
-        ],
-        "Component Repair": [
-            "ROLE: Component Repair Technician (Chemical Clean)"
-        ],
-        "Food Service": [
-            "Bakery",
-            "Food Safety & Hygiene",
-            "ROLE: Bartender",
-            "ROLE: Restaurant Manager",
-            "Food & Beverage Coordination",
-            "ROLE: Food Services Supervisor"
-        ],
-        "Bakery": [
-            "ROLE: Bakery Staff",
-            "ROLE: Head Baker"
-        ],
-        "Corporate Law": [
-            "ROLE: Senior Corporate Counsel",
-            "Mergers & Acquisitions",
-            "ROLE: GDS Commercial Lawyer"
-        ],
-        "Direct Sales": [
-            "Banking Sales"
-        ],
-        "Banking Sales": [
-            "Direct Selling Agent"
-        ],
-        "Direct Selling Agent": [
-            "ROLE: Hiring Jobs for Bandhan Bank DSA"
-        ],
-        "Food Safety & Hygiene": [
-            "ROLE: F&B Hygiene Manager"
-        ],
-        "Data Management": [
-            "ROLE: Master Data Specialist",
-            "ROLE: Salesforce Data Cloud Consultant",
-            "ROLE: Senior Specialist / Master Data Management"
-        ],
-        "Mergers & Acquisitions": [
-            "ROLE: Legal M&A Specialist",
-            "Post Merger Integration"
-        ],
-        "Global Procurement Operations": [
-            "ROLE: End To End PC GPO Lead"
-        ],
-        "Health Education": [
-            "Nutrition Education"
-        ],
-        "Nutrition Education": [
-            "ROLE: Nutrition Education Coordinator"
-        ],
-        "Nursing": [
-            "Nursing Support",
-            "ROLE: Staff Nurse",
-            "ROLE: Charge Nurse RN",
-            "Nurse Anesthesia",
-            "ROLE: Practice Nurse",
-            "ROLE: LPN Charge Nurse",
-            "ROLE: Nurse Practitioner",
-            "ROLE: Junior Staff Nurse",
-            "ROLE: Nurse"
-        ],
-        "Nursing Support": [
-            "ROLE: Nursing Assistant I",
-            "ROLE: Certified Nursing Assistant and Caregiver"
-        ],
-        "Regional Marketing": [
-            "ROLE: Head of Regional Marketing (ShopBack Pay)",
-            "ROLE: EMEA Marketing Manager"
-        ],
-        "Direct Care": [
-            "Support Services"
-        ],
-        "Support Services": [
-            "ROLE: Lead Direct Support Professional - CBRF",
-            "Patient Transport"
-        ],
-        "Enterprise Resource Planning": [
-            "Microsoft Dynamics 365 Finance & Operations"
-        ],
-        "Microsoft Dynamics 365 Finance & Operations": [
-            "Technical Specialization"
-        ],
-        "Technical Specialization": [
-            "ROLE: MSD365 F&O Technical"
-        ],
-        "Patient Transport": [
-            "ROLE: Porter"
-        ],
-        "Social Media Marketing": [
-            "ROLE: Social Media Handler",
-            "ROLE: Social Media Manager"
-        ],
-        "Cybersecurity": [
-            "Security Operations Center",
-            "Privacy",
-            "ROLE: Senior Consultant for Cyber Security",
-            "ROLE: Cybersecurity Project Manager",
-            "Compliance",
-            "ROLE: Senior Cybersecurity Engineer - Cloud Security Engineering",
-            "ROLE: Lead Identity Engineer",
-            "ROLE: Senior Network Security Engineer",
-            "ROLE: Security Consultant - SIEM L3"
-        ],
-        "Security Operations Center": [
-            "ROLE: IT Specialist - Security Operations Center (SOC)",
-            "ROLE: Security Operations Centre Analyst"
-        ],
-        "Employee Benefits": [
-            "Health Benefits"
-        ],
-        "Health Benefits": [
-            "ROLE: Employee Benefits Health Manager"
-        ],
-        "Diversity, Equity & Inclusion": [
-            "ROLE: EDI Engineer",
-            "ROLE: E&I Supervisor Turn Around"
-        ],
-        "Utilities Engineering": [
-            "ROLE: Senior Engineer - Utilities",
-            "ROLE: Utility Maintenance I - Wastewater"
-        ],
-        "Privacy": [
-            "ROLE: Regional Privacy Manager APAC"
-        ],
-        "Early Childhood Education": [
-            "Preschool Instruction",
-            "ROLE: Infant Educarer"
-        ],
-        "Preschool Instruction": [
-            "ROLE: Preschool Head Teacher"
-        ],
-        "Product Marketing": [
-            "ROLE: Head of Product Marketing (Appliance)"
-        ],
-        "Equipment Operation": [
-            "ROLE: Equipment Operator",
-            "ROLE: Crane Operator",
-            "ROLE: Installation Supervisor"
-        ],
-        "Security Services": [
-            "Security Attendant",
-            "ROLE: Assistant Loss Prevention Manager"
-        ],
-        "Security Attendant": [
-            "ROLE: Security Attendant"
-        ],
-        "Customer Engagement": [
-            "ROLE: Crew, Ambassadors"
-        ],
-        "Creative Direction": [
-            "Motorsport Creative"
-        ],
-        "Motorsport Creative": [
-            "ROLE: Senior Creative Lead - Motorsport"
-        ],
-        "Production Planning": [
-            "ROLE: Senior Production Planning Engineer"
-        ],
-        "Insurance": [
-            "Life Insurance"
-        ],
-        "Life Insurance": [
-            "ROLE: Life Insurance"
-        ],
-        "API Integration": [
-            "ROLE: Azure API Integration Developer"
-        ],
-        "Planning": [
-            "ROLE: Planning Engineer"
-        ],
-        "Data Architecture": [
-            "ROLE: Associate Director DDIT US&I Data Architect"
-        ],
-        "Regulatory Affairs": [
-            "Maternal And Infant Care",
-            "ROLE: Regulatory Affairs Officer"
-        ],
-        "Maternal And Infant Care": [
-            "ROLE: Program Manager, Regulatory Affairs, Maternal Infant Care"
-        ],
-        "Cloud Infrastructure": [
-            "ROLE: Cloud Engineer (AWS/Azure)",
-            "ROLE: Senior DevOps Engineer",
-            "ROLE: Technical Lead, IT Infrastructure (Virtualization)",
-            "ROLE: IT Cloud Engineer",
-            "AWS"
-        ],
-        "Physician Specialties": [
-            "Dermatology"
-        ],
-        "Dermatology": [
-            "ROLE: Dermatology Physician"
-        ],
-        "Banking Operations": [
-            "Customer Service"
-        ],
-        "Research": [
-            "Academic Research"
-        ],
-        "Academic Research": [
-            "ROLE: Junior Research Fellow"
-        ],
-        "Knowledge Management": [
-            "ROLE: Knowledge Curator (Analyst)"
-        ],
-        "Supply Planning": [
-            "ROLE: Senior Supply Planning Lead"
-        ],
-        "Network Security": [
-            "Firewall Automation"
-        ],
-        "Firewall Automation": [
-            "Software Testing"
-        ],
-        "Software Testing": [
-            "ROLE: Network Software Firewall Automation Testing"
-        ],
-        "Instructional Design": [
-            "Global Learning"
-        ],
-        "Global Learning": [
-            "Development and Delivery"
-        ],
-        "Development and Delivery": [
-            "ROLE: Instructional Designer Global Learning D and D"
-        ],
-        "Technical Training": [
-            "ROLE: IT Trainer Tally cum Excel BCom",
-            "ROLE: Student Counsellor IT TRAINING"
-        ],
-        "Chemistry": [
-            "ROLE: Chemist",
-            "ROLE: Chemical Technician (Registered Chemist)"
-        ],
-        "Teacher Certification": [
-            "ROLE: Tamilnadu Teacher Eligibility Test (TNTET) Govt Jobs Vacancy"
-        ],
-        "Labor Relations": [
-            "Union Stewardship"
-        ],
-        "Union Stewardship": [
-            "ROLE: Assistant Chief Steward"
-        ],
-        "Clinical Data Analysis": [
-            "Flow Cytometry Analysis"
-        ],
-        "Flow Cytometry Analysis": [
-            "ROLE: Flow Cytometry Data Analyst"
-        ],
-        "Point Of Sale Systems": [
-            "ROLE: Micros Xstore Consultant"
-        ],
-        "Social Work": [
-            "ROLE: Social Worker",
-            "ROLE: Social Care Navigator",
-            "ROLE: Social Worker Members"
-        ],
-        "Truck Driving": [
-            "ROLE: Regional CDL-A Truck Driver",
-            "ROLE: CDL A/B Truck Driver"
-        ],
-        "Medical Education": [
-            "Academic Medical Institutions"
-        ],
-        "Academic Medical Institutions": [
-            "ROLE: Medical College and Hospital"
-        ],
-        "Personal Care Services": [
-            "Cosmetology"
-        ],
-        "Cosmetology": [
-            "Lash Services",
-            "ROLE: Master Hairstylist & Braider"
-        ],
-        "Lash Services": [
-            "ROLE: Lash Technician"
-        ],
-        "Third Party Risk Management": [
-            "ROLE: TPRM Portfolio Risk Management - Team Manager"
-        ],
-        "IT Asset Management": [
-            "ROLE: Team Manager, IT Asset Management",
-            "ROLE: Software Asset Management Specialist"
-        ],
-        "Risk Validation": [
-            "ROLE: Manager I, Risk, Selection Validation"
-        ],
-        "Professional Development": [
-            "Center Of Excellence"
-        ],
-        "Center Of Excellence": [
-            "ROLE: Center of Excellence for Professional Development"
-        ],
-        "Production": [
-            "Production Operations",
-            "ROLE: Operator"
-        ],
-        "Production Operations": [
-            "ROLE: Production Operatives"
-        ],
-        "Interior Design": [
-            "ROLE: Interior Designer"
-        ],
-        "Environmental Science": [
-            "Environmental Impact Assessment",
-            "Climate Change"
-        ],
-        "Environmental Impact Assessment": [
-            "Environmental & Social Due Diligence"
-        ],
-        "Environmental & Social Due Diligence": [
-            "ROLE: Senior Consultant - Environmental & Social Due Diligence"
-        ],
-        "Consulting": [
-            "ROLE: Visiting Consultant",
-            "ROLE: Senior Associate - CSR Consulting"
-        ],
-        "Pharmaceutical Quality Assurance": [
-            "ROLE: Quality Assurance Specialist | Chimico/Pharma"
-        ],
-        "Quality Improvement Coordination": [
-            "ROLE: IT Quality Assurance and Improvement Coordinator"
-        ],
-        "Document Management": [
-            "ROLE: Document Management Technician"
-        ],
-        "Information Management": [
-            "Project Information Management"
-        ],
-        "Project Information Management": [
-            "Project Information Management Technician"
-        ],
-        "Project Information Management Technician": [
-            "ROLE: Senior Project Information Management Technician"
-        ],
-        "Urology": [
-            "ROLE: Urology"
-        ],
-        "Risk Consulting": [
-            "ROLE: Associate Consultant - Business Consulting Risk - FS - CNS - Digital Risk",
-            "ROLE: Senior Consultant - Technology Risk",
-            "ROLE: Risk Consulting Manager IT Stress Testing",
-            "ROLE: Manager - Business Consulting Risk"
-        ],
-        "Compensation & Benefits": [
-            "ROLE: Senior Manager, Compensation & Benefits"
-        ],
-        "Administrative Support": [
-            "ROLE: Virtual Assistant with Social Media & CSR Background",
-            "Clerical Services",
-            "ROLE: Administrative Assistant",
-            "ROLE: Sales Administrative",
-            "ROLE: Sales Assistant"
-        ],
-        "Nurse Anesthesia": [
-            "ROLE: Certified Registered Nurse Anesthetist CRNA"
-        ],
-        "Supply Chain Improvement": [
-            "ROLE: Supply Chain Improvement Specialist",
-            "ROLE: D&T Analyst II - Supply Chain"
-        ],
-        "Process Development": [
-            "ROLE: Process Developer - OTC, Cash Application"
-        ],
-        "Commercial Vehicle Sales": [
-            "ROLE: Commercial Truck Sales Professional"
-        ],
-        "Medical Leadership": [
-            "Field Medical Leadership"
-        ],
-        "Field Medical Leadership": [
-            "ROLE: Field Medical Director, MSK (spine)"
-        ],
-        "Emergency Medical Services": [
-            "Paramedicine"
-        ],
-        "Paramedicine": [
-            "ROLE: Advanced Care Paramedic"
-        ],
-        "User Experience Design": [
-            "ROLE: UX Designer II",
-            "ROLE: Interaction Designer",
+            "ROLE: Assistant Manager - Service Sales",
+            "ROLE: Sales Engineer | Brandveiligheid",
+            "ROLE: Store Manager",
+            "ROLE: Account Executive, Mid-Market",
+            "ROLE: Indoor IT Sales Executive",
+            "ROLE: VP Sales, APAC",
+            "ROLE: Field Sales Executive",
+            "ROLE: Outbound/Inbound Sales Representatives",
+            "ROLE: Sales Head \u2013 IT Infrastructure",
+            "ROLE: Senior Sales Engineer",
+            "ROLE: IT Sales Executive",
+            "ROLE: Software Sales Executive",
+            "ROLE: Sales Manager - Bitumen",
+            "ROLE: Sales Team Member",
+            "ROLE: Field Service Representative",
+            "ROLE: Senior Solar Sales Specialist",
+            "ROLE: Area Sales Manager",
+            "ROLE: Sales Ambassador",
+            "ROLE: Grocery Merchandiser",
+            "ROLE: Area Sales Executive",
+            "ROLE: Team Leader - Mortgage Sales",
+            "ROLE: Account Executive",
+            "ROLE: Sales Engineer",
+            "ROLE: Sales Executive",
+            "Territory Sales",
+            "ROLE: Sales Team Lead",
+            "ROLE: Sales Manager (Digital Marketing & Web Development)",
+            "ROLE: Sales Executive, Industrial Refrigeration",
+            "ROLE: Senior Sales Executive"
+        ],
+        "Arts, Design & Media": [
+            "Multimedia Design",
+            "Graphic Design",
+            "Content Creation",
+            "Photography",
+            "Fiber Design",
+            "Content Moderation",
+            "Fashion Design",
+            "Design Leadership",
+            "Production Management",
+            "Interior Design",
+            "Product Design",
+            "Visual Arts",
+            "Translation & Interpretation",
+            "Design"
+        ],
+        "Multimedia Design": [
+            "ROLE: Multimedia Designer",
             "ROLE: UI/UX Designer"
         ],
-        "Robotic Process Automation": [
-            "ROLE: Senior RPA Engineer"
+        "Information Technology": [
+            "Data Architecture",
+            "Technical Support",
+            "Software Development",
+            "Information Technology Talent Acquisition",
+            "Data Engineering",
+            "Data Science & AI",
+            "Business Technology Solutions",
+            "ROLE: Head of IT",
+            "Network Engineering",
+            "Artificial Intelligence",
+            "Cybersecurity",
+            "Business Analysis",
+            "Systems Engineering",
+            "Infrastructure Engineering",
+            "ROLE: IT Executive",
+            "ROLE: Digital Assistant",
+            "Financial Technology",
+            "Software Quality Assurance",
+            "End User Field Services",
+            "IT Technical Support",
+            "IT Project Management",
+            "IT Asset Management",
+            "Information Technology Executive Leadership",
+            "IT System Administration",
+            "Data Management"
         ],
-        "Product Engineering": [
-            "Automotive Engineering",
-            "Quality Assurance"
+        "Data Architecture": [
+            "ROLE: Senior Data Architect",
+            "ROLE: Database Specialist",
+            "ROLE: Informatica Architect Senior Manager",
+            "ROLE: Data Manager"
         ],
-        "Automotive Engineering": [
-            "ROLE: Manager Product Engineering Automotive"
+        "Engineering": [
+            "Mechanical Engineering",
+            "Research Engineering",
+            "Water Engineering",
+            "Electrical Engineering",
+            "Field Engineering",
+            "Proposal Engineering",
+            "Build Engineering",
+            "Reliability Engineering",
+            "Utilities Engineering",
+            "ROLE: Director, Engineering",
+            "Industrial Engineering",
+            "Contract Engineering",
+            "Railway Engineering",
+            "Food Engineering",
+            "Verification Engineering",
+            "Software Engineering",
+            "Civil Engineering",
+            "Process Engineering",
+            "Manufacturing Engineering"
         ],
-        "Energy & Sustainability": [
-            "ROLE: Energy and Sustainability Coordinator",
-            "ROLE: Manager - Corporate & Cleantech"
+        "Mechanical Engineering": [
+            "Mechanical Engineering Project Management",
+            "Printing Technology Engineering",
+            "ROLE: Industrialisation Engineer",
+            "ROLE: Maintenance Technician",
+            "ROLE: Planning Engineer",
+            "ROLE: Senior Engineer - Mechanical Design",
+            "Maintenance Technician",
+            "Thermal Fluid Systems",
+            "Mechanical Engineering Maintenance Technician",
+            "ROLE: Engineering Lead",
+            "ROLE: Mechanical Engineer",
+            "ROLE: Senior Engineer - Material",
+            "ROLE: Staff Design Constraints Engineer",
+            "ROLE: Manufacturing Engineer",
+            "ROLE: Technical Engineer I",
+            "ROLE: Project Engineer / Senior Engineer (Mechanical & Electrical)",
+            "ROLE: Mechanical Design Engineer",
+            "Mechanical Engineering Maintenance",
+            "Sheet Metal Engineering",
+            "ROLE: Lead Engineer",
+            "ROLE: Engineering Manager",
+            "ROLE: Senior Engineer",
+            "ROLE: Senior Product Engineer Automotive",
+            "Tribology",
+            "Mechanical Engineering Quality Assurance",
+            "ROLE: Facilities & Engineering Executive",
+            "Maintenance",
+            "ROLE: Engineering Manager - Backend",
+            "ROLE: Project Engineer",
+            "Validation Engineering",
+            "ROLE: Engineer NDT"
         ],
-        "Application Support": [
-            "ROLE: Lead Consultant Application Support L2"
+        "Mechanical Engineering Project Management": [
+            "HVAC Project Management",
+            "ROLE: Project Engineer"
         ],
-        "Tax Compliance": [
-            "ROLE: Tax Regulatory Compliance Specialist"
+        "HVAC Project Management": [
+            "ROLE: Mechanical Project Manager (HVAC)",
+            "ROLE: Assistant Project Lead - MEP (Quality)",
+            "ROLE: Project Manager \u2013 MEP Systems"
         ],
-        "Higher Education": [
-            "Academic Faculty"
+        "Business": [
+            "Growth Strategy",
+            "Administrative Support",
+            "Remote Work",
+            "Customer Service",
+            "Risk Management",
+            "Product Management",
+            "Corporate Engagement",
+            "Back Office Operations",
+            "Business Project Management",
+            "Business Operations",
+            "Insurance Management",
+            "Business Quality Assurance",
+            "Supply Chain Management",
+            "Mentoring & Coaching",
+            "Transportation Management",
+            "ROLE: Operations Senior",
+            "Supply Chain Planning",
+            "ROLE: Senior Manager, Special Projects",
+            "Business Consulting",
+            "Trade Automation",
+            "Professional Development",
+            "Business Transformation",
+            "Quality Assurance",
+            "Sustainability",
+            "Project Management",
+            "Government Affairs",
+            "ROLE: Manager",
+            "Document Control",
+            "ROLE: Assistant Manager",
+            "ROLE: Senior Associate",
+            "Team Leadership",
+            "Student Government Association Coordination",
+            "Business Process Management",
+            "Business Analysis",
+            "Ecosystem Management"
         ],
-        "Academic Faculty": [
-            "Medical Specialties"
+        "Growth Strategy": [
+            "ROLE: Head of Growth",
+            "ROLE: Venture Coach",
+            "ROLE: Strategy Consultant",
+            "ROLE: Senior Analyst National",
+            "ROLE: Corporate Planning Manager",
+            "ROLE: Senior Analyst",
+            "ROLE: Senior Consultant",
+            "ROLE: Client Insights Analyst",
+            "ROLE: Senior Executive",
+            "ROLE: Growth Management",
+            "ROLE: Digital Strategy - Business Analyst"
         ],
-        "Medical Specialties": [
-            "Neurosurgery"
+        "Healthcare": [
+            "Nursing",
+            "Nursing Support",
+            "Patient Services",
+            "Clinical Informatics",
+            "Patient Counseling",
+            "Emergency Medical Services",
+            "Clinical Support Services",
+            "Medical Practice",
+            "Therapy Services",
+            "Occupational Therapy Support",
+            "Clinical Support",
+            "Behavioral Health Support",
+            "Advanced Practice Nursing",
+            "Medical Device Product Management",
+            "Veterinary Medicine",
+            "Health & Wellness"
         ],
-        "Neurosurgery": [
-            "ROLE: Associate Professor Neurosurgery"
-        ],
-        "Post Merger Integration": [
-            "ROLE: Post Merger Integration Manager"
-        ],
-        "Food Science": [
-            "Food Technology"
-        ],
-        "Claims Adjustment": [
-            "Major & Complex Loss"
-        ],
-        "Major & Complex Loss": [
-            "ROLE: Major & Complex Loss Liability Adjuster"
-        ],
-        "Site Management": [
-            "ROLE: Site Manager Personenwagens"
-        ],
-        "Facilities Management": [
-            "ROLE: Senior Specialist, Facilities Management"
+        "Nursing": [
+            "ROLE: Registered Nurse OR Dept",
+            "ROLE: Nurse Practitioner",
+            "ROLE: Nurse",
+            "ROLE: Nursing Assistant I",
+            "ROLE: Travel Nurse - Oncology",
+            "ROLE: Project Nurse II",
+            "ROLE: Travel Registered Nurse ED",
+            "ROLE: Triage Nurse-Pediatrics",
+            "ROLE: Staff Nurse"
         ],
         "Graphic Design": [
+            "ROLE: Assistant Consultant - Graphic Design",
             "ROLE: Graphic Designer",
-            "ROLE: Creative Designer Intern"
+            "ROLE: Visual Merchandiser",
+            "ROLE: Graphic Design"
         ],
-        "Operational Risk": [
-            "Risk Analysis"
+        "Key Account Management": [
+            "ROLE: Key Account Manager",
+            "ROLE: Account Officer",
+            "ROLE: Account Management Director",
+            "ROLE: Account Manager",
+            "ROLE: Major Account Manager",
+            "ROLE: Account Executive, Platforms (Greater China)"
         ],
-        "Risk Analysis": [
-            "ROLE: Operational Risk Intermediate Analyst"
+        "Brand Management": [
+            "ROLE: Assistant Brand Manager",
+            "ROLE: Brand Coordinator",
+            "ROLE: Senior Marketing Executive",
+            "ROLE: Agency Events and Communication Senior Manager",
+            "ROLE: Brand Manager",
+            "ROLE: Brand and Marketing Officer",
+            "ROLE: Brand Specialist"
         ],
-        "Database Administration": [
-            "ROLE: Senior Database Administrator - PostgreSQL - Azure - Python Automation",
-            "ROLE: System Administrator (DBA)",
-            "ROLE: Database Administrator"
+        "Human Resources": [
+            "Human Resources Administration",
+            "Human Resources Talent Acquisition",
+            "Learning & Development",
+            "Human Resources Learning & Development",
+            "Workplace Safety And Health",
+            "ROLE: HR Consulting",
+            "Human Resources Payroll"
         ],
-        "Quality Control": [
-            "Microbiology"
+        "Human Resources Administration": [
+            "ROLE: HR & Admin Officer",
+            "ROLE: Senior Generalist and Human Resources and Operations",
+            "ROLE: Admin, Counsellor, HR, Telecaller",
+            "ROLE: Advocate HR Specialist",
+            "ROLE: Chief Human Resource Officer (Healthcare)",
+            "ROLE: HCM Functional Consultant",
+            "ROLE: HR Business Partner",
+            "ROLE: HR/Admin Assistant",
+            "ROLE: Head of HR Governance & Operations"
         ],
-        "Microbiology": [
-            "ROLE: Executive Quality Control Microbiology"
+        "Technical Support": [
+            "ROLE: Senior Technical Support Engineer 1",
+            "ROLE: IT Support Engineer",
+            "ROLE: System Administrator",
+            "ROLE: Senior Service Desk Analyst",
+            "ROLE: Linux Administrator",
+            "ROLE: Technical Services Manager",
+            "ROLE: Assistant Manager - Technical Services",
+            "ROLE: Backup Exec Technical Support Engineer",
+            "ROLE: IT Support Manager",
+            "ROLE: Technical Support Engineer",
+            "ROLE: Customer Engineer",
+            "ROLE: IT System Administrator",
+            "ROLE: Systems Administrator Senior",
+            "ROLE: Helpdesk Senior Representative",
+            "IT System Administration",
+            "ROLE: Assistant Manager IT",
+            "ROLE: Cloud Infrastructure Tech Support Practitioner",
+            "ROLE: Technical Support",
+            "ROLE: IT Administrator Assistant",
+            "IT Asset Management",
+            "Product Support",
+            "ROLE: Technical Support Executive",
+            "ROLE: Desktop Support Engineer",
+            "ROLE: IT Support",
+            "ROLE: Senior Support Engineer, Cloud Migrations",
+            "ROLE: Information Technology Manager",
+            "Mainframe Technical Support",
+            "Presales Engineering",
+            "ROLE: IT Manager",
+            "ROLE: Technology Services"
         ],
-        "Physician": [
-            "ROLE: Medical Physician Specialist II"
+        "Sales Operations": [
+            "Customer Relationship Management Administration",
+            "Customer Relationship Management",
+            "Sales Operations Coordination",
+            "Sales Administrative Support",
+            "Sales & Marketing Specialist"
         ],
-        "Supply Chain Management": [
-            "Materials Planning"
+        "Customer Relationship Management Administration": [
+            "ROLE: Sales Operations CRM Administrator"
         ],
-        "Materials Planning": [
-            "ROLE: Material Planner"
+        "Software Development": [
+            "Full Stack Development",
+            "ROLE: Software Development Engineer",
+            "ROLE: OIC Developer (Technical)",
+            "ROLE: Lead Software Engineer",
+            "Game Development",
+            "ROLE: Software Development Engineer II, Alexa Endpoint Experiences",
+            "Frontend Development",
+            "ROLE: Engineer, Strategic Software",
+            "ROLE: EDI Engineer",
+            "ROLE: Technical Architect & DevOps",
+            "Java Development",
+            "ROLE: Python Backend Engineer",
+            "ROLE: Senior QA Engineer, Distributed Cloud",
+            "ROLE: Technical Architect",
+            "ROLE: Backend Developer",
+            "Mobile Development",
+            "ROLE: Java Developer",
+            "Software Quality Assurance",
+            "ROLE: PHP Backend Developer / IT Executive",
+            "ROLE: Software Engineer Senior",
+            "ROLE: Senior Applications Engineer",
+            "ROLE: Node.js Developer - Express.js",
+            "Artificial Intelligence Development",
+            "ROLE: Senior Program Developer",
+            "ROLE: Full Stack Developer",
+            "ROLE: Staff Software Engineer, Platform",
+            "ROLE: Staff Software Engineer",
+            "ROLE: System Software Engineer - GPU Profiling",
+            "ROLE: Senior Software Engineer",
+            "ROLE: Director, Software Engineering",
+            "ROLE: Senior Associate, Solution Engineering",
+            "ROLE: Senior Software Engineer (C, Java, ETL)",
+            "ROLE: Software Engineer",
+            "Integration Development",
+            "Oracle Applications Development",
+            "ROLE: Manager, Software Development Engineering (Commercial Solutions)",
+            "ROLE: Software Development Senior Analyst",
+            "ROLE: Team Leader digital development",
+            "Software Product Consulting",
+            "ROLE: Lead Software Engineer - Windows Applications",
+            "ROLE: Software Development Lead",
+            "Robotic Process Automation",
+            "ROLE: Senior SW Engineer",
+            "ROLE: DotNet Developer",
+            "ROLE: Python Developer",
+            "ROLE: Senior Compute System Software Engineer",
+            "Software Engineering",
+            "ROLE: PREFIX Solutions",
+            "ROLE: Software Development Engineer III (Backend)",
+            "ROLE: Apps Dev Programmer Analyst 2",
+            "ROLE: Software Engineer (Experienced)",
+            "ROLE: Senior BE Engineer",
+            "ROLE: Senior Manager (Java)",
+            "ROLE: Engineer III, Software",
+            "ROLE: Senior Tech Lead - Java",
+            "ROLE: Core PHP Developer",
+            "ROLE: Mobile Engineering Manager",
+            "ROLE: CMS Senior",
+            "ROLE: Java Software Developer",
+            "ROLE: Salesforce Developer - Functional",
+            "ROLE: IT Manager & Software Engineering",
+            "ROLE: Senior Backend Engineer"
         ],
-        "Institutional Sales": [
-            "Over-The-Counter Sales"
+        "Full Stack Development": [
+            "ROLE: Full Stack Engineer",
+            "ROLE: Full-Stack developer (Back-End) and Multi-Tenant Systems",
+            "ROLE: Angular AWS Node Js Developer",
+            "ROLE: Full Stack Developer (Next.js + Multi-Tenant Systems)",
+            "ROLE: Lead Consultant & Java FS Developer",
+            "ROLE: Senior React Full Stack Developer",
+            "ROLE: Low Latency Senior Java Full Stack Developer - Vice President",
+            "ROLE: CTO Full Stack (Java/SpringBoot) Application Developer",
+            "ROLE: Senior Engineer Full Stack",
+            "ROLE: Full Stack Engineer (Studio Accounting Administration System)",
+            "ROLE: Principal Full Stack UI Developer",
+            "ROLE: Junior Full Stack Developer",
+            "ROLE: Senior Python Fullstack Developer",
+            "ROLE: Senior Kubernetes with Java Full Stack Developer"
         ],
-        "Over-The-Counter Sales": [
-            "ROLE: VP - OTC Institutional Sales"
+        "Administrative Support": [
+            "ROLE: Administrative Assistant",
+            "ROLE: Customer Service Representative",
+            "ROLE: Administrative Executive",
+            "ROLE: Admin Assistant (Advisory Operations)",
+            "Clerical Services",
+            "ROLE: Customer Service and Admin Associate",
+            "ROLE: Temporary Billing Coordinator",
+            "ROLE: Admin Assistant",
+            "ROLE: Associate Administrative Coordinator",
+            "ROLE: Customer Service Associate",
+            "ROLE: Process Assistant",
+            "ROLE: Assistant Office Manager",
+            "ROLE: Receptionist for New Client Team",
+            "ROLE: Admin Analyst",
+            "ROLE: Office Manager",
+            "ROLE: Operation Assistant",
+            "ROLE: Data Entry Operator",
+            "ROLE: Business Support Associate",
+            "ROLE: Associate, Record Services Support",
+            "ROLE: Customer Support Specialist",
+            "ROLE: RME Coordinator",
+            "ROLE: Warehouse Custom Admin",
+            "ROLE: Back Office Position",
+            "ROLE: Virtual Assistant with Social Media & CSR Background"
         ],
-        "Business Analysis": [
-            "ROLE: Business Analyst",
-            "ROLE: Lead Data Business Analyst",
-            "ROLE: Digital Strategy - Business Analyst",
-            "ROLE: Business Analyst (Regulatory Reporting Functional)",
-            "ROLE: Business System Analyst",
-            "ROLE: Team Lead Business Analyst"
+        "Information Technology Talent Acquisition": [
+            "ROLE: Senior IT Recruiter",
+            "ROLE: IT Recruiter",
+            "IT Sourcing",
+            "ROLE: HR IT Recruiter"
         ],
-        "Strategy & Transformation": [
-            "ROLE: Senior Consultant",
-            "Consulting",
-            "ROLE: Senior Manager, Operational Resilience"
+        "Remote Work": [
+            "ROLE: Digital Nomad"
         ],
-        "Media Buying": [
-            "Advertising Analytics"
+        "Event Promotion": [
+            "ROLE: Promoter"
         ],
-        "Advertising Analytics": [
-            "ROLE: Media Buyer & Analyst for Home Services"
+        "Business Development": [
+            "ROLE: Business Development Manager",
+            "ROLE: Senior Manager Commercial",
+            "ROLE: Business Development - Property Acquisition (Retail Store Expansion)",
+            "ROLE: Sales Director",
+            "ROLE: Demand Generation Manager",
+            "ROLE: Startups Account Executive",
+            "ROLE: Online Sales Consultant",
+            "ROLE: Marcom Sales Developer",
+            "ROLE: Business Development Executive",
+            "ROLE: Senior Sales Manager",
+            "ROLE: Account Executive, Talent Solutions",
+            "ROLE: Vice President SME Sales",
+            "ROLE: Business Development Manager Port Agency Services",
+            "ROLE: Area Sales Business Manager - MEAL",
+            "ROLE: Territory Business Manager",
+            "ROLE: Media Buyer & Analyst for Home Services",
+            "ROLE: Premier Acquisition Manager",
+            "ROLE: Solutions Consultant",
+            "ROLE: Sales Manager SaaS | Tech Sales",
+            "ROLE: Senior Executive Business Development",
+            "ROLE: Regional Sales Business Manager"
         ],
-        "Automation Engineering": [
-            "ROLE: Automation Engineer",
-            "ROLE: Site Reliability Engineer",
-            "ROLE: DevOps Engineer"
+        "Nursing Support": [
+            "ROLE: Operating Theatre Assistant (OTA)",
+            "ROLE: Healthcare Assistant (CSSD)",
+            "ROLE: Certified Nursing Assistant and Caregiver"
         ],
-        "Firmware Engineering": [
-            "ROLE: Senior Firmware Engineer",
-            "ROLE: Senior Engineer / Technical Lead (MCU RTOS)"
+        "Manufacturing": [
+            "Manufacturing Systems Engineering",
+            "Machining",
+            "Material Handling",
+            "Production Operations",
+            "ROLE: Head of Manufacturing",
+            "ROLE: Head of APAC Supply Chain and Manufacturing",
+            "Production Supervision"
         ],
-        "Solar Design": [
-            "ROLE: Design Engineer - Solar"
+        "Manufacturing Systems Engineering": [
+            "Manufacturing Systems Analysis"
         ],
-        "Human Resources Software": [
-            "ROLE: Associate Consultant - SAP (SuccessFactors)"
+        "Manufacturing Systems Analysis": [
+            "ROLE: Manufacturing System Expert"
         ],
-        "Substation Design": [
-            "ROLE: Electrical Designer (Substation Modeling)"
+        "Data Engineering": [
+            "Cloud Platform - AWS",
+            "ROLE: Data Engineer",
+            "ROLE: Snowflake DBT Data Engineer",
+            "ROLE: Senior Manager, Data Engineer",
+            "ROLE: Data Integration Developer, Emerging Lead",
+            "ROLE: Senior Data Engineer",
+            "ROLE: Data Platform Engineer"
         ],
-        "Judiciary": [
-            "ROLE: Civil Judge"
+        "Cloud Platform - AWS": [
+            "ROLE: Data Engineer with AWS"
         ],
-        "Clerical Services": [
-            "ROLE: Clerk II District Clerk Civil Section"
+        "Finance": [
+            "Accounting",
+            "Financial Planning & Analysis",
+            "Corporate Finance",
+            "Financial Systems",
+            "Audit",
+            "Collections",
+            "Banking Operations",
+            "Asset Servicing",
+            "Taxation",
+            "Alternative Investment Services",
+            "Transaction Management",
+            "Banking",
+            "Project Finance",
+            "Investment Banking",
+            "Financial Reporting",
+            "Financial Technology",
+            "Credit Management",
+            "Risk Management",
+            "Estates & Trusts"
         ],
-        "Obstetrics & Gynecology": [
-            "ROLE: Gynecologist"
+        "Accounting": [
+            "ROLE: RTR Accountant",
+            "ROLE: Accountant I",
+            "ROLE: Accounts Payable & Treasury Analyst",
+            "ROLE: Tax Accountant III",
+            "ROLE: Assistant Financial Controller",
+            "ROLE: Fund Accountant",
+            "ROLE: Senior Accountant",
+            "ROLE: Junior Accountant",
+            "ROLE: General Accountant",
+            "Controllership",
+            "ROLE: Accountant",
+            "ROLE: Assistant Vice President UCITS - Fund Accounting",
+            "ROLE: General Accountant - Treasury",
+            "ROLE: Indirect Tax Intern",
+            "ROLE: Accounts Receivable Associate",
+            "ROLE: Accounts Payable Specialist",
+            "ROLE: Senior SMSF Accountant",
+            "ROLE: Fund Accounting",
+            "ROLE: Management Trainee - Plant Accounting / Product Costing"
         ],
-        "Therapy": [
-            "Physical Therapy",
-            "Outpatient Therapy",
-            "ROLE: Occupational Therapist",
-            "ROLE: Occupational Therapist Assistant"
+        "Customer Service": [
+            "Customer Experience",
+            "ROLE: CHAT Process Professional",
+            "Customer Support"
         ],
-        "Physical Therapy": [
-            "ROLE: Physical Therapist"
+        "Customer Experience": [
+            "ROLE: cx Team Member"
         ],
-        "Optometry": [
-            "ROLE: Optometrist"
-        ],
-        "Production Quality": [
-            "ROLE: Quality Production Engineer"
-        ],
-        "Continuous Improvement": [
-            "ROLE: Senior Continuous Improvement Engineer"
-        ],
-        "Clinical Operations": [
+        "Patient Services": [
+            "ROLE: Patient Service Representative",
+            "ROLE: Medical Intake Representative",
+            "ROLE: Youth Intake Coordinator",
             "ROLE: Clinic Manager",
-            "ROLE: Disease Area Training Manager",
-            "ROLE: Junior Assistant Medical Manager"
+            "Medical Billing"
         ],
-        "Financial Data Analysis": [
-            "ROLE: Analyst - Equity Index Data Management"
+        "Risk Management": [
+            "Financial Services Risk Consulting",
+            "Technology Risk Consulting",
+            "Model Governance",
+            "Market Risk"
         ],
-        "Compliance": [
-            "ROLE: Security Compliance"
+        "Financial Services Risk Consulting": [
+            "Digital Risk Advisory",
+            "Risk Advisory"
         ],
-        "Climate Change": [
-            "Sustainability"
+        "Digital Risk Advisory": [
+            "ROLE: Associate Consultant - Business Consulting Risk - FS - CNS - Digital Risk"
         ],
-        "Sustainability": [
-            "ROLE: Climate Change and Sustainability"
+        "Marketing": [
+            "Social Media Marketing",
+            "Digital Marketing",
+            "Brand Management",
+            "Channel Marketing",
+            "Marketing Operations",
+            "Product Marketing",
+            "Content Creation",
+            "ROLE: Marketing"
         ],
-        "API Development": [
-            "Security"
+        "Social Media Marketing": [
+            "ROLE: Social Media Executive",
+            "ROLE: Social Media Marketing Manager"
         ],
-        "Security": [
-            "ROLE: Kotlin Developer API & Security Specialist",
-            "ROLE: DAP-SEC Manager"
+        "Digital Marketing": [
+            "ROLE: Master in Digital Marketing",
+            "Digital Advertising",
+            "ROLE: Specialist - Digital Marketing",
+            "ROLE: Digital Performance Marketeer",
+            "ROLE: Growth & Digital Marketing Manager",
+            "ROLE: Digital Marketing Executive",
+            "ROLE: Performance marketer Meta Google Ads",
+            "ROLE: Performance Marketeer"
         ],
-        "Technology Sales": [
-            "ROLE: Sales Head \u2013 IT Infrastructure"
+        "Data Science & AI": [
+            "Portfolio Analytics",
+            "ROLE: Data Analyst",
+            "ROLE: Data Scientist",
+            "ROLE: Associate Alts Data Analyst",
+            "ROLE: Senior Director - Machine Learning",
+            "ROLE: Data Scientist, Manager",
+            "ROLE: Senior Data Scientist (Gen AI)",
+            "ROLE: Principal AI Engineer",
+            "Artificial Intelligence Development",
+            "ROLE: Data Analytics Intermediate Analyst",
+            "ROLE: Data Scientist & AI/ML",
+            "ROLE: Data Science Lead",
+            "ROLE: Decision Sci Practitioner Specialist"
         ],
-        "Driving": [
-            "Light Vehicle Operation"
+        "Portfolio Analytics": [
+            "Artificial Intelligence Innovation"
         ],
-        "Light Vehicle Operation": [
-            "ROLE: Light driver"
+        "Artificial Intelligence Innovation": [
+            "ROLE: Data Scientist - Portfolio Analytics & AI Innovation"
+        ],
+        "Financial Planning & Analysis": [
+            "ROLE: Manager Financial Planning & Analysis",
+            "ROLE: Wealth Manager",
+            "ROLE: Wealth Relationship Manager",
+            "ROLE: Analyst III Finance Operations",
+            "ROLE: Risk Analyst",
+            "ROLE: Supply Finance Manager, CoE",
+            "ROLE: Senior Associate Oracle Fusion Finance",
+            "Equity Index Data Analysis",
+            "ROLE: Balance Sheet Management Senior Analyst",
+            "ROLE: French Analyst Senior",
+            "ROLE: Tax Analyst",
+            "ROLE: Consultant (Actuary)",
+            "ROLE: Global Financial Analyst",
+            "ROLE: Financial Planning Analyst",
+            "ROLE: Financial Consultant",
+            "ROLE: Financial Analyst II (Project Finance)",
+            "ROLE: Portfolio Manager",
+            "ROLE: Financial Analyst",
+            "ROLE: Senior Pensions Advisor",
+            "ROLE: Senior Pricing Analyst",
+            "ROLE: Senior Analyst Finance"
+        ],
+        "Research Engineering": [
+            "ROLE: Research Engineer",
+            "Failure Analysis"
+        ],
+        "Client Success": [
+            "ROLE: Analyst, Client Success",
+            "ROLE: Client Consulting Manager",
+            "ROLE: Client Account Manager",
+            "ROLE: Client Associate",
+            "ROLE: Service Advisor",
+            "ROLE: Service Associate",
+            "ROLE: Client Care Analyst"
+        ],
+        "Digital Advertising": [
+            "ROLE: Digital Consultant Display"
+        ],
+        "Product Management": [
+            "ROLE: Product Manager",
+            "ROLE: Senior Product Manager",
+            "ROLE: Product Development Manager",
+            "ROLE: Head Product",
+            "ROLE: Technical Product Manager",
+            "ROLE: Product Owner",
+            "ROLE: Product Portfolio Manager",
+            "ROLE: Assistant Product Manager",
+            "ROLE: Product Manager (Critical Care & Wound care)",
+            "ROLE: Principal Product Manager, Conversational AI",
+            "ROLE: Category Executive - Private Label"
         ],
         "Corporate Finance": [
-            "Plant Finance"
+            "Equity Capital Markets",
+            "Financial Advisory",
+            "Plant Finance",
+            "ROLE: Senior Finance Manager",
+            "Credit Risk Analysis",
+            "ROLE: Senior Manager (Project Finance)"
         ],
-        "Plant Finance": [
-            "ROLE: Plant Finance"
+        "Equity Capital Markets": [
+            "Corporate Broking"
         ],
-        "Food Processing": [
-            "Meat Processing"
+        "Corporate Broking": [
+            "ROLE: Corporate Broking Channel"
         ],
-        "Packaging": [
-            "ROLE: Meat Wrapper"
+        "Corporate Engagement": [
+            "ROLE: Senior Engagement (Corporate & Government)"
+        ],
+        "Game Development": [
+            "ROLE: Senior Unity Developer"
+        ],
+        "Back Office Operations": [
+            "ROLE: DSA Back Office"
+        ],
+        "Financial Systems": [
+            "SAP Financial Accounting"
+        ],
+        "SAP Financial Accounting": [
+            "ROLE: Package Specialist SAP FIN FI"
+        ],
+        "Technology Risk Consulting": [
+            "ROLE: Consultant Technology Risk",
+            "ROLE: Senior Consultant Technology Risk",
+            "ROLE: Consultant - Assurance - TMT - ASU - TR - Technology Risk"
+        ],
+        "Human Resources Talent Acquisition": [
+            "ROLE: IT Recruiter",
+            "ROLE: US IT Recruiter",
+            "ROLE: HR Staffing",
+            "ROLE: Senior Recruiter GTM",
+            "ROLE: Talent Manager",
+            "ROLE: Talent Rep",
+            "Talent Data Analytics",
+            "ROLE: Recruiter",
+            "ROLE: Senior IT Recruiter",
+            "ROLE: IT Technical Recruiter",
+            "ROLE: Talent Acquisition Partner",
+            "ROLE: Talent Acquisition Specialist (Onboarding)",
+            "ROLE: Recruitment Relationship Manager",
+            "ROLE: Screening Manager",
+            "ROLE: Talent Acquisition Specialist",
+            "ROLE: Senior Manager IT Talent Acquisition"
+        ],
+        "Retail Sales": [
+            "ROLE: Jewelry Store Manager",
+            "ROLE: Retail Associate",
+            "ROLE: Automotive Sales Associate",
+            "ROLE: Salon Manager",
+            "ROLE: Catalog Associate",
+            "ROLE: Merchandiser",
+            "ROLE: Assistant Store Manager",
+            "ROLE: Store Manager"
+        ],
+        "Business Project Management": [
+            "ROLE: Delivery Project Manager",
+            "ROLE: Project Planner",
+            "ROLE: Head of Project Management Department",
+            "ROLE: Project Manager",
+            "ROLE: Senior Project Manager",
+            "ROLE: International Project Manager",
+            "ROLE: Senior Cost Control Manager (PMO)",
+            "ROLE: Project Coordinator",
+            "ROLE: Associate Program Manager",
+            "ROLE: Project Officer",
+            "ROLE: Manager, Program Management",
+            "ROLE: Deputy Project Manager",
+            "Project Planning & Controls",
+            "ROLE: Director, Program Integrity",
+            "ROLE: Assistant Project Manager",
+            "ROLE: Scrum Master",
+            "ROLE: Release Train Manager, VP",
+            "ROLE: Project manager traffic"
         ],
         "Machining": [
-            "CNC Operation"
+            "CNC Machining"
         ],
-        "CNC Operation": [
-            "ROLE: Operators CNC machine"
+        "CNC Machining": [
+            "Grinding Operations",
+            "ROLE: CNC Machinist"
+        ],
+        "Grinding Operations": [
+            "ROLE: CNC Operator - Grinding"
+        ],
+        "Business Technology Solutions": [
+            "Associate Consulting"
+        ],
+        "Associate Consulting": [
+            "MLR Coordination"
+        ],
+        "MLR Coordination": [
+            "ROLE: Business Technology Solutions Associate Consultant MLR Coordinator"
+        ],
+        "Content Creation": [
+            "ROLE: Senior Content Specialist",
+            "ROLE: Media Editor & Production Specialist",
+            "ROLE: Web Producer",
+            "ROLE: Creative Coordinator",
+            "ROLE: Marketing and Content Officer",
+            "ROLE: External Communications Manager",
+            "ROLE: Video & Content Creator",
+            "ROLE: Digital Media Specialist"
+        ],
+        "Frontend Development": [
+            "ROLE: Senior/Staff Frontend Engineer (Angular)",
+            "ROLE: Software Engineer - Frontend",
+            "ROLE: Senior Frontend Developer",
+            "ROLE: Frontend Developer",
+            "ROLE: Front End Developer",
+            "ROLE: Frontend Engineer (React with Vue)"
+        ],
+        "Inside Sales": [
+            "ROLE: Tele-Sales",
+            "ROLE: INSIDE SALES",
+            "ROLE: Associate Manager Inside Sales - Cloud & Infrastructure Services",
+            "ROLE: Inside Sales Executive",
+            "Web Sales",
+            "ROLE: Advertising Sales Assistant"
+        ],
+        "Water Engineering": [
+            "ROLE: Senior Engineer - Water",
+            "ROLE: Sales Engineer, Water Technology, MENA Region",
+            "ROLE: Consultant (Water Sector Projects)",
+            "ROLE: Environment Engineer",
+            "Hydrography"
+        ],
+        "Business Operations": [
+            "ROLE: Manager",
+            "ROLE: Major Incident Manager",
+            "ROLE: Strategy and Operational Planning Supervisor",
+            "Toolroom Supervision",
+            "ROLE: Production Team Member",
+            "ROLE: General Manager",
+            "ROLE: Assistant Manager",
+            "ROLE: Senior Operations Manager, Northeast Asia",
+            "ROLE: Logistic Executive",
+            "Crisis Management",
+            "ROLE: Head Operations (Plant Head)",
+            "ROLE: Management Trainee",
+            "ROLE: Operations Manager, External Fulfillment",
+            "ROLE: Lot Manager",
+            "Performance Management",
+            "Production",
+            "ROLE: Volunteer & Merchandise Manager",
+            "ROLE: Outlet Manager",
+            "ROLE: Programme Officer, Outreach",
+            "ROLE: Delivery Manager",
+            "ROLE: Management Associate",
+            "ROLE: Service Center Manager",
+            "ROLE: Assistant Night Manager",
+            "ROLE: Nightfill Assistant",
+            "ROLE: Senior Manager",
+            "ROLE: Operations Support Senior Supervisor"
+        ],
+        "Photography": [
+            "ROLE: Photographer",
+            "ROLE: Photo Editor"
+        ],
+        "Audit": [
+            "Legal And Compliance Audit",
+            "ROLE: Auditor",
+            "ROLE: Risk & Controls Analyst (Controls Assurance), AVP"
+        ],
+        "Legal And Compliance Audit": [
+            "Regulatory Issue Validation"
+        ],
+        "Regulatory Issue Validation": [
+            "ROLE: Assistant Vice President, Senior Auditor - Legal and Compliance Regulatory Issue Validation"
+        ],
+        "Fiber Design": [
+            "ROLE: Fiber Design Specialist"
+        ],
+        "Electrical Engineering": [
+            "Industrial Control Automation & SCADA",
+            "ROLE: Electrical System Design Engineer",
+            "ROLE: Electrical Project Engineer",
+            "ROLE: Lead Electrical Engineer",
+            "System on Chip Design"
+        ],
+        "Industrial Control Automation & SCADA": [
+            "ROLE: Senior Engineer - ICA & SCADA"
+        ],
+        "Collections": [
+            "ROLE: Branch Collection Manager"
+        ],
+        "Insurance Management": [
+            "ROLE: Cluster Manager - Life Insurance"
+        ],
+        "Business Quality Assurance": [
+            "ROLE: Assistant Manager - Quality Assurance",
+            "ROLE: Deputy Manager Quality (NABH, JCI & QAI)",
+            "ROLE: Quality Operations Specialist",
+            "ROLE: Quality Compliance Manager",
+            "ROLE: Senior Associate Quality Complaints",
+            "ROLE: Officer 3, Quality Control",
+            "ROLE: Quality Assurance Specialist | Chimico/Pharma"
+        ],
+        "Supply Chain Management": [
+            "Procurement",
+            "Warehouse Management",
+            "Inventory Management",
+            "Logistics Coordination",
+            "ROLE: Analyst, Fulfillment",
+            "Supply Chain Improvement",
+            "SAP Supply Chain Management",
+            "Manufacturing"
+        ],
+        "Procurement": [
+            "ROLE: Executive - SCM (Procurement)",
+            "ROLE: Senior Manager - Direct Procurement - PO Processing",
+            "ROLE: Assistant Manager - Procurement",
+            "ROLE: Manager - Procurement (Supply Chain - Ocean Freight)",
+            "Supplier Quality Compliance",
+            "ROLE: AMEA Procurement Manager",
+            "ROLE: Purchasing Assistant",
+            "ROLE: Purchase Executive",
+            "ROLE: Oracle Supply Chain & CRM Cloud SCM Inventory Costing Order Management Mnfg Prcmt Plan WMS Senior",
+            "ROLE: Purchasing & Admin Executive",
+            "ROLE: Buyer",
+            "ROLE: Assistant Purchase Manager"
+        ],
+        "Network Engineering": [
+            "ROLE: Network Engineer and Administrator",
+            "Infrastructure Engineering",
+            "ROLE: Senior Network Engineer - GPON",
+            "ROLE: IT Engineer",
+            "ROLE: IT Network Engineer",
+            "ROLE: Network Admin",
+            "ROLE: Network Support Engineer",
+            "ROLE: Network Engineer Design",
+            "ROLE: L1 Network Engineer",
+            "ROLE: Senior Systems Engineer",
+            "Cloud Infrastructure",
+            "ROLE: Network Development Engineer",
+            "ROLE: Pre-Sales Engineer (Networking)",
+            "Network Security"
+        ],
+        "Java Development": [
+            "Full Stack Development",
+            "ROLE: Java Technical Lead"
+        ],
+        "Banking Operations": [
+            "Inbound Customer Service"
+        ],
+        "Inbound Customer Service": [
+            "ROLE: Graduate Freshers For Bank Inbound Role"
+        ],
+        "Field Engineering": [
+            "Service Engineering",
+            "ROLE: Field Service Engineer",
+            "ROLE: Manager Engineering",
+            "Site Engineering"
+        ],
+        "Service Engineering": [
+            "ROLE: SERVICE ENGINEERS",
+            "ROLE: Service Engineers (Commissioning Team)",
+            "ROLE: Site Engineering & Commissioning - Technical Support",
+            "ROLE: Service Technician",
+            "ROLE: Service Engineer",
+            "ROLE: Testing & Commissioning Manager"
+        ],
+        "Science & Research": [
+            "Academic Research",
+            "Linguistics",
+            "Scientific Research",
+            "Scientific Communication",
+            "Artificial Intelligence Research"
+        ],
+        "Academic Research": [
+            "Research Fellowship",
+            "ROLE: Research Associate"
+        ],
+        "Research Fellowship": [
+            "ROLE: Junior Research Fellow",
+            "ROLE: Junior Research Fellow / Project Associate I",
+            "ROLE: Project Post Doctoral Fellow"
+        ],
+        "Proposal Engineering": [
+            "ROLE: Proposal Engineer"
+        ],
+        "Construction": [
+            "Construction Supervision",
+            "Construction Project Management",
+            "Construction Documentation",
+            "Construction Inspection",
+            "Construction Management"
+        ],
+        "Construction Supervision": [
+            "ROLE: Construction Site Supervisor",
+            "ROLE: Site Supervisor",
+            "ROLE: Regional Facilities Manager",
+            "ROLE: Plant Supervisor"
+        ],
+        "Infrastructure Engineering": [
+            "Developer Operations",
+            "ROLE: Manager/Lead \u2013 IT Infrastructure",
+            "ROLE: ICIT Engineer",
+            "ROLE: ITI Hardware and Network Engineer",
+            "ROLE: Technical Consulting Engineer: DataCenter / Nexus",
+            "ROLE: Assistant Infrastructure Architect",
+            "ROLE: Packet Core Engineer",
+            "ROLE: Corporate Controls Infrastructure Engineer",
+            "ROLE: Principal Platform Engineer",
+            "DevSecOps",
+            "ROLE: Senior Analyst, IT Network Development",
+            "ROLE: Automation Engineer",
+            "ROLE: Expert IT Infrastructure",
+            "Data Infrastructure Engineering"
+        ],
+        "Developer Operations": [
+            "ROLE: Head of Infrastructure & Developer Operations",
+            "ROLE: Platform Engineer Leader",
+            "ROLE: DevOps Engineer",
+            "ROLE: Dev Ops Engineer",
+            "ROLE: Senior DevOps Engineer"
+        ],
+        "Insurance Sales": [
+            "Life Insurance Sales"
+        ],
+        "Life Insurance Sales": [
+            "Bancassurance Sales"
+        ],
+        "Bancassurance Sales": [
+            "ROLE: Sales Officer - Life Insurance Company / Bancassurance"
+        ],
+        "Printing Technology Engineering": [
+            "Large Format Inkjet Technology"
+        ],
+        "Large Format Inkjet Technology": [
+            "ROLE: Large Format Inkjet Applications Engineer",
+            "ROLE: Image Quality Control and Processing Specialist I"
+        ],
+        "Content Moderation": [
+            "ROLE: Content Localization Moderator"
+        ],
+        "Hospitality": [
+            "Casino Operations",
+            "Food And Beverage Services",
+            "Guest Services",
+            "Food Preparation"
+        ],
+        "Casino Operations": [
+            "Casino Floor Technology"
+        ],
+        "Casino Floor Technology": [
+            "ROLE: Casino Floor Tech"
+        ],
+        "Mentoring & Coaching": [
+            "ROLE: Big Buddy Mentor"
+        ],
+        "Education": [
+            "Early Childhood Education",
+            "Student Programs",
+            "Educational Administration",
+            "Educational Leadership",
+            "Special Education",
+            "Educational Support",
+            "Higher Education",
+            "K-12 Education"
+        ],
+        "Early Childhood Education": [
+            "Early Years Education",
+            "ROLE: Childcare Teacher"
+        ],
+        "Early Years Education": [
+            "ROLE: Early Years Educator",
+            "ROLE: Infant Educator"
+        ],
+        "Build Engineering": [
+            "ROLE: Senior Build Engineer",
+            "ROLE: Site Office Engineer",
+            "ROLE: Embedded Test Engineer"
+        ],
+        "Transportation Management": [
+            "ROLE: Transportation Specialist",
+            "Air Logistics Pricing",
+            "ROLE: Officer Crewing",
+            "Logistics"
+        ],
+        "Air Logistics Pricing": [
+            "ROLE: Area Air Logistics Pricing Specialist"
+        ],
+        "Clinical Informatics": [
+            "Clinical Application Support"
+        ],
+        "Clinical Application Support": [
+            "ROLE: Clinical Application Specialist",
+            "ROLE: Point Of Care Support Specialist"
+        ],
+        "Student Programs": [
+            "Cadetship"
+        ],
+        "Cadetship": [
+            "ROLE: Student Cadetship"
+        ],
+        "Patient Counseling": [
+            "ROLE: Cataract Surgery Counselor"
+        ],
+        "Partnerships": [
+            "ROLE: Partnerships Manager - Motorsport"
+        ],
+        "Food And Beverage Services": [
+            "Bar And Beverage Service",
+            "ROLE: Food Court Attendant",
+            "ROLE: F&B Team Leader",
+            "Food Safety And Hygiene",
+            "ROLE: Management Trainee Kitchen",
+            "ROLE: Food Service Shift Manager"
+        ],
+        "Bar And Beverage Service": [
+            "ROLE: Bartender / Barista"
+        ],
+        "Artificial Intelligence": [
+            "Generative AI"
+        ],
+        "Generative AI": [
+            "ROLE: Expert Consulting POP Gen AI"
+        ],
+        "Toolroom Supervision": [
+            "ROLE: Toolroom Incharge",
+            "ROLE: Team Leader - Secondary Butchery"
+        ],
+        "Emergency Medical Services": [
+            "ROLE: Clinic Medic / Paramedic"
+        ],
+        "Asset Servicing": [
+            "Corporate Actions Processing"
+        ],
+        "Corporate Actions Processing": [
+            "ROLE: Team Head - Asset Servicing - Corporate Action Pre-Processing"
+        ],
+        "Clinical Support Services": [
+            "Medical Interpretation"
         ],
         "Medical Interpretation": [
             "ROLE: Remote Interpreter (Urdu/English)"
         ],
-        "Warehouse Operations": [
-            "Order Picking"
+        "Security": [
+            "Security Operations"
         ],
-        "Order Picking": [
-            "ROLE: Senior orderpicker"
+        "Security Operations": [
+            "Physical Security"
         ],
-        "AWS": [
-            "ROLE: Data Engineer with AWS"
+        "Physical Security": [
+            "ROLE: Supervisor Guarding",
+            "ROLE: Security Supervisor",
+            "ROLE: Lady Security",
+            "ROLE: Assistant Loss Prevention Manager",
+            "ROLE: Security Control Room Operator"
         ],
-        "Employment Counseling": [
-            "ROLE: Bilingual Employment Counselor"
+        "Supply Chain Planning": [
+            "ROLE: Associate Analyst, Supply Chain Planning",
+            "ROLE: Production Planner",
+            "ROLE: Supply Chain Trainee",
+            "ROLE: Material Planning",
+            "ROLE: D&T Analyst II - Supply Chain",
+            "ROLE: Material Planner",
+            "ROLE: Specialist Kinaxis - Supply Chain Planning"
         ],
-        "Test Automation": [
-            "ROLE: Software Engineer II QA Automation",
-            "ROLE: Automation Tester"
+        "Construction Project Management": [
+            "ROLE: Architectural Design Manager",
+            "ROLE: Global Construction Manager",
+            "ROLE: Construction Manager",
+            "ROLE: Installation Manager"
         ],
-        "Mental Health": [
-            "Therapy"
+        "Cybersecurity": [
+            "Managed Security Services",
+            "ROLE: Security Officer",
+            "ROLE: IT Security Analyst",
+            "Cloud Security",
+            "Vulnerability Management",
+            "ROLE: Senior Engineer - Security",
+            "ROLE: Lead Identity Engineer",
+            "ROLE: HR Security",
+            "Technology Risk",
+            "ROLE: Senior Associate Information Security Analyst",
+            "ROLE: Cybersecurity Specialist",
+            "ROLE: Associate Cybersecurity Engineer",
+            "Public Key Infrastructure",
+            "ROLE: Senior Application Security Engineer",
+            "ROLE: Security Operations Centre Analyst",
+            "ROLE: Cybersecurity",
+            "ROLE: Global Security Systems Manager"
         ],
-        "Outpatient Therapy": [
-            "Adolescent and Family Therapy"
+        "Managed Security Services": [
+            "ROLE: Security Managed Services Engineer (L2)"
         ],
-        "Adolescent and Family Therapy": [
-            "ROLE: Outpatient Adolescent and Family Therapist \u2013 ACT-Based Program"
+        "Medical Practice": [
+            "ROLE: Optometrist",
+            "Psychiatry",
+            "Dermatology",
+            "Speech Pathology",
+            "Urology",
+            "Obstetrics & Gynecology",
+            "ROLE: Medical Officer"
         ],
-        "Business Operations": [
-            "ROLE: Operations Shift Manager"
+        "Learning & Development": [
+            "ROLE: Senior Manager - Learning & Development",
+            "Employee Relations"
         ],
-        "Statistical Programming": [
-            "ROLE: Principal Statistical Programmer FSP"
+        "Event Sales": [
+            "ROLE: Banquet Sales Executive"
         ],
-        "Document Control": [
-            "ROLE: Document Controller"
+        "Sales Quality Assurance": [
+            "ROLE: Analyst, Quality Sales Review",
+            "ROLE: Principal Consultant, Quality Analyst Lead SFDC",
+            "ROLE: Lead Consultant & Quality Analyst SFDC"
         ],
-        "Marine Engineering": [
-            "Electric Vehicle Charging Systems"
+        "Customer Success": [
+            "ROLE: GTM Success Manager",
+            "Customer Success Platform Administration",
+            "ROLE: Sales Project Success Manager",
+            "ROLE: Customer Success Manager"
         ],
-        "Electric Vehicle Charging Systems": [
-            "ROLE: Research Engineer (Marine EV Charging)"
+        "Reliability Engineering": [
+            "ROLE: Engineer Reliability PACO"
         ],
-        "Food & Beverage Coordination": [
-            "ROLE: In-Room Dining Order Coordinator"
+        "Taxation": [
+            "Transfer Pricing"
         ],
-        "Human Resources Business Partner": [
-            "ROLE: HR Business Partner"
+        "Transfer Pricing": [
+            "ROLE: Junior Consultant Transfer Pricing"
         ],
-        "Financial Reporting": [
-            "External Reporting"
+        "Mobile Development": [
+            "ROLE: Mobile Developer React Native",
+            "Mobile Application Delivery",
+            "ROLE: Android Mobile Developer"
         ],
-        "External Reporting": [
-            "Risk Reporting"
+        "Channel Marketing": [
+            "ROLE: Regional Field & Channel Marketing Manager South Asia (India)"
         ],
-        "Risk Reporting": [
-            "ROLE: External Reporting Controller - Country Risk"
+        "Fashion Design": [
+            "ROLE: Preciso fashion"
         ],
-        "SAP APO": [
-            "ROLE: SAP APO Senior Consultant"
+        "Legal": [
+            "Litigation",
+            "ROLE: Associate Director, Legal",
+            "Corporate Law"
         ],
-        "Safety Science": [
-            "ROLE: Principal Safety Scientist"
+        "Litigation": [
+            "Criminal Litigation",
+            "Litigation Support"
         ],
-        "Renewable Energy Development": [
-            "ROLE: Wind & Solar Development Manager (Commercial & Industrial)"
+        "Criminal Litigation": [
+            "ROLE: Criminal Litigation Lawyer"
         ],
-        "Resource Management": [
-            "ROLE: Senior Manager, Program Resource Management"
+        "Alternative Investment Services": [
+            "Private Equity Fund Services"
         ],
-        "Fleet Engineering": [
-            "Cabin Systems Engineering"
+        "Private Equity Fund Services": [
+            "ROLE: Alternative Fund Services - Private Equity - Senior Team Member"
         ],
-        "Cabin Systems Engineering": [
-            "ROLE: Lead Fleet Engineer - Cabin"
-        ],
-        "Project Coordination": [
-            "ROLE: Senior Project Coordinator"
-        ],
-        "Facility Services": [
-            "Valet Services"
-        ],
-        "Valet Services": [
-            "ROLE: Service Valet"
-        ],
-        "Family Medicine": [
-            "Endocrinology"
-        ],
-        "Endocrinology": [
-            "ROLE: Family Medicine Specialist - Endocrinology focus"
-        ],
-        "Business Systems Analysis": [
-            "ROLE: Analyst - Business Systems"
+        "Risk Advisory": [
+            "ROLE: Senior Director - Risk Advisory"
         ],
         "Educational Administration": [
             "Educational Inspection"
@@ -1978,58 +1247,888 @@
         "Educational Inspection": [
             "ROLE: Assistant District Educational Inspectors"
         ],
-        "Pharmaceutical Sales": [
-            "ROLE: Medical Representative"
+        "Material Handling": [
+            "Forklift Operation"
         ],
-        "Housekeeping": [
-            "ROLE: Housekeeping Team Leader"
+        "Forklift Operation": [
+            "ROLE: Forklift Operator",
+            "ROLE: Equipment Operator"
         ],
-        "Healthcare Logistics": [
-            "Customer Care"
+        "Software Quality Assurance": [
+            "ROLE: Senior QA Engineer",
+            "ROLE: Senior Quality Automation Engineer (Selenium & Java)",
+            "ROLE: Senior SW Test Engineer",
+            "ROLE: Manual QA",
+            "ROLE: QA/Test Automation Developer",
+            "ROLE: Automation & Manual Testing Engineer",
+            "ROLE: QA Engineer",
+            "ROLE: Senior Software Engineer (Test)",
+            "ROLE: Staff Software Test Engineer",
+            "ROLE: Senior SDET",
+            "Quality Improvement Coordination",
+            "ROLE: Senior Software Engineer QA: Biometric Authentication (Mobile, Backend Automation)"
         ],
-        "Customer Care": [
-            "ROLE: Air Logistics Healthcare Customer Care Specialist"
+        "Warehouse Management": [
+            "ROLE: Warehouse Lead",
+            "ROLE: Stocker Merchandiser",
+            "ROLE: Store Keeper",
+            "ROLE: Warehouse Supervisor"
         ],
-        "Contract Management": [
+        "Transaction Management": [
+            "Middle Office Operations",
+            "ROLE: Transaction Specialist",
+            "ROLE: Finance Operations Lead"
+        ],
+        "Middle Office Operations": [
+            "ROLE: Transaction Management Analyst, Middle office"
+        ],
+        "Maintenance Technician": [
+            "Utility Maintenance",
+            "ROLE: Lift Technician (Repair & Maintenance)",
+            "ROLE: Component Repair Technician (Chemical Clean)",
+            "ROLE: O&M Technician",
+            "ROLE: Electric Motor Repairer",
+            "Component Repair"
+        ],
+        "Utility Maintenance": [
+            "ROLE: Maintenance Utility Worker Technician"
+        ],
+        "Therapy Services": [
+            "Physical Therapy",
+            "Occupational Therapy"
+        ],
+        "Physical Therapy": [
+            "Acute Care Physical Therapy"
+        ],
+        "Acute Care Physical Therapy": [
+            "ROLE: Travel Acute Care Physical Therapist"
+        ],
+        "Business Analysis": [
+            "ROLE: IT Business Analyst",
+            "ROLE: Search Analyst",
+            "ROLE: Senior Analyst",
+            "ROLE: Consultant IT",
+            "Business Systems Analysis",
+            "ROLE: IT Product Analyst",
+            "Data Strategy & Transformation",
+            "ROLE: OneStream Technical Analyst",
+            "Business Intelligence & Insights"
+        ],
+        "Design Leadership": [
+            "ROLE: Design Lead",
+            "ROLE: Product Design Manager",
+            "ROLE: Senior Technical Designer",
+            "ROLE: Associate Technical Director"
+        ],
+        "Thermal Fluid Systems": [
+            "ROLE: Senior Applications Engineer: Thermal Fluid Systems",
+            "ROLE: Mechanical Engineer - HVAC/CFD",
+            "ROLE: Senior Engineer - Flow Assurance"
+        ],
+        "Business Consulting": [
+            "ROLE: IWAI Consultant",
+            "ROLE: Client Consulting Manager, Visa Consulting and Analytics",
+            "ROLE: Business Setup Consultant",
+            "ROLE: Consulting",
+            "ROLE: Consultant",
+            "ROLE: Consultants",
+            "ROLE: Consultant - Policy Research and Government Engagement"
+        ],
+        "Human Resources Learning & Development": [
+            "ROLE: English and Soft Skills Trainer",
+            "ROLE: Talent Development Consultant (Training)",
+            "ROLE: State Enterprise Training Lead",
+            "ROLE: Senior Learning Consultant"
+        ],
+        "Utilities Engineering": [
+            "Dry Utilities Engineering"
+        ],
+        "Dry Utilities Engineering": [
+            "ROLE: Associate - Dry Utilities"
+        ],
+        "Transportation": [
+            "Commercial Truck Driving"
+        ],
+        "Commercial Truck Driving": [
+            "ROLE: CDL-A Lease Driver"
+        ],
+        "Cloud Security": [
+            "ROLE: Cloud Security Specialist",
+            "ROLE: Cloud Cyber Defense & Incident Response Analyst"
+        ],
+        "Artificial Intelligence Development": [
+            "Generative AI Development",
+            "ROLE: Data Scientist & AI/ML",
+            "ROLE: Lead Consultant & AI/ML",
+            "ROLE: AI Developer",
+            "ROLE: AI ML Engineer"
+        ],
+        "Generative AI Development": [
+            "ROLE: Gen AI Developer",
+            "ROLE: Applied AI Engineer, Public Health LLMs",
+            "ROLE: Senior Generative AI Application Developer Dot NET",
+            "ROLE: Senior Data Scientist (Generative AI)",
+            "ROLE: Lead Engineer - Generative AI & Prompt Engineering"
+        ],
+        "Crisis Management": [
+            "ROLE: Critical Incident Manager IV",
+            "ROLE: Manager & Assistant Director, Emergency Preparedness"
+        ],
+        "Trade Automation": [
+            "ROLE: Lead Trade Automation"
+        ],
+        "Construction, Extraction, and Architecture": [
+            "Construction Trades"
+        ],
+        "Construction Trades": [
+            "General Labor"
+        ],
+        "General Labor": [
+            "ROLE: Mazdoor",
+            "ROLE: Crossing Guard",
+            "ROLE: Porter",
+            "ROLE: TGT"
+        ],
+        "Banking": [
+            "Branch Banking",
+            "ROLE: Associate - Banking & Finance"
+        ],
+        "Branch Banking": [
+            "ROLE: Branch Banking Permanent Staff Requirement"
+        ],
+        "Vulnerability Management": [
+            "ROLE: Senior Specialist, IT Vulnerability Management"
+        ],
+        "IT System Administration": [
+            "ROLE: ServiceNow HR System Administrator",
+            "ROLE: System Admin",
+            "ROLE: Lead IT System Administrator",
+            "ROLE: System Administrator",
+            "ROLE: Linux & Unix Admin",
+            "ROLE: Advisor System Administrator"
+        ],
+        "Mechanical Engineering Maintenance Technician": [
+            "ROLE: HVAC Technician"
+        ],
+        "Project Finance": [
+            "Financial Advisory"
+        ],
+        "Financial Advisory": [
+            "ROLE: Associate - SaT - GOV - SaT - TCF - Lead Advisory-Project Finance",
+            "ROLE: Corporate Finance Advisor, Southeast Asia"
+        ],
+        "Occupational Therapy Support": [
+            "ROLE: Occupational Therapist Assistant"
+        ],
+        "Educational Leadership": [
+            "K12 Education Administration"
+        ],
+        "K12 Education Administration": [
+            "ROLE: Training Head (K12 Education)"
+        ],
+        "Corporate Law": [
+            "ROLE: Senior Corporate Counsel",
+            "ROLE: Legal Associates",
+            "ROLE: Manager Legal & Compliance",
+            "ROLE: Commercial Counsel - MENA",
+            "ROLE: Associate General Counsel & Chief Compliance Officer"
+        ],
+        "Linguistics": [
+            "Language Analysis"
+        ],
+        "Language Analysis": [
+            "ROLE: Hungarian Language Linguist",
+            "Thai Language Studies"
+        ],
+        "Professional Development": [
+            "ROLE: Center of Excellence for Professional Development"
+        ],
+        "Inventory Management": [
+            "Sales Inventory & Operations Planning",
+            "Inventory Analytics"
+        ],
+        "Sales Inventory & Operations Planning": [
+            "ROLE: Senior Manager, Inventory & SIOP"
+        ],
+        "Failure Analysis": [
+            "ROLE: Failure Analysis Engineer"
+        ],
+        "Investment Banking": [
+            "ROLE: Investment Banker"
+        ],
+        "Clerical Services": [
+            "ROLE: Clerk II District Clerk Civil Section"
+        ],
+        "Clinical Support": [
+            "Blood Bank Services",
+            "Laboratory Technician"
+        ],
+        "Blood Bank Services": [
+            "Blood Bank Counseling"
+        ],
+        "Blood Bank Counseling": [
+            "Blood Bank Laboratory Techniques"
+        ],
+        "Blood Bank Laboratory Techniques": [
+            "ROLE: Blood Bank Counsellor & Blood Bank Lab Technician"
+        ],
+        "Systems Engineering": [
+            "Systems Engineering Patching And Distribution",
+            "ROLE: Systems Engineer",
+            "ROLE: SaaS Solution Architect",
+            "Solutions Architecture",
+            "ROLE: Principal Systems Engineer",
+            "ROLE: Windows Server System Engineer",
+            "ROLE: System Engineer"
+        ],
+        "Systems Engineering Patching And Distribution": [
+            "ROLE: Systems Engineering Senior Specialist Patching/Distribution SME"
+        ],
+        "Marketing Operations": [
+            "ROLE: Marketing Operations Manager",
+            "Vendor Relations",
+            "ROLE: Ratings and Reviews Coordinator",
+            "ROLE: Campaign Management Executive",
+            "ROLE: EMEA Marketing Manager",
+            "ROLE: Senior Campaign Manager",
+            "ROLE: Marcom Manager"
+        ],
+        "Channel Sales": [
+            "ROLE: Channel Manager (UAE)",
+            "ROLE: Channel Manager OOH"
+        ],
+        "Equity Index Data Analysis": [
+            "ROLE: Equity Index Data Specialist"
+        ],
+        "Construction Documentation": [
+            "ROLE: Technical Writer - Construction and Architecture"
+        ],
+        "Business Transformation": [
+            "Change Management"
+        ],
+        "Change Management": [
+            "ROLE: Transition Manager"
+        ],
+        "Litigation Support": [
+            "ROLE: Court Assistant"
+        ],
+        "Inventory Analytics": [
+            "ROLE: Consultant - Inventory Analytics"
+        ],
+        "Industrial Engineering": [
+            "Industrial Control Systems"
+        ],
+        "Industrial Control Systems": [
+            "ROLE: Industrial Controller"
+        ],
+        "Controllership": [
+            "ROLE: Senior Manager Controllership"
+        ],
+        "Scientific Research": [
+            "ROLE: Scientific Officer"
+        ],
+        "Contract Engineering": [
             "ROLE: Assistant Manager & Contract Management (Engineering & Development)"
         ],
-        "Intake Services": [
-            "ROLE: Legal Intake Specialist"
+        "IT Asset Management": [
+            "ROLE: Team Manager, IT Asset Management",
+            "Software Asset Management"
         ],
-        "Aerospace Engineering": [
-            "Satellite Ground Systems"
+        "Behavioral Health Support": [
+            "ROLE: Behavioral Health Technician",
+            "ROLE: Registered Behavioral Health Tech",
+            "ROLE: Behavior Technician"
         ],
-        "Satellite Ground Systems": [
-            "ROLE: RF Team Lead - Ground Segment"
+        "Plant Finance": [
+            "ROLE: Plant Finance"
         ],
-        "Research Support": [
-            "ROLE: Research Services"
+        "Product Support": [
+            "Industrial Tooling Support"
         ],
-        "Call Center": [
-            "ROLE: Bilingual Spanish Call Center Agent"
+        "Industrial Tooling Support": [
+            "ROLE: Product Support Industrie Tooling"
+        ],
+        "Logistics Coordination": [
+            "ROLE: Reefer Logistics Coordinator",
+            "ROLE: Celebrations Coordinator / Driver",
+            "ROLE: Supply Chain Coordinator"
+        ],
+        "Quality Assurance": [
+            "Industrial Quality Assurance",
+            "ROLE: Quality Assurance Supervisor"
+        ],
+        "Industrial Quality Assurance": [
+            "ROLE: Assurance Supervisor 1 - Industrial Goods",
+            "ROLE: E&I Supervisor Turn Around"
+        ],
+        "Mobile Application Delivery": [
+            "ROLE: Director Mobile Delivery"
+        ],
+        "Travel Sales": [
+            "ROLE: Senior Travel Consultant"
+        ],
+        "Construction Inspection": [
+            "ROLE: Construction Inspector I",
+            "ROLE: QC Inspector"
+        ],
+        "Vendor Relations": [
+            "ROLE: Marketing and Vendor Relations Coordinator"
+        ],
+        "Financial Technology": [
+            "Banking IT Systems",
+            "Fintech Product Specialization"
+        ],
+        "Banking IT Systems": [
+            "ROLE: iOS Lead Wealth & Personal Banking IT",
+            "ROLE: Consultant Specialist & Wealth & Personal Banking IT"
+        ],
+        "Product Marketing": [
+            "ROLE: Product Marketing Manager",
+            "ROLE: APAC Product Marketing Lead"
+        ],
+        "Cloud Infrastructure": [
+            "ROLE: Senior Cloud Engineer"
+        ],
+        "Supplier Quality Compliance": [
+            "ROLE: Senior Specialist, Global Procurement Supplier Quality Compliance"
+        ],
+        "Customer Success Platform Administration": [
+            "ROLE: Customer Success Platform Administrator Gainsight"
+        ],
+        "Guest Services": [
+            "Food & Beverage Service",
+            "Resort Hosting",
+            "ROLE: House Supervisor",
+            "ROLE: Guest Relations Executive & Concierge"
+        ],
+        "Food & Beverage Service": [
+            "ROLE: Guest Service Agent and Food & Beverage Service",
+            "ROLE: Service Crew"
+        ],
+        "Sustainability": [
+            "ROLE: Sustainability Specialist",
+            "ROLE: Environmental Services Manager",
+            "Environmental Planning"
+        ],
+        "Technical Sales": [
+            "ROLE: Technical Sales Manager for Lubricants & Energy"
+        ],
+        "Site Engineering": [
+            "ROLE: Site Office Engineer",
+            "ROLE: Assistant Project Engineer",
+            "Quality Engineering"
+        ],
+        "Production Management": [
+            "Visual Effects Production",
+            "ROLE: Production Manager"
+        ],
+        "Visual Effects Production": [
+            "ROLE: Associate VFX Producer"
+        ],
+        "Psychiatry": [
+            "ROLE: Consultant Adult Psychiatrist"
+        ],
+        "Workplace Safety And Health": [
+            "ROLE: Workplace, Safety and Health Officer"
+        ],
+        "End User Field Services": [
+            "ROLE: End User Field Services \u2013 Account Run Lead"
+        ],
+        "Mainframe Technical Support": [
+            "ROLE: Mainframe Technical Support / AIX Administrators"
+        ],
+        "IT Technical Support": [
+            "ROLE: Technical Support Engineer I - Audio",
+            "ROLE: Technical Support Engineer",
+            "ROLE: IT Field Service Engineer",
+            "ROLE: Desktop Support Engineer",
+            "ROLE: IT Support",
+            "ROLE: L1 Tech Support / Customer Service",
+            "ROLE: IT Application Support Specialist",
+            "ROLE: IT Helpdesk Lead",
+            "ROLE: Tech Support Engineer",
+            "ROLE: Overnight Systems Support Specialist",
+            "ROLE: Technical Support Engineer L1",
+            "ROLE: Senior IT Application Specialist (ServiceNow)",
+            "ROLE: Senior Analyst, IT Service Operations",
+            "ROLE: L3 Technical Support Engineer",
+            "Database Administration",
+            "ROLE: DevOps Application Tech Support Practitioner",
+            "ROLE: Help Desk Lead",
+            "ROLE: Software Tech Support Engineer",
+            "ROLE: IT Technology Services Senior Specialist",
+            "ROLE: Senior Engineer & Technical Support Engineer",
+            "ROLE: Lab Support Senior Engineer, IT Security Network"
+        ],
+        "Integration Development": [
+            "ROLE: MuleSoft Developer"
+        ],
+        "Laboratory Technician": [
+            "ROLE: Lab Technician"
+        ],
+        "Financial Reporting": [
+            "External Reporting"
+        ],
+        "External Reporting": [
+            "Country Risk Management"
+        ],
+        "Country Risk Management": [
+            "ROLE: External Reporting Controller - Country Risk"
+        ],
+        "Project Management": [
+            "Project Partnership"
+        ],
+        "Project Partnership": [
+            "ROLE: IVY Project Partner"
+        ],
+        "Supply Chain Improvement": [
+            "ROLE: Supply Chain Improvement Specialist"
+        ],
+        "Customer Relationship Management": [
+            "ROLE: Customer Relationship Management Specialist",
+            "ROLE: Client Relationship Manager | CRM",
+            "ROLE: Account Manager",
+            "ROLE: Leasing Manager",
+            "ROLE: Client Advisor",
+            "ROLE: E-Commerce Relationship Management",
+            "ROLE: HubSpot Manager"
+        ],
+        "Railway Engineering": [
+            "Railway Apprenticeship"
+        ],
+        "Railway Apprenticeship": [
+            "ROLE: Central Railway Apprentices"
+        ],
+        "Food Engineering": [
+            "Meat Technology"
+        ],
+        "Meat Technology": [
+            "ROLE: Senior Meat Technologist"
+        ],
+        "Government Affairs": [
+            "ROLE: Head of Government Affairs",
+            "ROLE: Manager - Group Public Affairs"
+        ],
+        "Oracle Applications Development": [
+            "ROLE: Senior Associate Oracle Apps Technical",
+            "ROLE: Junior Oracle Apex Developer"
+        ],
+        "Technology Risk": [
+            "ROLE: Senior Analyst Technology Risk"
+        ],
+        "Scientific Communication": [
+            "ROLE: Scientific Communications Specialist"
+        ],
+        "Verification Engineering": [
+            "ROLE: Senior Verification Engineer, PCIE"
+        ],
+        "Software Product Consulting": [
+            "ROLE: TeamQuest Consultant"
+        ],
+        "Solutions Architecture": [
+            "ROLE: APAC Solutions Architect",
+            "ROLE: Senior Manager - Solution Architect - Hub Advisory",
+            "ROLE: System Architect"
+        ],
+        "Advanced Practice Nursing": [
+            "ROLE: PA-C / APRN"
+        ],
+        "Production Operations": [
+            "ROLE: Operator"
+        ],
+        "Construction Management": [
+            "Environmental Management",
+            "ROLE: Site Head"
+        ],
+        "Environmental Management": [
+            "ROLE: Site Head Environment"
+        ],
+        "Talent Data Analytics": [
+            "ROLE: Talent Data Analytics Associate",
+            "ROLE: Lead Workforce Analytics",
+            "ROLE: People Consulting Analytics"
+        ],
+        "Business Systems Analysis": [
+            "ROLE: Senior Business System Specialist",
+            "ROLE: Senior Manager \u2013 System Analyst \u2013 Functional Specialist"
+        ],
+        "Document Control": [
+            "ROLE: Document Controller",
+            "ROLE: Document Controller (Infrastructure)"
+        ],
+        "Construction, Extraction & Architecture": [
+            "Field Operations"
+        ],
+        "Field Operations": [
+            "ROLE: Field Operator"
+        ],
+        "Performance Management": [
+            "ROLE: Performance & Business Management Analyst, AVP"
+        ],
+        "Insurance": [
+            "Health Insurance"
+        ],
+        "Health Insurance": [
+            "ROLE: Health Insurance"
+        ],
+        "Software Engineering": [
+            "ROLE: Digital Engineering Senior Staff Engineer",
+            "Ecommerce Software Engineering"
+        ],
+        "Special Education": [
+            "Special Needs Tutoring",
+            "ROLE: Teacher Assistant: Special Education"
+        ],
+        "Special Needs Tutoring": [
+            "ROLE: SEND Specialist Tutor"
+        ],
+        "Robotic Process Automation": [
+            "ROLE: RPA Engineer"
+        ],
+        "Production": [
+            "ROLE: Senior Manager - Production"
+        ],
+        "Employee Relations": [
+            "Behavioural Intervention Programmes"
+        ],
+        "Behavioural Intervention Programmes": [
+            "ROLE: Offending Behaviour Programmes Facilitator"
+        ],
+        "IT Project Management": [
+            "ROLE: IT Project Manager",
+            "ROLE: IT Project Coordinator",
+            "ROLE: IT Service Delivery Manager",
+            "ROLE: Assistant IT Manager"
+        ],
+        "Publisher Sales": [
+            "ROLE: Manager - Publisher Sales"
+        ],
+        "Interior Design": [
+            "ROLE: Interior Designer"
+        ],
+        "Relationship Management": [
+            "ROLE: Preferred RM"
+        ],
+        "Software Asset Management": [
+            "ROLE: Software Asset Management"
+        ],
+        "Civil Engineering": [
+            "Civil Engineering Project Management",
+            "ROLE: Civil Engineer 3"
+        ],
+        "Civil Engineering Project Management": [
+            "ROLE: Project Manager - Civils & Utilities"
+        ],
+        "SAP Supply Chain Management": [
+            "SAP Supply Chain Management Sales & Distribution"
+        ],
+        "SAP Supply Chain Management Sales & Distribution": [
+            "ROLE: Package Specialist SAP SCM SD"
+        ],
+        "Team Leadership": [
+            "ROLE: Senior Cell Leader",
+            "ROLE: Shiftleader"
+        ],
+        "Fintech Product Specialization": [
+            "ROLE: Specialist-Fintech Products"
+        ],
+        "Mechanical Engineering Maintenance": [
+            "Fire Equipment Maintenance"
+        ],
+        "Fire Equipment Maintenance": [
+            "Fire Equipment Maintenance Specialist"
+        ],
+        "Fire Equipment Maintenance Specialist": [
+            "ROLE: Fire Equipment Maintenance Specialist"
+        ],
+        "Educational Support": [
+            "ROLE: Learning Support Assistant"
+        ],
+        "Data Strategy & Transformation": [
+            "ROLE: Senior Program Manager & Data Strategy & Transformation"
+        ],
+        "Sheet Metal Engineering": [
+            "ROLE: Design Engineer Sheet Metal"
+        ],
+        "Presales Engineering": [
+            "ROLE: Technical and Presales Specialist"
+        ],
+        "Dermatology": [
+            "ROLE: Dermatology Physician"
+        ],
+        "Resort Hosting": [
+            "ROLE: Resort Host Supervisor"
+        ],
+        "Student Government Association Coordination": [
+            "ROLE: Student Government Association Coordinator"
+        ],
+        "Artificial Intelligence Research": [
+            "Deep Learning"
+        ],
+        "Deep Learning": [
+            "Image Analysis"
+        ],
+        "Image Analysis": [
+            "ROLE: PhD Fellowship in Applied Deep Learning for Image Analysis"
+        ],
+        "Ecommerce Software Engineering": [
+            "ROLE: Software Engineer 1, Global Ecommerce Experience"
+        ],
+        "Human Resources Payroll": [
+            "ROLE: People Consulting-Payroll"
+        ],
+        "Business Process Management": [
+            "Customer Service"
+        ],
+        "Public Key Infrastructure": [
+            "ROLE: Public Key Infrastructure (PKI) Specialist"
+        ],
+        "Speech Pathology": [
+            "ROLE: Speech Pathologist Adult"
+        ],
+        "Credit Management": [
+            "ROLE: Credit Manager - Used Car Loans"
+        ],
+        "Thai Language Studies": [
+            "ROLE: Thai Language Linguist"
+        ],
+        "Territory Sales": [
+            "ROLE: Radius Agent"
+        ],
+        "Information Technology Executive Leadership": [
+            "ROLE: IT Executive",
+            "ROLE: Junior IT Executive",
+            "ROLE: CTO"
+        ],
+        "Model Governance": [
+            "ROLE: Specialist - Model Governance"
+        ],
+        "Insurance Broking": [
+            "ROLE: Insurance Broking Services"
+        ],
+        "Food Preparation": [
+            "ROLE: Cook"
+        ],
+        "Higher Education": [
+            "Faculty",
+            "Academic Faculty"
+        ],
+        "Faculty": [
+            "ROLE: Faculty",
+            "ROLE: Post Graduate Teacher"
+        ],
+        "Product Design": [
+            "ROLE: Product Designer",
+            "ROLE: UX Designer II"
+        ],
+        "Tribology": [
+            "Lubrication Engineering"
+        ],
+        "Lubrication Engineering": [
+            "ROLE: Principal Engineer - Lubrication & Tribology"
+        ],
+        "Logistics": [
+            "ROLE: Logistic Specialist"
+        ],
+        "Mechanical Engineering Quality Assurance": [
+            "ROLE: Lead Product Quality Engineer"
+        ],
+        "Environmental Planning": [
+            "ROLE: Environment Planner"
+        ],
+        "Hydrography": [
+            "ROLE: Senior Hydrographers"
+        ],
+        "Medical Device Product Management": [
+            "ROLE: Regional Product Manager IntraOperative Ultrasound"
+        ],
+        "Food Safety And Hygiene": [
+            "ROLE: F&B Hygiene Manager"
+        ],
+        "Sales Operations Coordination": [
+            "ROLE: Sales MIS Coordinator"
+        ],
+        "Occupational Therapy": [
+            "ROLE: Occupational Therapist"
+        ],
+        "Project Planning & Controls": [
+            "ROLE: Project Planning & Controls Specialist"
+        ],
+        "Production Supervision": [
+            "ROLE: Supervisor Factory"
+        ],
+        "Visual Arts": [
+            "Painting"
+        ],
+        "Painting": [
+            "ROLE: Painter"
+        ],
+        "Veterinary Medicine": [
+            "Veterinary Technology"
+        ],
+        "Veterinary Technology": [
+            "ROLE: Certified Veterinary Technician"
+        ],
+        "Urology": [
+            "ROLE: Urology"
+        ],
+        "IT Sourcing": [
+            "ROLE: Lead IT Sourcing Specialist (Infrastructure)"
+        ],
+        "Business Intelligence & Insights": [
+            "ROLE: Business Analyst - BI & Insights"
+        ],
+        "Maintenance": [
+            "ROLE: Head of Maintenance (Cold Storage)"
+        ],
+        "Data Management": [
+            "Disaster Recovery & High Availability"
+        ],
+        "Disaster Recovery & High Availability": [
+            "ROLE: SAP HANA Disaster Recovery & High Availability Specialist"
+        ],
+        "Quality Improvement Coordination": [
+            "ROLE: IT Quality Assurance and Improvement Coordinator"
+        ],
+        "Database Administration": [
+            "Oracle Enterprise Applications Administration"
+        ],
+        "Oracle Enterprise Applications Administration": [
+            "ROLE: Application Database Administrator: Oracle Enterprise Applications"
+        ],
+        "Translation & Interpretation": [
+            "ROLE: Foreign Language Translator"
+        ],
+        "Health & Wellness": [
+            "Personal Training"
+        ],
+        "Personal Training": [
+            "ROLE: Personal Trainer"
+        ],
+        "Network Security": [
+            "ROLE: Senior Network Security Engineer"
+        ],
+        "Law Enforcement": [
+            "Police Operations"
+        ],
+        "Police Operations": [
+            "Security Enforcement"
+        ],
+        "Security Enforcement": [
+            "ROLE: BSF Head Constable"
+        ],
+        "Academic Faculty": [
+            "Medical Faculty"
+        ],
+        "Medical Faculty": [
+            "Neurosurgery"
+        ],
+        "Neurosurgery": [
+            "ROLE: Associate Professor Neurosurgery"
+        ],
+        "Customer Support": [
+            "ROLE: Japanese (Keigo) Bilingual Customer Support Specialist"
+        ],
+        "DevSecOps": [
+            "ROLE: DevSecOps Lead"
+        ],
+        "Web Sales": [
+            "ROLE: Sr Web Callers"
+        ],
+        "Design": [
+            "Technical Design"
+        ],
+        "Technical Design": [
+            "ROLE: Senior Technical Designer"
+        ],
+        "Process Engineering": [
+            "ROLE: Process Technician"
+        ],
+        "Medical Billing": [
+            "ROLE: Medical Biller"
+        ],
+        "Sales Administrative Support": [
+            "ROLE: Sales Administrative Assistant"
+        ],
+        "Credit Risk Analysis": [
+            "ROLE: Senior Manager - Credit Underwriting & Risk Assessment"
+        ],
+        "Validation Engineering": [
+            "ROLE: Senior Engineer - Validation"
+        ],
+        "Manufacturing Engineering": [
+            "ROLE: Engineer Manufacturing"
+        ],
+        "Market Risk": [
+            "Valuation Risk"
+        ],
+        "Valuation Risk": [
+            "Risk Controls"
+        ],
+        "Risk Controls": [
+            "ROLE: Markets Price Risk & Controls - Valuation Risk (SVP)"
+        ],
+        "Obstetrics & Gynecology": [
+            "ROLE: Gynecologist"
+        ],
+        "Data Infrastructure Engineering": [
+            "ROLE: Data Infra Engineer"
+        ],
+        "System on Chip Design": [
+            "ROLE: SoC Design Engineer"
+        ],
+        "Search Engine Advertising": [
+            "Business To Consumer"
+        ],
+        "Business To Consumer": [
+            "ROLE: SEA Specialist B2C"
+        ],
+        "Sales & Marketing Specialist": [
+            "ROLE: E-commerce Sales & Marketing Specialist"
+        ],
+        "Estates & Trusts": [
+            "ROLE: Estates & Trusts Associate"
+        ],
+        "K-12 Education": [
+            "English Language Instruction"
+        ],
+        "English Language Instruction": [
+            "ROLE: English Teacher"
+        ],
+        "Quality Engineering": [
+            "ROLE: Site Quality Engineer"
+        ],
+        "Ecosystem Management": [
+            "ROLE: APAC Ecosystems Lead"
+        ],
+        "Component Repair": [
+            "ROLE: Trainee Component Repair Technician (V&D Inspector)"
         ]
     },
     "source_nodes": [
-        "Education",
-        "Human Resources",
-        "Healthcare",
-        "Quality Assurance",
-        "Personal Care Services",
-        "Business",
-        "Science & Research",
-        "Finance",
-        "Legal",
-        "Food Service",
-        "Engineering",
-        "Transportation",
-        "Arts, Design & Media",
-        "Manufacturing",
-        "Marketing",
         "Construction",
-        "Environmental Science",
+        "Transportation",
+        "Risk Management",
+        "Manufacturing",
+        "Science & Research",
+        "Engineering",
+        "Human Resources",
+        "Insurance",
+        "Supply Chain Management",
+        "Healthcare",
+        "Law Enforcement",
+        "Security",
         "Sales",
+        "Education",
+        "Marketing",
         "Information Technology",
-        "Waste Management",
+        "Arts, Design & Media",
+        "Legal",
+        "Business",
+        "Construction, Extraction & Architecture",
+        "Quality Assurance",
+        "Finance",
+        "Construction, Extraction, and Architecture",
         "Hospitality"
     ]
 }
