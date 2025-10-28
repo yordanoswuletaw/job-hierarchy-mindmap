@@ -1377,9 +1377,6 @@
         "Trade Automation": [
             "ROLE: Lead Trade Automation"
         ],
-        "Construction, Extraction, and Architecture": [
-            "Construction Trades"
-        ],
         "Construction Trades": [
             "General Labor"
         ],
@@ -1757,7 +1754,8 @@
             "ROLE: Document Controller (Infrastructure)"
         ],
         "Construction, Extraction & Architecture": [
-            "Field Operations"
+            "Field Operations",
+             "Construction Trades"
         ],
         "Field Operations": [
             "ROLE: Field Operator"
@@ -2128,7 +2126,6 @@
         "Construction, Extraction & Architecture",
         "Quality Assurance",
         "Finance",
-        "Construction, Extraction, and Architecture",
         "Hospitality"
     ]
 }
