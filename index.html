@@ -105,16 +105,24 @@
 
         .tooltip {
             position: absolute;
-            background: rgba(0, 0, 0, 0.9);
+            background: rgba(0, 0, 0, 0.92);
             color: white;
-            padding: 8px 12px;
-            border-radius: 6px;
-            font-size: 12px;
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1.4;
             pointer-events: none;
-            z-index: 1000;
-            max-width: 200px;
+            z-index: 10000;
+            max-width: 350px;
             word-wrap: break-word;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .tooltip strong {
+            font-weight: 600;
+            color: #fff;
         }
 
         .loading {
@@ -732,7 +740,10 @@
                     return `translate(${p.y - 60},${p.x}) scale(0.9)`;
                 })
                 .style('opacity', 0)
-                .on('click', (event, d) => toggleNode(d));
+                .on('click', (event, d) => toggleNode(d))
+                .on('mouseenter', (event, d) => showTooltip(event, d))
+                .on('mousemove', (event, d) => moveTooltip(event))
+                .on('mouseleave', hideTooltip);
 
             nodeEnter.append('rect')
                 .attr('class', 'node-rect')
@@ -756,6 +767,9 @@
 
             // UPDATE + ENTER MERGE
             nodeEnter.merge(nodeSel)
+                .on('mouseenter', (event, d) => showTooltip(event, d))
+                .on('mousemove', (event, d) => moveTooltip(event))
+                .on('mouseleave', hideTooltip)
                 .transition().duration(duration).ease(ease)
                 .delay(d => Math.min(500, (d.depth || 0) * 70))
                 .style('opacity', 1)
@@ -832,19 +846,39 @@
             updateVisualization();
         }
 
-        // Show tooltip
+        // Show tooltip with full, untruncated title
         function showTooltip(event, d) {
+            // Remove any existing tooltips first
+            hideTooltip();
+            
             const tooltip = d3.select('body')
                 .append('div')
                 .attr('class', 'tooltip')
-                .style('left', (event.pageX + 10) + 'px')
+                .style('left', (event.pageX + 15) + 'px')
                 .style('top', (event.pageY - 10) + 'px')
-                .text(d.data.name);
+                .style('opacity', 0)
+                .html(`<strong>${d.data.name}</strong>`);
+            
+            // Fade in animation
+            tooltip.transition()
+                .duration(200)
+                .style('opacity', 1);
+        }
+
+        // Move tooltip with cursor
+        function moveTooltip(event) {
+            d3.selectAll('.tooltip')
+                .style('left', (event.pageX + 15) + 'px')
+                .style('top', (event.pageY - 10) + 'px');
         }
 
         // Hide tooltip
         function hideTooltip() {
-            d3.selectAll('.tooltip').remove();
+            d3.selectAll('.tooltip')
+                .transition()
+                .duration(150)
+                .style('opacity', 0)
+                .remove();
         }
 
         // Truncate text for display
